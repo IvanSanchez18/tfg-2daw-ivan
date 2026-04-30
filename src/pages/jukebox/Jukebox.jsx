@@ -1,13 +1,16 @@
 import { useState, useEffect } from "react";
+import { useNavigate, useOutletContext } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import SongCard from "../../components/jukebox/SongCard";
 import LoadingScreen from "../../components/loadingScreen/LoadingScreen";
 import { getEnabledTracksForUser, updateTrackEnabledForUser } from "../../services/apiService";
 import "./jukebox.scss";
 import { supabase } from "../../services/supabaseClient";
-import { useOutletContext } from "react-router-dom";
 
 const Jukebox = () => {
-  const { playSongExternally } = useOutletContext();
+  const { t, i18n } = useTranslation("jukebox");
+  const navigate = useNavigate();
+  const { playSongExternally, updateGlobalPlaylist } = useOutletContext();
   const [songs, setSongs] = useState([]);
   const [playlist, setPlaylist] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -42,11 +45,18 @@ const Jukebox = () => {
       return;
     }
 
-    setPlaylist((prev) =>
-      isSelected ? prev.filter((songId) => songId !== id) : [...prev, id]
-    );
+    const newPlaylist = isSelected
+      ? playlist.filter((songId) => songId !== id)
+      : [...playlist, id];
+
+    setPlaylist(newPlaylist);
 
     await updateTrackEnabledForUser(id, !isSelected);
+
+    if (updateGlobalPlaylist) {
+      const fullPlaylistData = songs.filter(song => newPlaylist.includes(song.id));
+      updateGlobalPlaylist(fullPlaylistData);
+    }
   };
 
   return (
@@ -54,22 +64,30 @@ const Jukebox = () => {
       <LoadingScreen active={loading} />
 
       {!loading && (
-        <div className="jukebox">
-          {songs.map((song) => {
-            const isSelected = playlist.includes(song.id);
-            const isLastSelected = isSelected && playlist.length === 1;
+        <div className="jukebox-container">
+          <div className="jukebox-header">
+            <button className="back-button" onClick={() => navigate(-1)}>
+              {t("back")}
+            </button>
+          </div>
 
-            return (
-              <SongCard
-                key={song.id}
-                song={song}
-                selected={isSelected}
-                disabled={isLastSelected}
-                onToggle={toggleSong}
-                onPlay={() => playSongExternally(song)}
-              />
-            );
-          })}
+          <div className="jukebox">
+            {songs.map((song) => {
+              const isSelected = playlist.includes(song.id);
+              const isLastSelected = isSelected && playlist.length === 1;
+
+              return (
+                <SongCard
+                  key={song.id}
+                  song={song}
+                  selected={isSelected}
+                  disabled={isLastSelected}
+                  onToggle={toggleSong}
+                  onPlay={() => playSongExternally(song)}
+                />
+              );
+            })}
+          </div>
         </div>
       )}
     </>

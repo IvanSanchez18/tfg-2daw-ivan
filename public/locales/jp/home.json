@@ -1,5 +1,8 @@
 {
     "universe": "ユニバース",
     "options": "オプション",
-    "jukebox": "ジュークボックス"
+    "jukebox": "ジュークボックス",
+    "games": "ゲーム",
+    "arcadeFightZone": "アーケードファイトゾーン",
+    "back": "← 戻る"
 }

@@ -1,5 +1,8 @@
 {
     "universe": "Alam Semesta",
     "options": "Opsi",
-    "jukebox": "Jukebox"
+    "jukebox": "Jukebox",
+    "games": "Permainan",
+    "arcadeFightZone": "Zona Pertarungan Arcade",
+    "back": "← Kembali"
 }

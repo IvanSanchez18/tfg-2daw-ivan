@@ -1,5 +1,8 @@
 {
     "universe": "Universo",
     "options": "Opzioni",
-    "jukebox": "Jukebox"
+    "jukebox": "Jukebox",
+    "games": "Giochi",
+    "arcadeFightZone": "Zona di Combattimento Arcade",
+    "back": "← Indietro"
 }

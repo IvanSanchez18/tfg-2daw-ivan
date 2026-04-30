@@ -1,0 +1,176 @@
+.character-selector-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 1vw;
+    box-sizing: border-box;
+}
+
+.selector-title {
+    font-size: clamp(16px, 3.5vw, 28px);
+    letter-spacing: 3px;
+    margin: 1vh 0;
+    color: #ffd700;
+    text-align: center;
+    flex-shrink: 0;
+    text-transform: uppercase;
+}
+
+.selector-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: min(1vh, 1.5vw);
+    width: 100%;
+    max-width: 95vw;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.selector-card {
+    width: clamp(60px, 18vw, 120px);
+    height: clamp(65px, 14vh, 100px);
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(2px, 0.5vh, 6px);
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid #222;
+    transition: all 0.2s ease-in-out;
+
+    &.defeated {
+        cursor: not-allowed;
+    }
+
+    &.selected {
+        border: 4px solid red;
+    }
+
+    &.locked {
+        border: 4px solid red;
+        box-shadow: 0 0 15px red;
+    }
+
+    &.rival {
+        border: 4px solid #00BFFF;
+        box-shadow: 0 0 15px #00BFFF;
+    }
+}
+
+.selector-thumbnail {
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+
+    &.defeated-img {
+        filter: grayscale(100%) brightness(0.7);
+        opacity: 0.7;
+    }
+}
+
+.selector-name {
+    font-size: clamp(9px, 1.5vw, 14px);
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.selector-preview {
+    margin: 1vh 0;
+    height: 18vh;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.selector-sprite {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.selector-button {
+    padding: 1.5vh 6vw;
+    font-size: clamp(14px, 3vw, 18px);
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+    flex-shrink: 0;
+    text-transform: uppercase;
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
+
+@keyframes fadeInOverlay {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.vs-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    animation: fadeInOverlay 0.3s ease-in-out;
+}
+
+.vs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(10px, 4vw, 40px);
+    color: white;
+    text-align: center;
+    width: 90%;
+}
+
+.vs-text {
+    font-size: clamp(30px, 8vw, 80px);
+    color: red;
+    text-shadow: 0 0 20px red;
+    margin: 0 2vw;
+}
+
+.vs-player,
+.vs-rival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vs-image {
+    height: clamp(100px, 25vh, 300px);
+    width: auto;
+}

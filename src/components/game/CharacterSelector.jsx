@@ -1,4 +1,6 @@
 import { useState, useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
+import "./characterSelector.scss";
 
 // PROFILE
 import takerProfile from "../../assets/Taker/Taker-profile.png";
@@ -61,20 +63,33 @@ const baseCharacters = [
 
 const characters = [...baseCharacters, ...baseCharacters, ...baseCharacters].slice(0, 12);
 
-const CharacterSelector = ({ onSelect, defeatedCharacters = [], lockedPlayer = null }) => {
+const CharacterSelector = ({ onSelect, onBack, defeatedCharacters = [], lockedPlayer = null }) => {
+  const { t, i18n } = useTranslation("arcadeFightZone");
+
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [introPlaying, setIntroPlaying] = useState(false);
   const [playerLocked, setPlayerLocked] = useState(false);
   const [rivalIndex, setRivalIndex] = useState(null);
   const [rivalSelecting, setRivalSelecting] = useState(false);
   const [showVS, setShowVS] = useState(false);
-  const inputLockedRef = useRef(false);
 
+  const inputLockedRef = useRef(false);
   const gridRef = useRef(null);
 
   const changeAudioRef = useRef(new Audio(changeSound));
+  const playingAudioRef = useRef(null);
 
-  const handleAccept = () => {
+  const handleBack = () => {
+    if (changeAudioRef.current) changeAudioRef.current.pause();
+    if (playingAudioRef.current) playingAudioRef.current.pause();
+    if (onBack) onBack();
+  };
+
+  const handleAccept = (e) => {
+    if (e && e.currentTarget) e.currentTarget.blur();
+
+    if (introPlaying || inputLockedRef.current) return;
+
     const selectedCharacter = characters[selectedIndex];
 
     if (lockedPlayer && selectedCharacter.name !== lockedPlayer.name) return;
@@ -86,6 +101,8 @@ const CharacterSelector = ({ onSelect, defeatedCharacters = [], lockedPlayer = n
 
     const acceptAudio = new Audio(selectedCharacter.sound);
     acceptAudio.volume = 0.9;
+
+    playingAudioRef.current = acceptAudio;
     acceptAudio.play();
 
     acceptAudio.onended = () => {
@@ -142,6 +159,8 @@ const CharacterSelector = ({ onSelect, defeatedCharacters = [], lockedPlayer = n
 
         const rivalAudio = new Audio(characters[finalPick].sound);
         rivalAudio.volume = 0.9;
+
+        playingAudioRef.current = rivalAudio;
         rivalAudio.play();
 
         rivalAudio.onended = () => {
@@ -181,6 +200,19 @@ const CharacterSelector = ({ onSelect, defeatedCharacters = [], lockedPlayer = n
   };
 
   useEffect(() => {
+    return () => {
+      if (changeAudioRef.current) {
+        changeAudioRef.current.pause();
+        changeAudioRef.current.currentTime = 0;
+      }
+      if (playingAudioRef.current) {
+        playingAudioRef.current.pause();
+        playingAudioRef.current.currentTime = 0;
+      }
+    };
+  }, []);
+
+  useEffect(() => {
     if (!lockedPlayer) return;
 
     const index = characters.findIndex(
@@ -189,14 +221,19 @@ const CharacterSelector = ({ onSelect, defeatedCharacters = [], lockedPlayer = n
 
     if (index !== -1) {
       setSelectedIndex(index);
-      setPlayerLocked(true);
-      inputLockedRef.current = true;
     }
   }, [lockedPlayer]);
 
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (inputLockedRef.current || playerLocked || lockedPlayer) return;
+      if (inputLockedRef.current || introPlaying) return;
+
+      if (e.key === "Enter") {
+        handleAccept();
+        return;
+      }
+
+      if (lockedPlayer || playerLocked) return;
 
       const grid = gridRef.current;
       if (!grid) return;
@@ -281,10 +318,6 @@ const CharacterSelector = ({ onSelect, defeatedCharacters = [], lockedPlayer = n
         }
       }
 
-      if (e.key === "Enter") {
-        handleAccept();
-        return;
-      }
       if (lockedPlayer && characters[targetIndex].name !== lockedPlayer.name) {
         return;
       }
@@ -301,20 +334,30 @@ const CharacterSelector = ({ onSelect, defeatedCharacters = [], lockedPlayer = n
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [selectedIndex]);
+  }, [selectedIndex, introPlaying, lockedPlayer, playerLocked]);
 
   return (
-    <div style={styles.container}>
-      <h1 style={styles.title}>SELECT YOUR WRESTLER</h1>
+    <div className="character-selector-container">
+      <h1 className="selector-title">{t("select")}</h1>
 
-      <div style={styles.grid} ref={gridRef}>
+      <div className="selector-grid" ref={gridRef}>
         {characters.map((char, index) => {
           const isDefeated = defeatedCharacters.includes(char.name);
           const isLockedPlayer = lockedPlayer?.name === char.name;
 
+          let cardClass = "selector-card";
+          if (isDefeated) cardClass += " defeated";
+          if (index === selectedIndex && (playerLocked || isLockedPlayer)) cardClass += " locked";
+          else if (index === rivalIndex) cardClass += " rival";
+          else if (index === selectedIndex) cardClass += " selected";
+
+          let imgClass = "selector-thumbnail";
+          if (isDefeated && !isLockedPlayer) imgClass += " defeated-img";
+
           return (
             <div
               key={index}
+              className={cardClass}
               onClick={() => {
                 if (introPlaying) return;
                 if (isDefeated) return;
@@ -322,205 +365,56 @@ const CharacterSelector = ({ onSelect, defeatedCharacters = [], lockedPlayer = n
 
                 setSelectedIndex(index);
               }}
-
-              style={{
-                ...styles.card,
-                cursor: isDefeated ? "not-allowed" : "pointer",
-                border:
-                  index === selectedIndex && playerLocked
-                    ? "4px solid red"
-                    : index === rivalIndex
-                      ? "4px solid #00BFFF"
-                      : index === selectedIndex
-                        ? "4px solid red"
-                        : "2px solid #222",
-                boxShadow:
-                  index === rivalIndex
-                    ? "0 0 15px #00BFFF"
-                    : index === selectedIndex && playerLocked
-                      ? "0 0 15px red"
-                      : "none",
-              }}
             >
               <img
                 src={char.profile}
                 alt={char.name}
-                style={{
-                  ...styles.thumbnail,
-                  filter:
-                    isDefeated && !isLockedPlayer
-                      ? "grayscale(100%) brightness(0.7)"
-                      : "none",
-                  opacity: isDefeated && !isLockedPlayer ? 0.7 : 1,
-                }}
+                className={imgClass}
               />
-              <span style={styles.name}>{char.name}</span>
+              <span className="selector-name">{char.name}</span>
             </div>
           );
         })}
-
       </div>
 
-      <div style={styles.preview}>
+      <div className="selector-preview">
         <img
           src={characters[selectedIndex].idle}
           alt={characters[selectedIndex].name}
-          style={styles.sprite}
+          className="selector-sprite"
         />
       </div>
 
       {showVS && (
-        <div style={styles.vsOverlay}>
-          <div style={styles.vsContainer}>
-            <div style={styles.vsPlayer}>
-              <img src={characters[selectedIndex].idle} style={styles.vsImage} />
+        <div className="vs-overlay">
+          <div className="vs-container">
+            <div className="vs-player">
+              <img src={characters[selectedIndex].idle} alt={characters[selectedIndex].name} className="vs-image" />
               <h2>{characters[selectedIndex].name}</h2>
             </div>
 
-            <div style={styles.vsText}>VS</div>
+            <div className="vs-text">VS</div>
 
-            <div style={styles.vsRival}>
-              <img src={characters[rivalIndex].idle} style={styles.vsImage} />
+            <div className="vs-rival">
+              <img src={characters[rivalIndex].idle} alt={characters[rivalIndex].name} className="vs-image" />
               <h2>{characters[rivalIndex].name}</h2>
             </div>
           </div>
         </div>
       )}
 
-      <button style={styles.button} onClick={handleAccept} disabled={introPlaying}>
-        ACCEPT
-      </button>
+      <div style={{ display: 'flex', gap: '20px' }}>
+        {onBack && (
+          <button className="selector-button" style={{ backgroundColor: '#555' }} onClick={handleBack}>
+            {t("back")}
+          </button>
+        )}
+        <button className="selector-button" onClick={handleAccept} disabled={introPlaying}>
+          {t("accept")}
+        </button>
+      </div>
     </div>
   );
 };
 
 export default CharacterSelector;
-
-const styles = {
-  container: {
-    height: "100vh",
-    width: "100vw",
-    overflow: "hidden",
-    background: "black",
-    color: "white",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "1vh 1vw",
-    boxSizing: "border-box",
-  },
-  title: {
-    fontSize: "clamp(16px, 3.5vw, 28px)",
-    letterSpacing: "3px",
-    margin: "1vh 0",
-    color: "#ffd700",
-    textAlign: "center",
-    flexShrink: 0,
-  },
-  grid: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    alignItems: "center",
-    alignContent: "center",
-    gap: "min(1vh, 1.5vw)",
-    width: "100%",
-    maxWidth: "95vw",
-    flexGrow: 1,
-    overflow: "hidden",
-  },
-  card: {
-    width: "clamp(60px, 18vw, 120px)",
-    height: "clamp(65px, 14vh, 100px)",
-    backgroundColor: "#111",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "space-between",
-    padding: "clamp(2px, 0.5vh, 6px)",
-    cursor: "pointer",
-    boxSizing: "border-box",
-  },
-  thumbnail: {
-    width: "100%",
-    height: "70%",
-    objectFit: "contain",
-  },
-  name: {
-    fontSize: "clamp(9px, 1.5vw, 14px)",
-    letterSpacing: "1px",
-    textAlign: "center",
-    width: "100%",
-    overflow: "hidden",
-    textOverflow: "ellipsis",
-    whiteSpace: "nowrap",
-  },
-  preview: {
-    margin: "1vh 0",
-    height: "18vh",
-    flexShrink: 0,
-    display: "flex",
-    alignItems: "center",
-  },
-  sprite: {
-    height: "100%",
-    width: "auto",
-    objectFit: "contain",
-  },
-  button: {
-    padding: "1.5vh 6vw",
-    fontSize: "clamp(14px, 3vw, 18px)",
-    backgroundColor: "red",
-    color: "white",
-    border: "none",
-    cursor: "pointer",
-    fontWeight: "bold",
-    letterSpacing: "2px",
-    marginBottom: "2vh",
-    borderRadius: "5px",
-    flexShrink: 0,
-  },
-  vsOverlay: {
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100vw",
-    height: "100vh",
-    backgroundColor: "black",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    zIndex: 999,
-    animation: "fadeIn 0.3s ease-in-out",
-  },
-  vsContainer: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    gap: "clamp(10px, 4vw, 40px)",
-    color: "white",
-    textAlign: "center",
-    width: "90%",
-  },
-  vsText: {
-    fontSize: "clamp(30px, 8vw, 80px)",
-    color: "red",
-    textShadow: "0 0 20px red",
-    margin: "0 2vw",
-  },
-  vsPlayer: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-  },
-  vsRival: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-  },
-  vsImage: {
-    height: "clamp(100px, 25vh, 300px)",
-    width: "auto",
-  },
-};

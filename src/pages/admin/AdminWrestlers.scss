@@ -128,12 +128,12 @@
     }
 
     &.nxt {
-      background-color: #f5e90c;
+      background-color: #fbc02d;
 
     }
 
     &.none {
-      background-color: #4b2d73;
+      background-color: #48146b;
     }
   }
 }
@@ -354,10 +354,39 @@
   flex-wrap: wrap;
   gap: 16px;
 
-  h2 {
-    margin: 0;
-    font-size: 24px;
-    color: var(--text-main);
+  .header-left-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    h2 {
+      margin: 0;
+      font-size: 24px;
+      color: var(--text-main);
+    }
+  }
+
+  .btn-back-admin {
+    background: none;
+    border: 1px solid var(--border-soft);
+    color: var(--text-soft);
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease, border-color 0.2s ease;
+
+    i {
+      font-size: 16px;
+    }
+
+    &:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
   }
 
   .btn-create {
@@ -372,21 +401,10 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: all 0.2s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: filter 0.2s ease;
 
     &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
       filter: brightness(1.1);
-    }
-
-    &:active {
-      transform: translateY(0);
-    }
-
-    i {
-      font-size: 12px;
     }
   }
 }

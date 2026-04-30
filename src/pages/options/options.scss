@@ -1,23 +1,30 @@
 .options-container {
   height: calc(100dvh - 56px);
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 16px;
   background: var(--bg-app);
   color: var(--text-main);
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .options-card {
   width: 100%;
   max-width: 460px;
-  padding: 32px;
+  height: 100%;
+  max-height: 620px;
+  padding: 24px;
   background: var(--bg-card);
   border: 2px solid var(--border-main);
   box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  justify-content: space-evenly;
+  gap: 12px;
+  box-sizing: border-box;
 }
 
 .options-header {
@@ -30,6 +37,8 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--text-main);
+    margin: 0;
+    font-size: 16px;
   }
 }
 
@@ -38,7 +47,10 @@
   border: 1px solid var(--border-soft);
   color: var(--text-soft);
   cursor: pointer;
-  height: 32px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     color: var(--accent);
@@ -49,6 +61,7 @@
 .options-group {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 6px;
 
   label {
@@ -58,12 +71,13 @@
 }
 
 .language-selector {
+  width: 100%;
   position: relative;
 }
 
 .language-current {
   width: 100%;
-  padding: 10px 12px;
+  padding: 8px 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,6 +86,7 @@
   border: 1px solid var(--border-soft);
   color: var(--text-main);
   cursor: pointer;
+  min-height: 36px;
 
   img {
     width: 22px;
@@ -89,8 +104,8 @@
   top: 100%;
   left: 0;
   right: 0;
-  margin-top: 6px;
-  max-height: 240px;
+  margin-top: 4px;
+  max-height: 180px;
   overflow-y: auto;
   z-index: 20;
   background: var(--bg-input);
@@ -102,7 +117,6 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-
     cursor: pointer;
     text-align: center;
     color: var(--text-main);
@@ -126,6 +140,7 @@
 }
 
 .volume-row {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -133,42 +148,14 @@
   input[type="range"] {
     flex: 1;
     accent-color: var(--accent);
+    margin: 0;
   }
 }
 
 .volume-value {
-  width: 36px;
+  width: 32px;
   text-align: right;
   color: var(--text-main);
-}
-
-.options-actions {
-  display: flex;
-  gap: 12px;
-  margin-top: 16px;
-
-  button {
-    flex: 1;
-    padding: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-  }
-
-  .secondary {
-    background: var(--bg-hover);
-    color: var(--text-main);
-  }
-
-  .danger {
-    background: var(--accent);
-    color: #fff;
-
-    &:hover {
-      background: var(--accent-hover);
-    }
-  }
 }
 
 .switch {
@@ -203,22 +190,94 @@
     transition: transform 0.25s ease;
   }
 
-  input:checked + .slider::before {
+  input:checked+.slider::before {
     transform: translate(26px, -50%);
     background: var(--accent);
   }
 
-  input:checked + .slider {
+  input:checked+.slider {
     border-color: var(--accent);
   }
 }
 
+.options-admin {
+  width: 100%;
+
+  .admin-btn {
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background: #fbc02d;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.2s ease-in-out;
+
+    &:hover {
+      background: #fbc02d;
+    }
+
+    i {
+      font-size: 16px;
+    }
+  }
+}
+
+.options-actions {
+  display: flex;
+  gap: 12px;
+
+  button {
+    flex: 1;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .secondary {
+    background: var(--bg-hover);
+    color: var(--text-main);
+  }
+
+  .danger {
+    background: var(--accent);
+    color: #fff;
+
+    &:hover {
+      background: var(--accent-hover);
+    }
+  }
+}
+
 @media (max-width: 480px) {
+  .options-container {
+    padding: 12px;
+  }
+
   .options-card {
-    padding: 24px;
+    padding: 16px;
+    gap: 8px;
   }
 
   .options-header h2 {
-    font-size: 18px;
+    font-size: 15px;
+  }
+
+  .language-current {
+    padding: 6px 8px;
+  }
+
+  .options-actions button,
+  .options-admin .admin-btn {
+    padding: 10px;
+    font-size: 12px;
   }
 }

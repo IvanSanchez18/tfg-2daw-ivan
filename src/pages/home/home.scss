@@ -3,6 +3,7 @@
 }
 
 .home {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -11,6 +12,32 @@
   padding: 20px;
   box-sizing: border-box;
   background: var(--bg-app);
+
+  .back-button-home {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border-soft);
+    color: var(--white);
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: rgba(0, 0, 0, 0.7);
+    }
+  }
 }
 
 .home__left {
@@ -49,12 +76,6 @@
 
 .home-card:hover::before {
   transform: scale(1.08) translateZ(0);
-}
-
-@media (max-width: 768px) {
-  .focus-universe {
-    --focus-y: 31% !important;
-  }
 }
 
 .home-card::after {
@@ -99,10 +120,18 @@
   opacity: 1;
 }
 
+.home-card-wrapper {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+
 @media (max-width: 768px) {
   .home {
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-rows: none;
+    grid-auto-rows: 1fr;
     height: 100dvh;
   }
 
@@ -126,5 +155,24 @@
     color: #fff;
     opacity: 1;
     transform: none;
+  } 
+}
+
+@media (max-width: 768px) {
+  .home .back-button-home {
+    top: 25px;
+    left: 25px;
+    padding: 8px 14px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .focus-universe {
+    --focus-y: -10% !important;
+    background-image: url("/wrestling_universe/images/homeUniverse.webp");
+  }
+  .focus-jukebox {
+    --focus-y: 50% !important;
   }
 }

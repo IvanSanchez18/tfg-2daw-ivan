@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { UserSettings, AuthService } from "../../services/apiService";
+import { UserSettings, AuthService, checkIsAdmin } from "../../services/apiService";
 import { useTheme } from "../../context/ThemeContext";
 import { useMusicVolume } from "../../context/MusicVolumeContext";
 import { useSfxVolume } from "../../context/SfxVolumeContext";
@@ -36,6 +36,7 @@ export default function Options() {
   const [languageOpen, setLanguageOpen] = useState(false);
   const [intergender, setIntergender] = useState(false);
   const { sfxVolume, setSfxVolume } = useSfxVolume();
+  const [isAdmin, setIsAdmin] = useState(false);
   const [loading, setLoading] = useState(true);
 
   const sortedLanguages = useMemo(() => {
@@ -56,22 +57,27 @@ export default function Options() {
   const currentLanguage = LANGUAGES.find(l => l.code === language) || LANGUAGES[0];
 
   useEffect(() => {
-  const loadSettings = async () => {
-    try {
-      const data = await UserSettings.get();
+    const loadData = async () => {
+      try {
+        const [settingsData, adminStatus] = await Promise.all([
+          UserSettings.get(),
+          checkIsAdmin()
+        ]);
 
-      if (data.language) setLanguage(data.language);
-      if (typeof data.intergender === "boolean") setIntergender(data.intergender);
-      if (typeof data.sfx_volume === "number") setSfxVolume(data.sfx_volume);
+        if (settingsData.language) setLanguage(settingsData.language);
+        if (typeof settingsData.intergender === "boolean") setIntergender(settingsData.intergender);
+        if (typeof settingsData.sfx_volume === "number") setSfxVolume(settingsData.sfx_volume);
 
-    } catch (err) {
-      console.error("Error cargando settings:", err);
-    } finally {
-      setLoading(false);
-    }
-  };
-  loadSettings();
-}, []);
+        setIsAdmin(adminStatus);
+
+      } catch (err) {
+        console.error("Error cargando settings o estado admin:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadData();
+  }, []);
 
   useEffect(() => {
     if (loading || musicVolume == null) return;
@@ -175,6 +181,14 @@ export default function Options() {
                 <span className="slider" />
               </label>
             </div>
+
+            {isAdmin && (
+              <div className="options-admin">
+                <button className="admin-btn" onClick={() => navigate("/admin/wrestlers")}>
+                  <i className="fa-solid fa-crown"></i> {t("adminPanel")}
+                </button>
+              </div>
+            )}
 
             <div className="options-actions">
               <button className="secondary" onClick={() => navigate("/login")}>{t("changeAccount")}</button>

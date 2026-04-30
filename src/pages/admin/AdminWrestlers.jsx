@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { getBaseWrestlers } from "../../services/apiService";
 import AdminWrestlerForm from "./AdminWrestlerForm";
 import "./AdminWrestlers.scss";
 
 export default function AdminWrestlers() {
+  const navigate = useNavigate();
   const [wrestlers, setWrestlers] = useState([]);
   const [currentView, setCurrentView] = useState("list");
   const [selectedWrestler, setSelectedWrestler] = useState(null);
@@ -101,7 +103,13 @@ export default function AdminWrestlers() {
   return (
     <div className="admin-wrestlers">
       <div className="admin-header">
-        <h2>Panel de Administrador - Luchadores</h2>
+        <div className="header-left-group">
+          <button className="btn-back-admin" onClick={() => navigate(-1)} title="Volver">
+            <i className="fas fa-arrow-left"></i>
+          </button>
+          <h2>Panel de Administrador - Luchadores</h2>
+        </div>
+
         <button className="btn-create" onClick={() => handleOpenForm()}>
           <i className="fas fa-plus"></i> Nuevo Luchador
         </button>

@@ -1,5 +1,8 @@
 {
     "universe": "Wszechświat",
     "options": "Opcje",
-    "jukebox": "Szafka Muzyczna"
+    "jukebox": "Szafka Muzyczna",
+    "games": "Gry",
+    "arcadeFightZone": "Strefa Walki Arcade",
+    "back": "← Wróć"
 }

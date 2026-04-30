@@ -1,5 +1,8 @@
 {
     "universe": "Univers",
     "options": "Options",
-    "jukebox": "Jukebox"
+    "jukebox": "Jukebox",
+    "games": "Jeux",
+    "arcadeFightZone": "Zone de Combat Arcade",
+    "back": "← Retour"
 }

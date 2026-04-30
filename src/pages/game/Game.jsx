@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import HealthBar from "../../components/game/HealthBar";
 import CharacterSelector from "../../components/game/CharacterSelector";
 import VictoryView from "../../components/game/VictoryView";
@@ -193,6 +195,9 @@ const characterData = {
 };
 
 function Game() {
+  const { t, i18n } = useTranslation("arcadeFightZone");
+  const navigate = useNavigate();
+
   const [playerCharacter, setPlayerCharacter] = useState(null);
   const [enemyCharacter, setEnemyCharacter] = useState(null);
 
@@ -551,14 +556,23 @@ function Game() {
   }
   if (!playerCharacter || !enemyCharacter) {
     return (
-      <CharacterSelector
-        defeatedCharacters={defeatedCharacters}
-        lockedPlayer={playerCharacter}
-        onSelect={(selection) => {
-          setPlayerCharacter(selection.player);
-          setEnemyCharacter(selection.rival);
-        }}
-      />
+      <div className="strict-no-scroll-layout">
+        <div className="top-bar">
+          <button className="back-btn-game relative-btn" onClick={() => navigate(-1)}>{t("back")}
+          </button>
+        </div>
+
+        <div className="scalable-content">
+          <CharacterSelector
+            defeatedCharacters={defeatedCharacters}
+            lockedPlayer={playerCharacter}
+            onSelect={(selection) => {
+              setPlayerCharacter(selection.player);
+              setEnemyCharacter(selection.rival);
+            }}
+          />
+        </div>
+      </div>
     );
   }
 
