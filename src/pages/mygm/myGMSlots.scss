@@ -1,0 +1,312 @@
+.gm-slots-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100dvh;
+  overflow: hidden;
+  background: var(--bg-app);
+  color: var(--text-main);
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.slots-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1052px;
+  height: 100%;
+  max-height: 620px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.slots-back-button {
+  background: transparent;
+  color: var(--text-main);
+  border: 1px solid var(--border-soft);
+  padding: clamp(6px, 1.5vh, 12px) clamp(12px, 2vw, 24px);
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-shrink: 0;
+  align-self: flex-start;
+
+  &:hover {
+    background: var(--bg-hover);
+    border-color: var(--text-muted);
+  }
+}
+
+.slots-title {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.slots-grid {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+}
+
+.slot-card {
+  flex: 1 1 0;
+  max-width: 340px;
+  background: var(--bg-card);
+  border: 2px solid var(--border-soft);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    border-color: var(--brand-color, var(--accent));
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .slot-image-container {
+    height: 50%;
+    position: relative;
+    background: var(--bg-input);
+
+    .slot-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .slot-image-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      background: var(--bg-hover);
+    }
+
+    .brand-logo-top-right {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: clamp(30px, 4vw, 55px);
+      height: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8));
+      z-index: 2;
+    }
+  }
+
+  .slot-info {
+    padding: clamp(0.5rem, 2vh, 1.5rem);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+      color: var(--text-main);
+    }
+
+    p {
+      margin: 4px 0;
+      font-size: clamp(0.75rem, 1.2vw, 1rem);
+      color: var(--text-soft);
+    }
+  }
+
+  .slot-empty-icon {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: var(--text-muted);
+    background: var(--bg-hover);
+  }
+
+  .empty-info {
+    align-items: center;
+    text-align: center;
+
+    h3 {
+      margin: 0 0 8px 0;
+    }
+
+    p {
+      margin: 0;
+      color: var(--text-muted);
+    }
+  }
+
+  .slot-btn {
+    width: 100%;
+    padding: clamp(8px, 1.5vh, 1rem);
+    border: none;
+    font-weight: bold;
+    font-size: clamp(0.7rem, 1.2vw, 1rem);
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--white);
+    flex-shrink: 0;
+
+    &.create-btn {
+      background: var(--text-soft);
+    }
+
+    &:hover {
+      filter: brightness(1.1);
+    }
+  }
+}
+
+.gm-image-selector-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.gm-image-selector-modal {
+  background: var(--bg-card);
+  padding: 24px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 85dvh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+  h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    color: var(--text-main);
+    flex-shrink: 0;
+  }
+
+  .gm-images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 15px;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    align-content: flex-start;
+    padding: 10px;
+    margin-bottom: 16px;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: var(--bg-hover);
+      border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--text-soft);
+      border-radius: 4px;
+    }
+
+    .gm-image-option {
+      cursor: pointer;
+      border: 3px solid transparent;
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--bg-input);
+      height: 100px;
+      position: relative;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+        border-color: var(--accent);
+      }
+    }
+  }
+
+  .close-modal-btn {
+    align-self: center;
+    flex-shrink: 0;
+    background: var(--text-soft);
+    color: var(--white);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+
+    &:hover {
+      background: var(--text-muted);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .slots-content-wrapper {
+    max-height: 100%;
+  }
+
+  .slots-title {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  .slots-grid {
+    gap: 8px;
+  }
+
+  .slot-card {
+    .slot-info {
+      padding: 8px;
+    }
+
+    .slot-btn {
+      padding: 10px;
+    }
+  }
+}

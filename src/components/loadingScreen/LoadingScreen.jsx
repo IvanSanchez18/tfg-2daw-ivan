@@ -43,7 +43,7 @@ const LoadingScreen = ({ active = true }) => {
   return (
     <div className="loading-screen">
       <img src="/wrestling_universe/images/Wwe.jpg" alt="Cargando..." className="loading-image" />
-      <audio ref={audioRef} src="/music/transition.mp3" preload="auto" />
+      <audio ref={audioRef} src="/wrestling_universe/music/transition.mp3" preload="auto" />
     </div>
   );
 };
