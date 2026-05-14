@@ -1,0 +1,13 @@
+{
+    "back_button": "Retour",
+    "setup_title": "Signez votre Contrat",
+    "setup_subtitle": "Sélectionnez la franchise que vous dirigerez cette saison.",
+    "initial_budget": "Budget Initial :",
+    "contract_duration": "Durée du Contrat :",
+    "weeks_count": "52 Semaines",
+    "loading_text": "Rédaction du contrat...",
+    "submit_button": "Signer et aller au Draft",
+    "placeholder_text": "Sélectionnez une marque pour consulter les clauses du contrat.",
+    "error_login": "Vous devez vous connecter pour jouer.",
+    "error_connection": "Erreur lors de l'établissement de la connexion avec le siège social."
+}

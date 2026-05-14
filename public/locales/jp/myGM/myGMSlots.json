@@ -1,0 +1,21 @@
+{
+    "back_button": "戻る",
+    "title": "セーブデータを選択",
+    "no_image": "画像なし",
+    "week_label": "第 {{week}} 週 / {{max}}",
+    "budget_label": "予算: ${{amount}}",
+    "fans_label": "ファン数: {{count}}",
+    "load_game": "ロードする",
+    "empty_slot": "空きスロット",
+    "empty_slot_desc": "栄光への新たな道を切り拓こう。",
+    "new_game": "ニューゲーム",
+    "gm_selector_title": "ゼネラルマネージャーを選択",
+    "no_images_found": "画像が見つかりません。",
+    "cancel": "キャンセル",
+    "swal": {
+        "title": "このゼネラルマネージャーにしますか？",
+        "confirm": "はい、開始します",
+        "cancel": "キャンセル",
+        "alt_text": "GM プロフィール"
+    }
+}

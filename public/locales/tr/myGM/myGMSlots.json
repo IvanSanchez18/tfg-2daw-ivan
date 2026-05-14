@@ -1,0 +1,21 @@
+{
+    "back_button": "GERİ",
+    "title": "BİR OYUN SEÇİN",
+    "no_image": "Resim Yok",
+    "week_label": "Hafta {{week}} / {{max}}",
+    "budget_label": "Bütçe: ${{amount}}",
+    "fans_label": "Hayranlar: {{count}}",
+    "load_game": "OYUNU YÜKLE",
+    "empty_slot": "Boş Yuva",
+    "empty_slot_desc": "Zafere giden yeni bir yol başlatın.",
+    "new_game": "YENİ OYUN",
+    "gm_selector_title": "GENERAL MANAGER'INIZI SEÇİN",
+    "no_images_found": "Resim bulunamadı.",
+    "cancel": "İPTAL",
+    "swal": {
+        "title": "Bu General Manager'ı seçmek istiyor musunuz?",
+        "confirm": "Evet, başla",
+        "cancel": "İptal",
+        "alt_text": "GM Profili"
+    }
+}

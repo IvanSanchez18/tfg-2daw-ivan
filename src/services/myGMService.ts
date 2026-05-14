@@ -1,4 +1,5 @@
 import { supabase } from "./supabaseClient";
+import { GameSession } from '../types';
 
 export const getMyGMGames = async () => {
     const { data: { user } } = await supabase.auth.getUser();
@@ -40,4 +41,37 @@ export const getMyGMImages = async () => {
                 url: publicUrlData.publicUrl
             };
         });
+};
+
+export const startNewGame = async (
+    userId: string,
+    selectedBrand: string,
+    initialBudget: number,
+    gmImage: string | null
+): Promise<GameSession | null> => {
+    try {
+        const { data, error } = await supabase
+            .from('gm_game_sessions')
+            .insert([{
+                user_id: userId,
+                brand: selectedBrand,
+                budget: initialBudget,
+                game_image: gmImage,
+                week: 1,
+                max_weeks: 52,
+                is_drafted: false
+            }])
+            .select()
+            .single();
+
+        if (error) {
+            console.error('[gameService] Error al crear la partida:', error.message);
+            return null;
+        }
+
+        return data as GameSession;
+    } catch (err) {
+        console.error('[gameService] Excepción no controlada:', err);
+        return null;
+    }
 };

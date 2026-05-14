@@ -1,0 +1,13 @@
+{
+    "back_button": "返回",
+    "setup_title": "签署合同",
+    "setup_subtitle": "选择你本赛季将要管理的品牌。",
+    "initial_budget": "初始预算:",
+    "contract_duration": "合同期限:",
+    "weeks_count": "52 周",
+    "loading_text": "正在起草合同...",
+    "submit_button": "签署并前往选秀",
+    "placeholder_text": "选择一个品牌以查看合同条款。",
+    "error_login": "您必须登录才能开始游戏。",
+    "error_connection": "与总部建立连接时出错。"
+}

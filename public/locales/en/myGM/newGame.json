@@ -1,0 +1,13 @@
+{
+    "back_button": "Back",
+    "setup_title": "Sign Your Contract",
+    "setup_subtitle": "Select the franchise you will lead this season.",
+    "initial_budget": "Initial Budget:",
+    "contract_duration": "Contract Duration:",
+    "weeks_count": "52 Weeks",
+    "loading_text": "Drafting contract...",
+    "submit_button": "Sign and Go to Draft",
+    "placeholder_text": "Select a brand to review the contract clauses.",
+    "error_login": "You must log in to play.",
+    "error_connection": "Error establishing connection with headquarters."
+}

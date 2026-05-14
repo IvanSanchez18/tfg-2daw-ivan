@@ -1,20 +1,14 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import Swal from "sweetalert2";
-import { getMyGMGames, getMyGMImages } from "../../services/gameService";
+import { getMyGMGames, getMyGMImages } from "../../services/myGMService";
+import { MAX_SLOTS, BRANDS } from '../../utils/myGM';
 import LoadingScreen from "../../components/loadingScreen/LoadingScreen";
 import "./myGMSlots.scss";
 
-const MAX_SLOTS = 3;
-
-const BRANDS = [
-  { id: 'raw', name: 'Monday Night Raw', shortName: 'RAW', logo: './images/Raw_logo.png', color: '#d32f2f' },
-  { id: 'smackdown', name: 'Friday Night SmackDown', shortName: 'SD', logo: './images/Smackdown_logo.png', color: '#1976d2' },
-  { id: 'nxt', name: 'NXT', shortName: 'NXT', logo: './images/Nxt_logo.png', color: '#fbc02d' },
-  { id: 'evolve', name: 'Evolve Wrestling', shortName: 'EVOLVE', logo: './images/Evolve_logo.png', color: '#48146b' }
-];
-
 const MyGMSlots = () => {
+  const { t, i18n } = useTranslation("myGM/myGMSlots");
   const [savedGames, setSavedGames] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showImageSelector, setShowImageSelector] = useState(false);
@@ -49,15 +43,15 @@ const MyGMSlots = () => {
 
   const handleSelectImage = (img) => {
     Swal.fire({
-      title: '¿Elegir este General Manager?',
+      title: t('swal.title'),
       imageUrl: img.url,
       imageHeight: 200,
-      imageAlt: 'GM Profile',
+      imageAlt: t('swal.alt_text'),
       showCancelButton: true,
       confirmButtonColor: 'var(--accent)',
       cancelButtonColor: 'var(--text-soft)',
-      confirmButtonText: 'Sí, empezar',
-      cancelButtonText: 'Cancelar',
+      confirmButtonText: t('swal.confirm'),
+      cancelButtonText: t('swal.cancel'),
       background: 'var(--bg-card)',
       color: 'var(--text-main)',
     }).then((result) => {
@@ -88,10 +82,10 @@ const MyGMSlots = () => {
       <div className="slots-content-wrapper">
 
         <button className="slots-back-button" onClick={() => navigate('/')}>
-          <i className="fas fa-arrow-left"></i> VOLVER
+          <i className="fas fa-arrow-left"></i> {t('back_button')}
         </button>
 
-        <h1 className="slots-title">SELECCIONA UNA PARTIDA</h1>
+        <h1 className="slots-title">{t('title')}</h1>
 
         <div className="slots-grid">
           {savedGames.map((game) => {
@@ -110,14 +104,14 @@ const MyGMSlots = () => {
                   {game.game_image ? (
                     <img src={game.game_image} alt={brandInfo.name} className="slot-image" />
                   ) : (
-                    <div className="slot-image-placeholder">Sin Imagen</div>
+                    <div className="slot-image-placeholder">{t('no_image')}</div>
                   )}
                 </div>
 
                 <div className="slot-info">
-                  <h3>Semana {game.week} / {game.max_weeks}</h3>
-                  <p>Presupuesto: ${game.budget.toLocaleString()}</p>
-                  <p>Fans: {game.fans.toLocaleString()}</p>
+                  <h3>{t('week_label', { week: game.week, max: game.max_weeks })}</h3>
+                  <p>{t('budget_label', { amount: game.budget.toLocaleString() })}</p>
+                  <p>{t('fans_label', { count: game.fans.toLocaleString() })}</p>
                 </div>
 
                 <button
@@ -128,7 +122,7 @@ const MyGMSlots = () => {
                     handleLoadGame(game);
                   }}
                 >
-                  CARGAR PARTIDA
+                  {t('load_game')}
                 </button>
               </div>
             );
@@ -144,10 +138,10 @@ const MyGMSlots = () => {
                 <span>+</span>
               </div>
               <div className="slot-info empty-info">
-                <h3>Rendija Vacía</h3>
-                <p>Inicia un nuevo camino hacia la gloria.</p>
+                <h3>{t('empty_slot')}</h3>
+                <p>{t('empty_slot_desc')}</p>
               </div>
-              <button className="slot-btn create-btn">NUEVA PARTIDA</button>
+              <button className="slot-btn create-btn">{t('new_game')}</button>
             </div>
           ))}
         </div>
@@ -156,7 +150,7 @@ const MyGMSlots = () => {
       {showImageSelector && (
         <div className="gm-image-selector-overlay" onClick={() => setShowImageSelector(false)}>
           <div className="gm-image-selector-modal" onClick={e => e.stopPropagation()}>
-            <h2>SELECCIONA TU GENERAL MANAGER</h2>
+            <h2>{t('gm_selector_title')}</h2>
             <div className="gm-images-grid">
               {gmImages.length > 0 ? (
                 gmImages.map((img, index) => (
@@ -165,11 +159,11 @@ const MyGMSlots = () => {
                   </div>
                 ))
               ) : (
-                <p style={{ textAlign: 'center', gridColumn: '1 / -1' }}>No se encontraron imágenes.</p>
+                <p style={{ textAlign: 'center', gridColumn: '1 / -1' }}>{t('no_images_found')}</p>
               )}
             </div>
             <button className="close-modal-btn" onClick={() => setShowImageSelector(false)}>
-              CANCELAR
+              {t('cancel')}
             </button>
           </div>
         </div>

@@ -1,0 +1,21 @@
+{
+    "back_button": "뒤로 가기",
+    "title": "게임 선택",
+    "no_image": "이미지 없음",
+    "week_label": "주차 {{week}} / {{max}}",
+    "budget_label": "예산: ${{amount}}",
+    "fans_label": "팬: {{count}}",
+    "load_game": "게임 불러오기",
+    "empty_slot": "빈 슬롯",
+    "empty_slot_desc": "영광을 향한 새로운 길을 시작하세요.",
+    "new_game": "새 게임",
+    "gm_selector_title": "제너럴 매니저 선택",
+    "no_images_found": "이미지를 찾을 수 없습니다.",
+    "cancel": "취소",
+    "swal": {
+        "title": "이 제너럴 매니저를 선택하시겠습니까?",
+        "confirm": "네, 시작합니다",
+        "cancel": "취소",
+        "alt_text": "GM 프로필"
+    }
+}

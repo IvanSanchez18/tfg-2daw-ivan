@@ -1,0 +1,13 @@
+{
+    "back_button": "戻る",
+    "setup_title": "契約書に署名する",
+    "setup_subtitle": "今シーズン指揮を執るフランチャイズを選択してください。",
+    "initial_budget": "初期予算:",
+    "contract_duration": "契約期間:",
+    "weeks_count": "52週間",
+    "loading_text": "契約書を作成中...",
+    "submit_button": "署名してドラフトへ",
+    "placeholder_text": "ブランドを選択して契約条項を確認してください。",
+    "error_login": "プレイするにはログインが必要です。",
+    "error_connection": "本部との接続確立中にエラーが発生しました。"
+}

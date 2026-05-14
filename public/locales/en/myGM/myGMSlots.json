@@ -1,0 +1,21 @@
+{
+    "back_button": "BACK",
+    "title": "SELECT A SAVE",
+    "no_image": "No Image",
+    "week_label": "Week {{week}} / {{max}}",
+    "budget_label": "Budget: ${{amount}}",
+    "fans_label": "Fans: {{count}}",
+    "load_game": "LOAD GAME",
+    "empty_slot": "Empty Slot",
+    "empty_slot_desc": "Begin a new path to glory.",
+    "new_game": "NEW GAME",
+    "gm_selector_title": "SELECT YOUR GENERAL MANAGER",
+    "no_images_found": "No images found.",
+    "cancel": "CANCEL",
+    "swal": {
+        "title": "Choose this General Manager?",
+        "confirm": "Yes, start",
+        "cancel": "Cancel",
+        "alt_text": "GM Profile"
+    }
+}

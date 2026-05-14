@@ -1,0 +1,21 @@
+{
+    "back_button": "KEMBALI",
+    "title": "PILIH PERMAINAN",
+    "no_image": "Tidak Ada Gambar",
+    "week_label": "Minggu {{week}} / {{max}}",
+    "budget_label": "Anggaran: ${{amount}}",
+    "fans_label": "Penggemar: {{count}}",
+    "load_game": "MUAT PERMAINAN",
+    "empty_slot": "Slot Kosong",
+    "empty_slot_desc": "Mulai jalan baru menuju kejayaan.",
+    "new_game": "PERMAINAN BARU",
+    "gm_selector_title": "PILIH GENERAL MANAGER ANDA",
+    "no_images_found": "Gambar tidak ditemukan.",
+    "cancel": "BATAL",
+    "swal": {
+        "title": "Pilih General Manager ini?",
+        "confirm": "Ya, mulai",
+        "cancel": "Batal",
+        "alt_text": "Profil GM"
+    }
+}

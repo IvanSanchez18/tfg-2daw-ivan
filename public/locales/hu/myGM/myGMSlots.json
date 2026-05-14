@@ -1,0 +1,21 @@
+{
+    "back_button": "VISSZA",
+    "title": "VÁLASSZ EGY JÁTÉKOT",
+    "no_image": "Nincs kép",
+    "week_label": "Hét {{week}} / {{max}}",
+    "budget_label": "Költségvetés: ${{amount}}",
+    "fans_label": "Rajongók: {{count}}",
+    "load_game": "JÁTÉK BETÖLTÉSE",
+    "empty_slot": "Üres hely",
+    "empty_slot_desc": "Indíts el egy új utat a dicsőség felé.",
+    "new_game": "ÚJ JÁTÉK",
+    "gm_selector_title": "VÁLASZD KI A GENERAL MANAGEREDET",
+    "no_images_found": "Nem található kép.",
+    "cancel": "MÉGSE",
+    "swal": {
+        "title": "Ezt a General Managert választod?",
+        "confirm": "Igen, indítás",
+        "cancel": "Mégse",
+        "alt_text": "GM profil"
+    }
+}

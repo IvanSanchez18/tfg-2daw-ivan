@@ -1,0 +1,21 @@
+{
+    "back_button": "INDIETRO",
+    "title": "SELEZIONA UNA PARTITA",
+    "no_image": "Nessuna Immagine",
+    "week_label": "Settimana {{week}} / {{max}}",
+    "budget_label": "Budget: ${{amount}}",
+    "fans_label": "Fan: {{count}}",
+    "load_game": "CARICA PARTITA",
+    "empty_slot": "Slot Vuoto",
+    "empty_slot_desc": "Inizia un nuovo cammino verso la gloria.",
+    "new_game": "NUOVA PARTITA",
+    "gm_selector_title": "SELEZIONA IL TUO GENERAL MANAGER",
+    "no_images_found": "Nessuna immagine trovata.",
+    "cancel": "ANNULLA",
+    "swal": {
+        "title": "Scegliere questo General Manager?",
+        "confirm": "Sì, inizia",
+        "cancel": "Annulla",
+        "alt_text": "Profilo GM"
+    }
+}

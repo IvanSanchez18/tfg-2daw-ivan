@@ -1,0 +1,13 @@
+{
+    "back_button": "Vissza",
+    "setup_title": "Szerződés Aláírása",
+    "setup_subtitle": "Válaszd ki a franchise-t, amelyet ebben a szezonban irányítani fogsz.",
+    "initial_budget": "Kezdő Költségvetés:",
+    "contract_duration": "Szerződés Időtartama:",
+    "weeks_count": "52 Hét",
+    "loading_text": "Szerződés megfogalmazása...",
+    "submit_button": "Aláírás és irány a Draft",
+    "placeholder_text": "Válassz egy márkát a szerződési feltételek áttekintéséhez.",
+    "error_login": "A játékhoz be kell jelentkezned.",
+    "error_connection": "Hiba történt a központi irodákkal való kapcsolatfelvétel során."
+}

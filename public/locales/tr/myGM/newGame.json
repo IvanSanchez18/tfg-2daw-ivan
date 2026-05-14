@@ -1,0 +1,13 @@
+{
+    "back_button": "Geri",
+    "setup_title": "Sözleşmeni İmzala",
+    "setup_subtitle": "Bu sezon yöneteceğiniz franchise'ı seçin.",
+    "initial_budget": "Başlangıç Bütçesi:",
+    "contract_duration": "Sözleşme Süresi:",
+    "weeks_count": "52 Hafta",
+    "loading_text": "Sözleşme hazırlanıyor...",
+    "submit_button": "İmzala ve Draft'a Git",
+    "placeholder_text": "Sözleşme maddelerini incelemek için bir marka seçin.",
+    "error_login": "Oynamak için giriş yapmalısınız.",
+    "error_connection": "Merkez ofislerle bağlantı kurulurken hata oluştu."
+}

@@ -1,0 +1,13 @@
+{
+    "back_button": "Voltar",
+    "setup_title": "Assine seu Contrato",
+    "setup_subtitle": "Selecione a franquia que você irá dirigir nesta temporada.",
+    "initial_budget": "Orçamento Inicial:",
+    "contract_duration": "Duração do Contrato:",
+    "weeks_count": "52 Semanas",
+    "loading_text": "Redigindo contrato...",
+    "submit_button": "Assinar e ir para o Draft",
+    "placeholder_text": "Selecione uma marca para revisar as cláusulas do contrato.",
+    "error_login": "Você deve iniciar sessão para jogar.",
+    "error_connection": "Erro ao estabelecer conexão com os escritórios centrais."
+}

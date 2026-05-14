@@ -1,0 +1,13 @@
+{
+    "back_button": "Kembali",
+    "setup_title": "Tanda Tangani Kontrak Anda",
+    "setup_subtitle": "Pilih waralaba yang akan Anda pimpin musim ini.",
+    "initial_budget": "Anggaran Awal:",
+    "contract_duration": "Durasi Kontrak:",
+    "weeks_count": "52 Minggu",
+    "loading_text": "Menyusun kontrak...",
+    "submit_button": "Tanda Tangan dan Pergi ke Draft",
+    "placeholder_text": "Pilih merek untuk meninjau klausul kontrak.",
+    "error_login": "Anda harus masuk untuk bermain.",
+    "error_connection": "Kesalahan saat menyambungkan ke kantor pusat."
+}
