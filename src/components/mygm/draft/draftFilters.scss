@@ -1,0 +1,33 @@
+.draft-filters {
+  display: flex;
+  gap: 1rem;
+  background: var(--bg-card);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-soft);
+
+  input,
+  select {
+    padding: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-soft);
+    background: var(--bg-input);
+    color: var(--text-main);
+    font-family: inherit;
+  }
+
+  .search-input {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .draft-filters {
+    flex-direction: column;
+
+    input,
+    select {
+      width: 100%;
+    }
+  }
+}

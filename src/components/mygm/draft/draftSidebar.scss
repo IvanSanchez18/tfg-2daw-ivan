@@ -1,0 +1,321 @@
+.roster-sidebar {
+  background: var(--bg-card);
+  border: 1px solid var(--border-main);
+  border-radius: 12px;
+  padding: 1.5rem;
+  height: fit-content;
+  position: sticky;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    border-bottom: 2px solid var(--border-soft);
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .empty-roster {
+    color: var(--text-muted);
+    font-style: italic;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .roster-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+    max-height: 50vh;
+    overflow-y: auto;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.8rem 0;
+      border-bottom: 1px solid var(--bg-input);
+
+      .roster-item-main {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+
+        .roster-name {
+          font-weight: bold;
+          font-size: 0.95rem;
+        }
+
+        .roster-meta {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+
+          .female-icon {
+            color: #e91e63;
+          }
+
+          .male-icon {
+            color: #2196f3;
+          }
+
+          .sidebar-style-tag {
+            font-size: 0.7rem;
+            color: var(--text-soft);
+            background: var(--bg-input);
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+          }
+        }
+      }
+
+      .pop-indicator {
+        background: var(--text-main);
+        color: var(--bg-card);
+        padding: 0.2rem 0.5rem;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.split-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  max-height: 85vh;
+
+  .sidebar-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+
+    h3 {
+      font-size: 1.1rem;
+      margin-top: 0;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border-soft);
+    }
+
+    .roster-list {
+      overflow-y: auto;
+      flex-grow: 1;
+      padding-right: 0.5rem;
+
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: var(--border-soft);
+        border-radius: 4px;
+      }
+    }
+  }
+
+  .my-roster-section {
+    border-bottom: 2px dashed var(--border-soft);
+    padding-bottom: 1rem;
+  }
+
+  .history-section {
+    .history-list li {
+      background: var(--bg-input);
+      padding: 0.5rem;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+
+      .pick-round {
+        font-size: 0.7rem;
+        color: var(--text-muted);
+      }
+
+      .pick-mini-img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.history-sidebar {
+  .roster-list {
+    max-height: 65vh;
+
+    li {
+      padding: 0.8rem;
+      background: var(--bg-input);
+      margin-bottom: 0.5rem;
+      border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+
+      .roster-item-main {
+        display: flex;
+        flex-direction: column;
+
+        .pick-round {
+          font-size: 0.7rem;
+          color: var(--text-muted);
+          text-transform: uppercase;
+        }
+
+        .roster-name {
+          font-size: 1rem;
+        }
+      }
+
+      .pick-mini-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid var(--border-soft);
+      }
+    }
+  }
+}
+
+.roster-header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--border-soft);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  h3 {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .retire-btn {
+    background: #e53935;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+
+    &:hover:not(:disabled) {
+      background: #b71c1c;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.roster-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--border-soft, #333);
+  padding-bottom: 2px;
+
+  .tab-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 0.5rem 0.2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    &.active {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+.history-finish-event {
+  background: rgba(0, 0, 0, 0.2) !important;
+  border: 1px dashed var(--border-soft);
+  text-align: center;
+  justify-content: center !important;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  padding: 0.8rem !important;
+
+  i {
+    margin-right: 0.5rem;
+  }
+
+  strong {
+    color: var(--text-main);
+  }
+}
+
+.history-penalty-remove {
+  background: rgba(211, 47, 47, 0.15) !important;
+  border: 1px dashed #d32f2f;
+  color: #ef5350;
+  font-size: 0.85rem;
+  padding: 0.8rem !important;
+
+  i {
+    margin-right: 0.5rem;
+  }
+}
+
+.history-penalty-add {
+  background: rgba(46, 125, 50, 0.15) !important;
+  color: #81c784;
+  font-size: 0.85rem;
+  padding: 0.8rem !important;
+
+  i {
+    margin-right: 0.5rem;
+  }
+
+  strong {
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .roster-sidebar {
+    position: relative;
+    top: 0;
+    margin-top: 2rem;
+
+    .roster-list {
+      max-height: 40vh;
+    }
+  }
+
+  .split-sidebar {
+    max-height: none;
+    gap: 2rem;
+
+    .sidebar-section {
+      overflow: visible;
+
+      .roster-list {
+        max-height: 300px;
+      }
+    }
+  }
+}

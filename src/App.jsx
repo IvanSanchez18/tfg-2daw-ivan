@@ -17,6 +17,7 @@ import Game from "./pages/game/Game";
 import NotFound from "./pages/NotFound";
 import MyGMSlots from './pages/mygm/MyGMSlots';
 import NewGame from './pages/mygm/NewGame';
+import Draft from './pages/mygm/Draft';
 
 import AdminRoute from "./components/auth/AdminRoute";
 import AdminWrestlers from "./pages/admin/AdminWrestlers";
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/game" element={<Game />} />
           <Route path="/mygm" element={<MyGMSlots />} />
           <Route path="/mygm/new" element={<NewGame />} />
+          <Route path="/mygm/draft/:sessionId" element={<Draft />} />
 
           <Route element={<AdminRoute />}>
             <Route path="/admin/wrestlers" element={<AdminWrestlers />} />

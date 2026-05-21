@@ -38,3 +38,26 @@ export const BRANDS = [
         description: 'description.evolve'
     }
 ];
+
+export const ALIGNMENTS = ['Face', 'Heel'];
+
+export const GENDERS = [
+    { id: 'male', label: 'Masculino' },
+    { id: 'female', label: 'Femenino' }
+];
+
+export const STYLES = [
+    'Giant',
+    'Cruiser',
+    'Brawler',
+    'Fighter',
+    'Specialist'
+];
+
+export const STYLE_COUNTERS = {
+    'Giant': 'Cruiser',
+    'Cruiser': 'Giant',
+    'Brawler': 'Fighter',
+    'Fighter': 'Brawler',
+    'Specialist': 'Specialist'
+};
