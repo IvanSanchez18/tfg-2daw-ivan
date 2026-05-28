@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "Draft Resmi Olarak Sona Erdi!",
+        "button": "Kadroma Git ve Sezonu Başlat"
+    },
+    "swal": {
+        "abandonment_title": "Ayrılma Algılandı",
+        "abandonment_text": "Yokluğunuzda yönetim kurulu Draft görüşmelerini otomatik olarak sonlandırıyor...",
+        "insufficient_funds_title": "Yetersiz Bütçe",
+        "insufficient_funds_text": "Bu süperstarı transfer etmek için yeterli bütçeniz yok!",
+        "adjustment_done_title": "Ayarlama Yapıldı",
+        "adjustment_done_text": "Kadronuz, minimum 10 süperstar sınırını karşılamak için otomatik olarak ayarlandı.",
+        "error_title": "Hata",
+        "adjustment_error_text": "Veritabanında ayarlamalar uygulanamadı.",
+        "cpu_save_error_text": "CPU seçimleri kaydedilirken bir hata oluştu.",
+        "incomplete_roster_title": "Eksik Kadro",
+        "incomplete_roster_text": "DİKKAT: 10'dan az güreşçiniz var. Şimdi durursanız, sistem en pahalı süperstarınızı otomatik satacak ve 10'a ulaşana kadar en ucuzlarını alacaktır. Onaylıyor musunuz?",
+        "confirm_adjustment": "Evet, ayarla",
+        "cancel": "İptal",
+        "finish_draft_title": "Draftı Bitir?",
+        "finish_draft_text": "Draftınızı sonlandırmak istediğinize emin misiniz? Kadronuz kilitlenecek ve daha fazla süperstar seçemeyeceksiniz.",
+        "confirm_finish": "Evet, bitir",
+        "continue_drafting": "Seçime devam et"
+    },
+    "draft_filters": {
+        "search_placeholder": "Süperstar ara...",
+        "filter_alignment": "Eğilim",
+        "filter_gender": "Cinsiyet",
+        "filter_style": "Tarz"
+    },
+    "draft_grid": {
+        "pop_label": "Pop:",
+        "sign_wrestler": "Sözleşme İmzala {{cost}}",
+        "out_of_funds": "Yetersiz Bakiye",
+        "waiting_turn": "Sıra bekleniyor..."
+    },
+    "draft_header": {
+        "completed": "Draft Tamamlandı",
+        "round_label": "Tur {{round}}",
+        "all_brands_finished": "TÜM MARKALAR TAMAMLADI",
+        "turn_of": "Sıra:",
+        "cpu_thinking": " (Düşünüyor...)",
+        "your_budget": "Bütçeniz"
+    },
+    "draft_rules": {
+        "title": "GM Draft Kuralları",
+        "turns_title": "Sıra Dinamiği:",
+        "turns_desc": "Draft rastgele bir sırayla turlar halinde gerçekleştirilir. Sıranız geldiğinde bir güreşçi seçebilirsiniz. Rakip markalar (CPU) kendi sıralarında otomatik olarak seçim yapacaktır.",
+        "budget_title": "Bütçe Yönetimi:",
+        "budget_desc": "Her süperstarın popülerliğine (POP) dayalı bir maliyeti vardır. Paranızı tüketirseniz daha fazla seçim yapamazsınız. Rakip markaların da kendilerine ait bütçeleri vardır.",
+        "end_title": "Draftın Sonu:",
+        "end_desc": "Rakip markalar 10 ila 15 güreşçiye ulaştıklarında seçimi durduracak ve rastgele bir şekilde tamamlayacaktır. Kadronuzun eksiksiz olduğunu düşündüğünüzde \"Tamamla\" butonuna basabilirsiniz.",
+        "minimum_title": "En Az 10 Güreşçi:",
+        "minimum_desc": "En az 10 süperstar seçmelisiniz. Bu şartı sağlamadan tamamlarsanız, sistem gereken minimum sayıya ulaşana kadar en pahalı süperstarınızı en ucuz olanlarla takas edip satacaktır.",
+        "synergies_title": "Dövüş Sinerjileri:",
+        "synergies_intro": "Yüksek puanlar almak için zıt tarzları tercih edin.",
+        "synergies_combos": "Bir <strong>{{giant}}</strong>, bir <strong>{{cruiser}}</strong> ile mükemmel uyum sağlar. <strong>{{brawler}}</strong> ile <strong>{{fighter}}</strong>, ve <strong>{{specialist}}</strong> ise <strong>{{specialist}}</strong> karşı karşıya gelmelidir.",
+        "gender_title": "Cinsiyete Göre Maçlar:",
+        "gender_desc": "Bu ligde <strong>farklı cinsiyetler arası (intergender) maçlara izin verilmez</strong>. Her gruptan yeterli yetenek seçtiğinizden emin olun.",
+        "start_button": "Anlaşıldı, Draftı Başlat"
+    },
+    "draft_scouting": {
+        "title": "Draft Önerisi",
+        "suggestion_desc": "Kadronuzu dengelemek için bir <strong>{{style}}</strong> veya <strong>{{alignment}}</strong> yeteneği aramanızı öneririz."
+    },
+    "draft_sidebar": {
+        "rosters_title": "Kadrolar ({{count}})",
+        "settle_btn": "Tamamla",
+        "empty_roster": "Bu marka henüz kimseyle sözleşme imzalamadı.",
+        "gender_female": "Kadın",
+        "gender_male": "Erkek",
+        "history_title": "Genel Geçmiş",
+        "history_waiting": "Seçimler bekleniyor...",
+        "history_finish": "<strong>{{brand}}</strong> kadrosunu tamamladı.",
+        "history_penalty_remove": "Ceza nedeniyle <strong>{{name}} adlı güreşçiyi sattınız</strong>.",
+        "history_penalty_add": "Otomatik transfer: <strong>{{name}}</strong>",
+        "history_round": "Tur {{round}}"
+    },
+    "gender_male": "Erkek",
+    "gender_female": "Kadın",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Dev",
+    "style_cruiser": "Yarı Ağır Sıklet",
+    "style_brawler": "Kavgacı",
+    "style_fighter": "Dövüşçü",
+    "style_specialist": "Uzman"
+}

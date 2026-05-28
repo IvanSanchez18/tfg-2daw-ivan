@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "Draft telah resmi berakhir!",
+        "button": "Buka Roster & Mulai Musim"
+    },
+    "swal": {
+        "abandonment_title": "Sesi Ditinggalkan",
+        "abandonment_text": "Direksi Anda secara otomatis menutup negosiasi Draft karena Anda tidak di tempat...",
+        "insufficient_funds_title": "Dana Tidak Cukup",
+        "insufficient_funds_text": "Anda tidak memiliki anggaran yang cukup untuk merekrut superstar ini!",
+        "adjustment_done_title": "Penyesuaian Berhasil",
+        "adjustment_done_text": "Roster Anda telah disesuaikan secara otomatis untuk memenuhi batas minimum 10 superstar.",
+        "error_title": "Error",
+        "adjustment_error_text": "Gagal menerapkan penyesuaian pada database.",
+        "cpu_save_error_text": "Terjadi kesalahan saat menyimpan pilihan CPU.",
+        "incomplete_roster_title": "Roster Belum Lengkap",
+        "incomplete_roster_text": "PERINGATAN: Anda memiliki kurang dari 10 pegulat. Jika Anda berhenti sekarang, sistem otomatis menjual superstar termahal Anda dan membeli yang termurah hingga mencapai 10. Terima?",
+        "confirm_adjustment": "Ya, sesuaikan",
+        "cancel": "Batal",
+        "finish_draft_title": "Selesaikan Draft Anda?",
+        "finish_draft_text": "Apakah Anda yakin ingin menyelesaikan draft? Roster Anda akan dikunci dan Anda tidak bisa merekrut superstar lagi.",
+        "confirm_finish": "Ya, kunci",
+        "continue_drafting": "Lanjutkan draft"
+    },
+    "draft_filters": {
+        "search_placeholder": "Cari superstar...",
+        "filter_alignment": "Afiliasi",
+        "filter_gender": "Gender",
+        "filter_style": "Gaya"
+    },
+    "draft_grid": {
+        "pop_label": "Pop:",
+        "sign_wrestler": "Rekrut {{cost}}",
+        "out_of_funds": "Dana tidak cukup",
+        "waiting_turn": "Menunggu giliran..."
+    },
+    "draft_header": {
+        "completed": "Draft Selesai",
+        "round_label": "Ronde {{round}}",
+        "all_brands_finished": "SEMUA BRAND TELAH SELESAI",
+        "turn_of": "Giliran:",
+        "cpu_thinking": " (Berpikir...)",
+        "your_budget": "Anggaran Anda"
+    },
+    "draft_rules": {
+        "title": "Aturan Draft GM",
+        "turns_title": "Dinamika Giliran:",
+        "turns_desc": "Draft dilakukan dalam beberapa babak dengan urutan acak. Pada giliranmu, kamu bisa merekrut seorang pegulat. Brand rival (CPU) akan merekrut secara otomatis pada giliran mereka.",
+        "budget_title": "Manajemen Anggaran:",
+        "budget_desc": "Setiap superstar memiliki harga berdasarkan popularitas (POP) mereka. Jika dana habis, kamu tidak bisa melakukan pemilihan lagi. Brand rival juga memiliki anggaran mereka sendiri.",
+        "end_title": "Akhir Draft:",
+        "end_desc": "Brand rival akan berhenti merekrut dan selesai secara acak ketika mereka memiliki antara 10 hingga 15 pegulat. Kamu bisa menekan \"Selesai\" ketika merasa skuadmu sudah lengkap.",
+        "minimum_title": "Minimal 10 Pegulat:",
+        "minimum_desc": "Kamu harus merekrut minimal 10 superstar. Jika kamu menyelesaikannya tanpa memenuhi syarat ini, sistem akan menjual superstar termahalmu untuk ditukar dengan yang paling murah sampai mencapai batas minimum yang diminta.",
+        "synergies_title": "Sinergi Pertandingan:",
+        "synergies_intro": "Untuk mendapatkan nilai yang bagus, carilah gaya yang berlawanan.",
+        "synergies_combos": "Seorang <strong>{{giant}}</strong> sangat cocok dipadukan dengan seorang <strong>{{cruiser}}</strong>. <strong>{{brawler}}</strong> berpadu baik dengan <strong>{{fighter}}</strong>, dan <strong>{{specialist}}</strong> melawan <strong>{{specialist}}</strong>.",
+        "gender_title": "Pertandingan Berdasarkan Gender:",
+        "gender_desc": "Di liga ini, <strong>pertandingan intergender tidak diperbolehkan</strong>. Pastikan untuk merekrut cukup banyak talenta dari setiap divisi.",
+        "start_button": "Dimengerti, Mulai Draft"
+    },
+    "draft_scouting": {
+        "title": "Saran Draft",
+        "suggestion_desc": "Kami menyarankan untuk mencari talenta <strong>{{style}}</strong> atau <strong>{{alignment}}</strong> untuk menyeimbangkan skuad Anda."
+    },
+    "draft_sidebar": {
+        "rosters_title": "Roster ({{count}})",
+        "settle_btn": "Selesai",
+        "empty_roster": "Brand ini belum merekrut siapa pun.",
+        "gender_female": "Perempuan",
+        "gender_male": "Laki-laki",
+        "history_title": "Riwayat Global",
+        "history_waiting": "Menunggu pilihan...",
+        "history_finish": "<strong>{{brand}}</strong> menutup skuadnya.",
+        "history_penalty_remove": "<strong>Anda menjual {{name}}</strong> karena penalti.",
+        "history_penalty_add": "Perekrutan otomatis: <strong>{{name}}</strong>",
+        "history_round": "Ronde {{round}}"
+    },
+    "gender_male": "Pria",
+    "gender_female": "Wanita",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Raksasa",
+    "style_cruiser": "Penjelajah",
+    "style_brawler": "Petarung Bebas",
+    "style_fighter": "Petarung",
+    "style_specialist": "Spesialis"
+}

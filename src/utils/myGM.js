@@ -38,3 +38,29 @@ export const BRANDS = [
         description: 'description.evolve'
     }
 ];
+
+export const ALIGNMENTS = [
+    { id: 'Face', label: 'align_face' },
+    { id: 'Heel', label: 'align_heel' }
+];
+
+export const GENDERS = [
+    { id: 'male', label: 'gender_male' },
+    { id: 'female', label: 'gender_female' }
+];
+
+export const STYLES = [
+    { id: 'Giant', label: 'style_giant' },
+    { id: 'Cruiser', label: 'style_cruiser' },
+    { id: 'Brawler', label: 'style_brawler' },
+    { id: 'Fighter', label: 'style_fighter' },
+    { id: 'Specialist', label: 'style_specialist' }
+];
+
+export const STYLE_COUNTERS = {
+    'Giant': 'Cruiser',
+    'Cruiser': 'Giant',
+    'Brawler': 'Fighter',
+    'Fighter': 'Brawler',
+    'Specialist': 'Specialist'
+};

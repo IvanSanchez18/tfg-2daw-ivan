@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { lazy, Suspense } from "react";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
@@ -7,19 +8,20 @@ import ProtectedLayout from "./components/layouts/ProtectedLayout";
 
 import BroadcastInterruption from "./components/layouts/BroadcastInterruption";
 
-import Home from "./pages/home/Home";
-import Options from "./pages/options/Options";
-import Universe from "./pages/universe/Universe";
-import Jukebox from "./pages/jukebox/Jukebox";
-import Register from "./pages/auth/Register";
-import Login from "./pages/auth/Login";
-import Game from "./pages/game/Game";
-import NotFound from "./pages/NotFound";
-import MyGMSlots from './pages/mygm/MyGMSlots';
-import NewGame from './pages/mygm/NewGame';
+const Home = lazy(() => import("./pages/home/Home"));
+const Options = lazy(() => import("./pages/options/Options"));
+const Universe = lazy(() => import("./pages/universe/Universe"));
+const Jukebox = lazy(() => import("./pages/jukebox/Jukebox"));
+const Register = lazy(() => import("./pages/auth/Register"));
+const Login = lazy(() => import("./pages/auth/Login"));
+const Game = lazy(() => import("./pages/game/Game"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+const MyGMSlots = lazy(() => import("./pages/mygm/MyGMSlots"));
+const NewGame = lazy(() => import("./pages/mygm/NewGame"));
+const Draft = lazy(() => import("./pages/mygm/Draft"));
 
 import AdminRoute from "./components/auth/AdminRoute";
-import AdminWrestlers from "./pages/admin/AdminWrestlers";
+const AdminWrestlers = lazy(() => import("./pages/admin/AdminWrestlers"));
 
 export default function App() {
   return (
@@ -33,6 +35,7 @@ export default function App() {
           <Route path="/game" element={<Game />} />
           <Route path="/mygm" element={<MyGMSlots />} />
           <Route path="/mygm/new" element={<NewGame />} />
+          <Route path="/mygm/draft/:sessionId" element={<Draft />} />
 
           <Route element={<AdminRoute />}>
             <Route path="/admin/wrestlers" element={<AdminWrestlers />} />

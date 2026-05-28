@@ -15,3 +15,12 @@ body {
   padding: 0;
   font-family: 'JetBrains Mono', monospace !important;
 }
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+}

@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "Il Draft è ufficialmente concluso!",
+        "button": "Vai al Roster e Inizia la Stagione"
+    },
+    "swal": {
+        "abandonment_title": "Abbandono Rilevato",
+        "abandonment_text": "I tuoi dirigenti stanno chiudendo automaticamente le trattative del Draft in tua assenza...",
+        "insufficient_funds_title": "Fondi Insufficienti",
+        "insufficient_funds_text": "Non hai budget sufficiente per ingaggiare questa superstar!",
+        "adjustment_done_title": "Regolazione Completata",
+        "adjustment_done_text": "Il tuo roster è stato regolato automaticamente per soddisfare il minimo di 10 superstar.",
+        "error_title": "Errore",
+        "adjustment_error_text": "Impossibile applicare le modifiche al database.",
+        "cpu_save_error_text": "Errore durante il salvataggio delle scelte della CPU.",
+        "incomplete_roster_title": "Roster Incompleto",
+        "incomplete_roster_text": "ATTENZIONE: Hai meno di 10 lottatori. Se ti fermi ora, il sistema venderà la tua superstar più costosa e ingaggerà le più economiche fino a raggiungerne 10. Accetti?",
+        "confirm_adjustment": "Sì, applica",
+        "cancel": "Annulla",
+        "finish_draft_title": "Concludere il Draft?",
+        "finish_draft_text": "Sei sicuro di voler finalizzare il tuo draft? Il roster verrà bloccato e non potrai ingaggiare altre superstar.",
+        "confirm_finish": "Sì, concludi",
+        "continue_drafting": "Continua il draft"
+    },
+    "draft_filters": {
+        "search_placeholder": "Cerca superstar...",
+        "filter_alignment": "Allineamento",
+        "filter_gender": "Genere",
+        "filter_style": "Stile"
+    },
+    "draft_grid": {
+        "pop_label": "Pop:",
+        "sign_wrestler": "Ingaggia {{cost}}",
+        "out_of_funds": "Senza fondi",
+        "waiting_turn": "In attesa del turno..."
+    },
+    "draft_header": {
+        "completed": "Draft Concluso",
+        "round_label": "Round {{round}}",
+        "all_brands_finished": "TUTTI I BRAND HANNO FINITO",
+        "turn_of": "Turno di:",
+        "cpu_thinking": " (Pensando...)",
+        "your_budget": "Il Tuo Budget"
+    },
+    "draft_rules": {
+        "title": "Regole del Draft GM",
+        "turns_title": "Dinamica dei Turni:",
+        "turns_desc": "Il draft si svolge a round con ordine casuale. Durante il tuo turno, puoi ingaggiare un wrestler. I brand rivali (CPU) sceglieranno automaticamente nei loro turni.",
+        "budget_title": "Gestione del Budget:",
+        "budget_desc": "Ogni superstar ha un costo basato sulla sua popolarità (POP). Se esaurisci i fondi, non potrai effettuare ulteriori selezioni. Anche i brand rivali hanno un proprio budget.",
+        "end_title": "Fine del Draft:",
+        "end_desc": "I brand rivali smetteranno di scegliere e si fermeranno casualmente quando avranno tra i 10 e i 15 wrestler. Puoi premere \"Fermati\" quando ritieni che la tua rosa sia completa.",
+        "minimum_title": "Minimo 10 Wrestler:",
+        "minimum_desc": "Devi ingaggiare almeno 10 superstar. Se ti fermi senza soddisfare questo requisito, il sistema venderà la tua superstar più costosa in cambio di quelle più economiche fino al raggiungimento del minimo richiesto.",
+        "synergies_title": "Sinergie di Combattimento:",
+        "synergies_intro": "Per ottenere ottime valutazioni, cerca stili opposti.",
+        "synergies_combos": "Un <strong>{{giant}}</strong> si combina eccellentemente con un <strong>{{cruiser}}</strong>. <strong>{{brawler}}</strong> si combina con <strong>{{fighter}}</strong>, e <strong>{{specialist}}</strong> contro <strong>{{specialist}}</strong>.",
+        "gender_title": "Match per Genere:",
+        "gender_desc": "In questa lega <strong>non sono consentiti match intergender</strong>. Assicurati di ingaggiare abbastanza talento per ciascuna divisione.",
+        "start_button": "Capito, Inizia il Draft"
+    },
+    "draft_scouting": {
+        "title": "Suggerimento Draft",
+        "suggestion_desc": "Suggeriamo di cercare un talento <strong>{{style}}</strong> o <strong>{{alignment}}</strong> per bilanciare la tua rosa."
+    },
+    "draft_sidebar": {
+        "rosters_title": "Roster ({{count}})",
+        "settle_btn": "Fermati",
+        "empty_roster": "Questo brand non ha ancora ingaggiato nessuno.",
+        "gender_female": "Femminile",
+        "gender_male": "Maschile",
+        "history_title": "Cronologia Globale",
+        "history_waiting": "In attesa delle scelte...",
+        "history_finish": "<strong>{{brand}}</strong> ha chiuso la sua rosa.",
+        "history_penalty_remove": "<strong>Hai venduto {{name}}</strong> per penalità.",
+        "history_penalty_add": "Ingaggio automatico: <strong>{{name}}</strong>",
+        "history_round": "Round {{round}}"
+    },
+    "gender_male": "Maschile",
+    "gender_female": "Femminile",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Rissaiolo",
+    "style_fighter": "Lottatore",
+    "style_specialist": "Specialista"
+}

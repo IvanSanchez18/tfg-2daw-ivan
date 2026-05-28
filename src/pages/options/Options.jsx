@@ -6,7 +6,6 @@ import { useTheme } from "../../context/ThemeContext";
 import { useMusicVolume } from "../../context/MusicVolumeContext";
 import { useSfxVolume } from "../../context/SfxVolumeContext";
 import LoadingScreen from "../../components/loadingScreen/LoadingScreen";
-import "../../styles/theme.scss";
 import "./options.scss";
 
 const LANGUAGES = [

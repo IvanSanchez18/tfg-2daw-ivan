@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "ड्राफ्ट आधिकारिक तौर पर समाप्त हो गया है!",
+        "button": "मेरे रोस्टर पर जाएं और सीज़न शुरू करें"
+    },
+    "swal": {
+        "abandonment_title": "अनुपस्थिति का पता चला",
+        "abandonment_text": "आपकी अनुपस्थिति में आपके अधिकारी स्वचालित रूप से ड्राफ्ट वार्ता को बंद कर रहे हैं...",
+        "insufficient_funds_title": "अपर्याप्त धन",
+        "insufficient_funds_text": "इस सुपरस्टार को साइन करने के लिए आपके पास पर्याप्त बजट नहीं है!",
+        "adjustment_done_title": "सामंजस्य पूर्ण हुआ",
+        "adjustment_done_text": "न्यूनतम 10 सुपरस्टार्स की आवश्यकता को पूरा करने के लिए आपके रोस्टर को स्वचालित रूप से समायोजित किया गया है।",
+        "error_title": "त्रुटि",
+        "adjustment_error_text": "डेटाबेस में समायोजन लागू करने में विफल।",
+        "cpu_save_error_text": "CPU चयनों को सहेजने में त्रुटि हुई थी।",
+        "incomplete_roster_title": "अपूर्ण रोस्टर",
+        "incomplete_roster_text": "चेतावनी: आपके पास 10 से कम पहलवान हैं। यदि आप अभी रुकते हैं, तो सिस्टम स्वचालित रूप से आपके सबसे महंगे सुपरस्टार को बेच देगा और न्यूनतम 10 तक पहुंचने तक सबसे सस्ते पहलवानों को ड्राफ्ट करेगा। क्या स्वीकार है?",
+        "confirm_adjustment": "हां, समायोजित करें",
+        "cancel": "रद्द करें",
+        "finish_draft_title": "अपना ड्राफ्ट समाप्त करें?",
+        "finish_draft_text": "क्या आप वाकई अपना ड्राफ्ट समाप्त करना चाहते हैं? आपका रोस्टर लॉक हो जाएगा और आप और सुपरस्टार साइन नहीं कर पाएंगे।",
+        "confirm_finish": "हां, समाप्त करें",
+        "continue_drafting": "ड्राफ्ट जारी रखें"
+    },
+    "draft_filters": {
+        "search_placeholder": "सुपरस्टार खोजें...",
+        "filter_alignment": "संरेखण",
+        "filter_gender": "लिंग",
+        "filter_style": "शैली"
+    },
+    "draft_grid": {
+        "pop_label": "पॉप (Pop):",
+        "sign_wrestler": "साइन करें {{cost}}",
+        "out_of_funds": "फंड नहीं है",
+        "waiting_turn": "बारी की प्रतीक्षा..."
+    },
+    "draft_header": {
+        "completed": "ड्राफ्ट समाप्त",
+        "round_label": "राउंड {{round}}",
+        "all_brands_finished": "सभी ब्रांड समाप्त हो चुके हैं",
+        "turn_of": "बारी:",
+        "cpu_thinking": " (सोच रहा है...)",
+        "your_budget": "आपका बजट"
+    },
+    "draft_rules": {
+        "title": "जीएम ड्राफ्ट के नियम",
+        "turns_title": "बारी की गतिशीलता:",
+        "turns_desc": "ड्राफ्ट यादृच्छिक (random) क्रम में राउंड के अनुसार होता है। अपनी बारी पर, आप एक पहलवान को साइन कर सकते हैं। प्रतिद्वंद्वी ब्रांड (CPU) अपनी बारी पर स्वचालित रूप से खिलाड़ियों को चुनेंगे।",
+        "budget_title": "बजट प्रबंधन:",
+        "budget_desc": "प्रत्येक सुपरस्टार की लागत उनकी लोकप्रियता (POP) पर आधारित होती है। यदि आपका फंड समाप्त हो जाता है, तो आप और चयन नहीं कर पाएंगे। प्रतिद्वंद्वी ब्रांडों का भी अपना बजट होता है।",
+        "end_title": "ड्राफ्ट की समाप्ति:",
+        "end_desc": "प्रतिद्वंद्वी ब्रांड ड्राफ्ट करना बंद कर देंगे और जब उनके पास 10 से 15 पहलवान होंगे तो वे यादृच्छिक रूप से रुक जाएंगे। जब आपको लगे कि आपकी टीम पूरी हो गई है, तो आप \"सहमति/रुकें\" पर क्लिक कर सकते हैं।",
+        "minimum_title": "न्यूनतम 10 पहलवान:",
+        "minimum_desc": "आपको कम से कम 10 सुपरस्टार्स को ड्राफ्ट करना होगा। यदि आप इसे पूरा किए बिना समाप्त करते हैं, तो सिस्टम आपके सबसे महंगे सुपरस्टार को तब तक सबसे सस्ते सुपरस्टार्स से बदल देगा जब तक आप आवश्यक न्यूनतम सीमा तक नहीं पहुंच जाते।",
+        "synergies_title": "मैच तालमेल (Synergies):",
+        "synergies_intro": "अच्छी रेटिंग प्राप्त करने के लिए, विपरीत शैलियों की तलाश करें।",
+        "synergies_combos": "एक <strong>{{giant}}</strong> का तालमेल एक <strong>{{cruiser}}</strong> के साथ बेहतरीन बैठता है। <strong>{{brawler}}</strong> का मुकाबला <strong>{{fighter}}</strong> के साथ, और <strong>{{specialist}}</strong> का मुकाबला <strong>{{specialist}}</strong> के खिलाफ होना चाहिए।",
+        "gender_title": "लिंग आधारित मैच:",
+        "gender_desc": "इस लीग में <strong>अंतर-लिंग (intergender) मैचों की अनुमति नहीं है</strong>। सुनिश्चित करें कि आप प्रत्येक डिवीजन से पर्याप्त प्रतिभाओं को शामिल करें।",
+        "start_button": "समझ गए, ड्राफ्ट शुरू करें"
+    },
+    "draft_scouting": {
+        "title": "ड्राफ्ट सुझाव",
+        "suggestion_desc": "हम आपके रोस्टर को संतुलित करने के लिए एक <strong>{{style}}</strong> या <strong>{{alignment}}</strong> प्रतिभा की तलाश करने का सुझाव देते हैं।"
+    },
+    "draft_sidebar": {
+        "rosters_title": "रोस्टर्स ({{count}})",
+        "settle_btn": "समाप्त करें",
+        "empty_roster": "इस ब्रांड ने अभी तक किसी को साइन नहीं किया है।",
+        "gender_female": "महिला",
+        "gender_male": "पुरुष",
+        "history_title": "वैश्विक इतिहास",
+        "history_waiting": "चयनों की प्रतीक्षा में...",
+        "history_finish": "<strong>{{brand}}</strong> ने अपनी टीम पूरी कर ली है।",
+        "history_penalty_remove": "<strong>आपने जुर्माना के कारण {{name}} को बेच दिया</strong>।",
+        "history_penalty_add": "स्वचालित साइनिंग: <strong>{{name}}</strong>",
+        "history_round": "राउंड {{round}}"
+    },
+    "gender_male": "पुरुष",
+    "gender_female": "महिला",
+    "align_face": "फेस (Face)",
+    "align_heel": "हील (Heel)",
+    "style_giant": "विशाल (Giant)",
+    "style_cruiser": "क्रूजर (Cruiser)",
+    "style_brawler": "ब्रॉलर (Brawler)",
+    "style_fighter": "फाइटर (Fighter)",
+    "style_specialist": "विशेषज्ञ (Specialist)"
+}

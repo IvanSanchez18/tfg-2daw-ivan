@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "ドラフトが正式に終了しました！",
+        "button": "ロースターへ移動してシーズン開始"
+    },
+    "swal": {
+        "abandonment_title": "退出を検出",
+        "abandonment_text": "不在のため、役員会が自動的にドラフト交渉を締め切っています...",
+        "insufficient_funds_title": "予算不足",
+        "insufficient_funds_text": "このスーパースターを獲得する予算がありません！",
+        "adjustment_done_title": "自動調整完了",
+        "adjustment_done_text": "最低要件である10名を満たすため、ロースターが自動調整されました。",
+        "error_title": "エラー",
+        "adjustment_error_text": "データベースへの調整適用に失敗しました。",
+        "cpu_save_error_text": "CPUの選択データの保存中にエラーが発生しました。",
+        "incomplete_roster_title": "選手数不足",
+        "incomplete_roster_text": "警告: 獲得選手が10名未満です。ここで終了すると、システムが最も高額な選手を自動売却し、10名に達するまで最安値の選手を補填します。よろしいですか？",
+        "confirm_adjustment": "はい、適用します",
+        "cancel": "キャンセル",
+        "finish_draft_title": "ドラフトを終了しますか？",
+        "finish_draft_text": "本当にドラフトを確定しますか？ロースターがロックされ、これ以上スーパースターを獲得できなくなります。",
+        "confirm_finish": "はい、確定する",
+        "continue_drafting": "ドラフトを続ける"
+    },
+    "draft_filters": {
+        "search_placeholder": "スーパースターを検索...",
+        "filter_alignment": "アライメント",
+        "filter_gender": "性別",
+        "filter_style": "スタイル"
+    },
+    "draft_grid": {
+        "pop_label": "人気:",
+        "sign_wrestler": "契約 {{cost}}",
+        "out_of_funds": "資金不足",
+        "waiting_turn": "順番待ち..."
+    },
+    "draft_header": {
+        "completed": "ドラフト終了",
+        "round_label": "ラウンド {{round}}",
+        "all_brands_finished": "すべてのブランドが終了しました",
+        "turn_of": "次の番：",
+        "cpu_thinking": " (思考中...)",
+        "your_budget": "あなたの予算"
+    },
+    "draft_rules": {
+        "title": "GMドラフトルール",
+        "turns_title": "ターンの仕組み:",
+        "turns_desc": "ドラフトはランダムな順序でラウンドごとに行われます。自分のターンにレスラーを1人獲得できます。ライバルブランド（CPU）はそれぞれのターンに自動で獲得します。",
+        "budget_title": "予算管理:",
+        "budget_desc": "各スーパースターには人気（POP）に応じたコストがあります。資金を使い果たすと、それ以上選択できなくなります。ライバルブランドも独自の予算を持っています。",
+        "end_title": "ドラフトの終了:",
+        "end_desc": "ライバルブランドは10〜15人のレスラーを獲得すると、ランダムに獲得を終了（確定）します。ロースターが完成したと思ったら、「確定する」を押すことができます。",
+        "minimum_title": "最低10名以上のレスラー:",
+        "minimum_desc": "少なくとも10名のスーパースターを獲得する必要があります。満たさずに確定した場合、システムは必要最低限数に達するまで、あなたの最も高価なスーパースターを最も安いレスラーと強制的にトレード（売却）します。",
+        "synergies_title": "試合の相性（シナジー）:",
+        "synergies_intro": "高い評価を得るには、対照的なスタイルを狙いましょう。",
+        "synergies_combos": "<strong>{{giant}}</strong>は<strong>{{cruiser}}</strong>と抜群の相性です。<strong>{{brawler}}</strong>は<strong>{{fighter}}</strong>と組み合わせ、<strong>{{specialist}}</strong>は<strong>{{specialist}}</strong>同士で対戦させます。",
+        "gender_title": "性別ごとの試合:",
+        "gender_desc": "このリーグでは<strong>男女混合戦（インタージェンダーマッチ）は禁止されています</strong>。各ディビジョンから十分なタレントを獲得してください。",
+        "start_button": "了解、ドラフトを開始する"
+    },
+    "draft_scouting": {
+        "title": "ドラフトの提案",
+        "suggestion_desc": "ロースターのバランスを取るために、<strong>{{style}}</strong> または <strong>{{alignment}}</strong> のタレントを探すことをお勧めします。"
+    },
+    "draft_sidebar": {
+        "rosters_title": "ロースター ({{count}})",
+        "settle_btn": "確定する",
+        "empty_roster": "このブランドはまだ誰も獲得していません。",
+        "gender_female": "女性",
+        "gender_male": "男性",
+        "history_title": "全体履歴",
+        "history_waiting": "選択を待っています...",
+        "history_finish": "<strong>{{brand}}</strong> がロースターを確定しました。",
+        "history_penalty_remove": "ペナルティにより <strong>{{name}} を売却しました</strong>。",
+        "history_penalty_add": "自動獲得: <strong>{{name}}</strong>",
+        "history_round": "ラウンド {{round}}"
+    },
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "align_face": "ベビーフェイス",
+    "align_heel": "ヒール",
+    "style_giant": "ジャイアント",
+    "style_cruiser": "クルーザー",
+    "style_brawler": "ブロウラー",
+    "style_fighter": "ファイター",
+    "style_specialist": "スペシャリスト"
+}

@@ -6,6 +6,7 @@ import { MusicVolumeProvider } from "./context/MusicVolumeContext.jsx";
 import { SfxVolumeProvider } from "./context/SfxVolumeContext";
 import './i18n';
 import './styles/index.css'
+import "./styles/theme.scss";
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(

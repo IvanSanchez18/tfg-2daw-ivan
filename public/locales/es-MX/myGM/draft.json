@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "¡El Draft ha terminado oficialmente!",
+        "button": "Ir a mi Roster y Empezar Temporada"
+    },
+    "swal": {
+        "abandonment_title": "Abandono Detectado",
+        "abandonment_text": "Tus directivos están cerrando automáticamente las negociaciones del Draft en tu ausencia...",
+        "insufficient_funds_title": "Fondos Insuficientes",
+        "insufficient_funds_text": "¡No tienes presupuesto para contratar a esta superestrella!",
+        "adjustment_done_title": "Ajuste Realizado",
+        "adjustment_done_text": "Tu roster se ajustó automáticamente para cumplir con el mínimo de 10 superestrellas.",
+        "error_title": "Error",
+        "adjustment_error_text": "No se pudieron aplicar los cambios en la base de datos.",
+        "cpu_save_error_text": "Hubo un error guardando las selecciones de la CPU.",
+        "incomplete_roster_title": "Roster Incompleto",
+        "incomplete_roster_text": "ATENCIÓN: Tienes menos de 10 luchadores. Si te plantas ahora, el sistema venderá automáticamente a tu superestrella más cara y contratará a las más baratas hasta alcanzar el mínimo de 10. ¿Aceptar?",
+        "confirm_adjustment": "Sí, aplicar ajuste",
+        "cancel": "Cancelar",
+        "finish_draft_title": "¿Finalizar tu Draft?",
+        "finish_draft_text": "¿Seguro que quieres terminar tu draft? Tu roster se cerrará y no podrás seleccionar más superestrellas.",
+        "confirm_finish": "Sí, terminar",
+        "continue_drafting": "Seguir seleccionando"
+    },
+    "draft_filters": {
+        "search_placeholder": "Buscar superestrella...",
+        "filter_alignment": "Bando",
+        "filter_gender": "Género",
+        "filter_style": "Estilo"
+    },
+    "draft_grid": {
+        "pop_label": "Pop:",
+        "sign_wrestler": "Contratar {{cost}}",
+        "out_of_funds": "Sin fondos",
+        "waiting_turn": "Esperando turno..."
+    },
+    "draft_header": {
+        "completed": "Draft Concluido",
+        "round_label": "Ronda {{round}}",
+        "all_brands_finished": "TODAS LAS MARCAS HAN FINALIZADO",
+        "turn_of": "Turno de:",
+        "cpu_thinking": " (Pensando...)",
+        "your_budget": "Tu Presupuesto"
+    },
+    "draft_rules": {
+        "title": "Reglas del Draft de GM",
+        "turns_title": "Dinámica de Turnos:",
+        "turns_desc": "El draft se realiza por rondas con un orden aleatorio. En tu turno, puedes contratar a un luchador. Las marcas rivales (CPU) contratarán automáticamente en sus turnos.",
+        "budget_title": "Gestión de Presupuesto:",
+        "budget_desc": "Cada superestrella tiene un costo basado en su popularidad (POP). Si te acabas tus fondos, no podrás realizar más selecciones. Las marcas rivales también tienen su propio presupuesto.",
+        "end_title": "Fin del Draft:",
+        "end_desc": "Las marcas rivales dejarán de seleccionar y se plantarán aleatoriamente cuando tengan entre 10 y 15 luchadores. Tú puedes presionar \"Plantarse\" cuando creas que tu roster está completo.",
+        "minimum_title": "Mínimo 10 Luchadores:",
+        "minimum_desc": "Debes contratar al menos a 10 superestrellas. Si te plantas sin cumplirlo, el sistema venderá a tu superestrella más cara por las más baratas hasta que alcances el mínimo exigido.",
+        "synergies_title": "Sinergias de Combate:",
+        "synergies_intro": "Para obtener buenas calificaciones, busca estilos opuestos.",
+        "synergies_combos": "Un <strong>{{giant}}</strong> combina excelente con un <strong>{{cruiser}}</strong>. <strong>{{brawler}}</strong> combina con <strong>{{fighter}}</strong>, y <strong>{{specialist}}</strong> contra <strong>{{specialist}}</strong>.",
+        "gender_title": "Luchas por Género:",
+        "gender_desc": "En esta liga <strong>no se permiten combates intergénero</strong>. Asegúrate de contratar suficiente talento de cada división.",
+        "start_button": "Entendido, Empezar Draft"
+    },
+    "draft_scouting": {
+        "title": "Sugerencia de Draft",
+        "suggestion_desc": "Sugerimos buscar un <strong>{{style}}</strong> o talento <strong>{{alignment}}</strong> para equilibrar tu roster."
+    },
+    "draft_sidebar": {
+        "rosters_title": "Rosters ({{count}})",
+        "settle_btn": "Plantarse",
+        "empty_roster": "Esta marca aún no ha firmado a nadie.",
+        "gender_female": "Femenino",
+        "gender_male": "Masculino",
+        "history_title": "Historial Global",
+        "history_waiting": "Esperando selecciones...",
+        "history_finish": "<strong>{{brand}}</strong> cerró su roster.",
+        "history_penalty_remove": "<strong>Vendiste a {{name}}</strong> por penalización.",
+        "history_penalty_add": "Contratación automática: <strong>{{name}}</strong>",
+        "history_round": "Ronda {{round}}"
+    },
+    "gender_male": "Masculino",
+    "gender_female": "Femenino",
+    "align_face": "Técnico",
+    "align_heel": "Rudo",
+    "style_giant": "Gigante",
+    "style_cruiser": "Crucero",
+    "style_brawler": "Fajador",
+    "style_fighter": "Luchador",
+    "style_specialist": "Especialista"
+}
