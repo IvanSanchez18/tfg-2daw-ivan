@@ -16,7 +16,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: '/wrestling_universe/locales/{{lng}}/{{ns}}.json',
+      loadPath: '/tfg-2daw-ivan/locales/{{lng}}/{{ns}}.json',
     },
     detection: {
       order: ['localStorage', 'navigator'],
