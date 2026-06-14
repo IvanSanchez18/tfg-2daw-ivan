@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "返回",
+        "title": "我的花名册",
+        "totalTalent": "选手总数",
+        "weeklyCost": "每周成本"
+    },
+    "controls": {
+        "searchPlaceholder": "搜索超级巨星...",
+        "filters": {
+            "allRoles": "所有角色",
+            "face": "Face (正派)",
+            "heel": "Heel (反派)"
+        },
+        "sort": {
+            "highestPop": "最高人气",
+            "highestSalary": "最高薪水",
+            "lowestMorale": "最低士气 (有风险)",
+            "highestFatigue": "最高疲劳度"
+        }
+    },
+    "grid": {
+        "emptyState": "没有找到符合这些过滤条件的摔角手。"
+    },
+    "card": {
+        "injured": "受伤",
+        "championshipAlt": "冠军头衔",
+        "popularity": "人气",
+        "morale": "士气",
+        "fatigue": "疲劳度",
+        "weeks": "周",
+        "perWeek": "/周",
+        "manage": "管理"
+    },
+    "modal": {
+        "successTitle": "已售出！",
+        "successText": "您已通过出售 {{name}} 收回了 {{amount}}。",
+        "errorTitle": "错误",
+        "errorText": "尝试出售摔角手时出现问题。请检查您的连接或数据库权限。",
+        "title": "管理 {{name}}",
+        "warning": "您确定要出售此摔角手吗？此操作无法撤销。",
+        "salaryRecovered": "收回薪水：{{amount}}",
+        "cancel": "取消",
+        "sell": "出售摔角手",
+        "processing": "处理中..."
+    },
+    "align_face": "正派",
+    "align_heel": "反派",
+    "style_giant": "巨人",
+    "style_cruiser": "轻量级",
+    "style_brawler": "乱斗者",
+    "style_fighter": "格斗家",
+    "style_specialist": "专家"
+}

@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "Indietro",
+        "title": "Logistica dello Show - Settimana {{week}}",
+        "budget": "Budget: ${{budget}}",
+        "projectedCost": " (Costo Proiettato: -${{cost}})"
+    },
+    "sections": {
+        "arena": "Arena",
+        "production": "Produzione",
+        "advertising": "Pubblicità"
+    },
+    "options": {
+        "free": "Gratis",
+        "capacity": "Capienza:",
+        "ratingBonus": "Bonus Valutazione:"
+    },
+    "footer": {
+        "saving": "Salvataggio...",
+        "confirm": "Conferma Logistica",
+        "insufficientBudget": "Non hai abbastanza budget."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "Palestra Locale",
+                "description": "Arena base gratuita. Limite rigoroso di presenze."
+            },
+            "lvl2": {
+                "name": "Centro Civico",
+                "description": "Migliora la capacità di fan guadagnati."
+            },
+            "lvl3": {
+                "name": "Stadio Minore",
+                "description": "Attira un pubblico di tutto rispetto."
+            },
+            "lvl4": {
+                "name": "Grande Arena",
+                "description": "Arena livello PPV. Capacità enorme."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "Indie / Base",
+                "description": "Telecamere fisse, illuminazione standard."
+            },
+            "lvl2": {
+                "name": "Show Televisivo",
+                "description": "Pirotecnica di base e ottime telecamere."
+            },
+            "lvl3": {
+                "name": "Spettacolo Premium",
+                "description": "Pirotecnica avanzata, laser e droni."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "Passaparola",
+                "description": "Promozione organica. Nessun moltiplicatore."
+            },
+            "lvl2": {
+                "name": "Radio Locale e Social",
+                "description": "Aumenta la fidelizzazione e i nuovi fan del 15%."
+            },
+            "lvl3": {
+                "name": "Campagna Nazionale",
+                "description": "Marketing aggressivo. Aumenta i fan del 35%."
+            }
+        }
+    }
+}

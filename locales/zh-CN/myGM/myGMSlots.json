@@ -1,0 +1,21 @@
+{
+    "back_button": "返回",
+    "title": "选择存档",
+    "no_image": "无图片",
+    "week_label": "第 {{week}} 周 / {{max}}",
+    "budget_label": "预算: ${{amount}}",
+    "fans_label": "粉丝: {{count}}",
+    "load_game": "加载游戏",
+    "empty_slot": "空存档位",
+    "empty_slot_desc": "开启通往荣耀的新征程。",
+    "new_game": "新游戏",
+    "gm_selector_title": "选择你的总经理",
+    "no_images_found": "未找到图片。",
+    "cancel": "取消",
+    "swal": {
+        "title": "选择这位总经理吗？",
+        "confirm": "是的，开始",
+        "cancel": "取消",
+        "alt_text": "GM 资料"
+    }
+}

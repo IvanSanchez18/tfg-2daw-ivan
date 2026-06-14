@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "The Draft has officially concluded!",
+        "button": "Go to Roster & Start Season"
+    },
+    "swal": {
+        "abandonment_title": "Abandonment Detected",
+        "abandonment_text": "Your executives are automatically closing the Draft negotiations in your absence...",
+        "insufficient_funds_title": "Insufficient Funds",
+        "insufficient_funds_text": "You do not have enough budget to sign this superstar!",
+        "adjustment_done_title": "Adjustment Completed",
+        "adjustment_done_text": "Your roster has been automatically adjusted to meet the minimum requirement of 10 superstars.",
+        "error_title": "Error",
+        "adjustment_error_text": "Failed to apply adjustments to the database.",
+        "cpu_save_error_text": "There was an error saving the CPU picks.",
+        "incomplete_roster_title": "Incomplete Roster",
+        "incomplete_roster_text": "WARNING: You have fewer than 10 wrestlers. If you stop now, the system will automatically sell your most expensive superstar and draft the cheapest ones until you reach the minimum of 10. Accept?",
+        "confirm_adjustment": "Yes, apply adjustment",
+        "cancel": "Cancel",
+        "finish_draft_title": "Finish Your Draft?",
+        "finish_draft_text": "Are you sure you want to finalize your draft? Your roster will lock and you won't be able to sign more superstars.",
+        "confirm_finish": "Yes, lock it in",
+        "continue_drafting": "Keep drafting"
+    },
+    "draft_filters": {
+        "search_placeholder": "Search superstar...",
+        "filter_alignment": "Alignment",
+        "filter_gender": "Gender",
+        "filter_style": "Style"
+    },
+    "draft_grid": {
+        "pop_label": "Pop:",
+        "sign_wrestler": "Sign {{cost}}",
+        "out_of_funds": "Out of funds",
+        "waiting_turn": "Waiting for turn..."
+    },
+    "draft_header": {
+        "completed": "Draft Completed",
+        "round_label": "Round {{round}}",
+        "all_brands_finished": "ALL BRANDS HAVE FINISHED",
+        "turn_of": "Turn of:",
+        "cpu_thinking": " (Thinking...)",
+        "your_budget": "Your Budget"
+    },
+    "draft_rules": {
+        "title": "GM Draft Rules",
+        "turns_title": "Turn Dynamics:",
+        "turns_desc": "The draft is conducted in rounds with a random order. On your turn, you can draft a wrestler. Rival brands (CPU) will automatically draft on their turns.",
+        "budget_title": "Budget Management:",
+        "budget_desc": "Each superstar has a cost based on their popularity (POP). If you run out of funds, you cannot make any more selections. Rival brands also have their own budget.",
+        "end_title": "End of Draft:",
+        "end_desc": "Rival brands will stop drafting and will randomly settle when they have between 10 and 15 wrestlers. You can click \"Settle\" when you believe your roster is complete.",
+        "minimum_title": "Minimum 10 Wrestlers:",
+        "minimum_desc": "You must draft at least 10 superstars. If you settle without meeting this requirement, the system will sell your most expensive superstar for the cheapest ones until you reach the required minimum.",
+        "synergies_title": "Match Synergies:",
+        "synergies_intro": "To get good ratings, look for opposing styles.",
+        "synergies_combos": "A <strong>{{giant}}</strong> combines excellently with a <strong>{{cruiser}}</strong>. <strong>{{brawler}}</strong> combines with <strong>{{fighter}}</strong>, and <strong>{{specialist}}</strong> against <strong>{{specialist}}</strong>.",
+        "gender_title": "Gender Matches:",
+        "gender_desc": "In this league, <strong>intergender matches are not allowed</strong>. Make sure to draft enough talent from each division.",
+        "start_button": "Understood, Start Draft"
+    },
+    "draft_scouting": {
+        "title": "Draft Suggestion",
+        "suggestion_desc": "We suggest looking for a <strong>{{style}}</strong> or a <strong>{{alignment}}</strong> talent to balance your roster."
+    },
+    "draft_sidebar": {
+        "rosters_title": "Rosters ({{count}})",
+        "settle_btn": "Settle",
+        "empty_roster": "This brand hasn't signed anyone yet.",
+        "gender_female": "Female",
+        "gender_male": "Male",
+        "history_title": "Global History",
+        "history_waiting": "Waiting for picks...",
+        "history_finish": "<strong>{{brand}}</strong> settled their roster.",
+        "history_penalty_remove": "<strong>You sold {{name}}</strong> due to penalty.",
+        "history_penalty_add": "Automatic signing: <strong>{{name}}</strong>",
+        "history_round": "Round {{round}}"
+    },
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Giant",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Specialist"
+}

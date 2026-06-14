@@ -1,0 +1,30 @@
+{
+  "loading": "로딩 중...",
+  "options": "옵션",
+  "back": "←",
+  "language": "언어",
+  "interfaceMode": "인터페이스 모드",
+  "musicVolume": "음악 볼륨",
+  "sfxVolume": "효과음 볼륨",
+  "intergenderFights": "인터젠더 경기",
+  "changeAccount": "계정 변경",
+  "logout": "로그아웃",
+  "adminPanel": "관리 패널",
+  "languages": {
+    "es": "스페인어",
+    "en": "영어",
+    "jp": "일본어",
+    "fr": "프랑스어",
+    "it": "이탈리아어",
+    "pt-BR": "포르투갈어 (BR)",
+    "kr": "한국어",
+    "tr": "터키어",
+    "pl": "폴란드어",
+    "hi": "힌디어",
+    "es-MX": "스페인어 (MX)",
+    "hu": "헝가리어",
+    "id": "인도네시아어",
+    "fil": "필리핀어",
+    "zh-CN": "중국어"
+  }
+}

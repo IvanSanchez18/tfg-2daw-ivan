@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "Opisyal nang tapos ang Draft!",
+        "button": "Pumunta sa Roster at Simulan ang Season"
+    },
+    "swal": {
+        "abandonment_title": "May Pag-iwan na Nadetect",
+        "abandonment_text": "Awtomatikong tinatapos ng pamunuan ang mga negosasyon sa Draft dahil wala ka...",
+        "insufficient_funds_title": "Kulang ang Pondo",
+        "insufficient_funds_text": "Wala kang sapat na badyet para pirmahan ang superstar na ito!",
+        "adjustment_done_title": "Naayos Na",
+        "adjustment_done_text": "Awtomatikong inayos ang iyong roster para umabot sa minimum na 10 superstar.",
+        "error_title": "Error",
+        "adjustment_error_text": "Hindi nailapat ang mga pagbabago sa database.",
+        "cpu_save_error_text": "Nagka-error sa pag-save ng mga pinili ng CPU.",
+        "incomplete_roster_title": "Kulang ang Roster",
+        "incomplete_roster_text": "BABALA: Mayroon kang mas kaunti sa 10 wrestler. Kung hihinto ka ngayon, awtomatikong ibebenta ng system ang pinakamahal mong superstar at kukuha ng pinakamura hanggang maging 10. Tanggapin?",
+        "confirm_adjustment": "Oo, i-adjust",
+        "cancel": "Iansela",
+        "finish_draft_title": "Tapusin ang Iyong Draft?",
+        "finish_draft_text": "Sigurado ka bang gusto mong tapusin ang iyong draft? Isasara na ang iyong roster at hindi ka na makakapili ng iba pang superstar.",
+        "confirm_finish": "Oo, tapusin na",
+        "continue_drafting": "Magpatuloy sa pagpili"
+    },
+    "draft_filters": {
+        "search_placeholder": "Maghanap ng superstar...",
+        "filter_alignment": "Alineasyon",
+        "filter_gender": "Kasarian",
+        "filter_style": "Estilo"
+    },
+    "draft_grid": {
+        "pop_label": "Pop:",
+        "sign_wrestler": "Pirmahan {{cost}}",
+        "out_of_funds": "Walang pondo",
+        "waiting_turn": "Naghihintay ng turn..."
+    },
+    "draft_header": {
+        "completed": "Tapos na ang Draft",
+        "round_label": "Round {{round}}",
+        "all_brands_finished": "TAPOS NA ANG LAHAT NG BRAND",
+        "turn_of": "Tira ng:",
+        "cpu_thinking": " (Nag-iisip...)",
+        "your_budget": "Iyong Budget"
+    },
+    "draft_rules": {
+        "title": "Mga Tuntunin sa GM Draft",
+        "turns_title": "Dinamika ng Turno:",
+        "turns_desc": "Ang draft ay isinasagawa bawat round sa random na pagkakasunod-sunod. Sa iyong turno, maaari kang kumuha ng isang wrestler. Ang mga karibal na brand (CPU) ay awtomatikong kukuha sa kanilang mga turno.",
+        "budget_title": "Pamamahala ng Badyet:",
+        "budget_desc": "Ang bawat superstar ay may halaga batay sa kanilang katanyagan (POP). Kung maubos ang iyong pondo, hindi ka na makakapili pa. May sariling badyet din ang mga karibal na brand.",
+        "end_title": "Katapusan ng Draft:",
+        "end_desc": "Ang mga karibal na brand ay titigil sa pagpili at random na hihinto kapag mayroon na silang 10 hanggang 15 wrestler. Maaari mong pindutin ang \"Huminto\" kapag sa tingin mo ay kumpleto na ang iyong roster.",
+        "minimum_title": "Minimum na 10 Wrestler:",
+        "minimum_desc": "Dapat kang kumuha ng hindi bababa sa 10 superstar. Kung huminto ka nang hindi ito naaabot, ibebenta ng system ang iyong pinakamahal na superstar para sa mga pinakamura hanggang sa maabot ang kinakailangang minimum.",
+        "synergies_title": "Sinerhiya sa Laban:",
+        "synergies_intro": "Upang makakuha ng magagandang marka, maghanap ng magkasalungat na istilo.",
+        "synergies_combos": "Ang isang <strong>{{giant}}</strong> ay mahusay na kapares ng isang <strong>{{cruiser}}</strong>. Ang <strong>{{brawler}}</strong> ay katugma ng <strong>{{fighter}}</strong>, at <strong>{{specialist}}</strong> laban sa <strong>{{specialist}}</strong>.",
+        "gender_title": "Labanan Ayon sa Kasarian:",
+        "gender_desc": "Sa ligang ito, <strong>hindi pinapayagan ang mga labanang intergender</strong>. Siguraduhing kumuha ng sapat na talento mula sa bawat dibisyon.",
+        "start_button": "Naintindihan, Simulan ang Draft"
+    },
+    "draft_scouting": {
+        "title": "Suhestiyon sa Draft",
+        "suggestion_desc": "Iminumungkahi namin na maghanap ng <strong>{{style}}</strong> o <strong>{{alignment}}</strong> na talento para mabalanse ang iyong roster."
+    },
+    "draft_sidebar": {
+        "rosters_title": "Mga Roster ({{count}})",
+        "settle_btn": "Huminto",
+        "empty_roster": "Ang brand na ito ay wala pang kinukuha.",
+        "gender_female": "Babae",
+        "gender_male": "Lalaki",
+        "history_title": "Pangkalahatang Kasaysayan",
+        "history_waiting": "Naghihintay ng mga pagpipilian...",
+        "history_finish": "Isinara na ng <strong>{{brand}}</strong> ang kanilang roster.",
+        "history_penalty_remove": "<strong>Ibinenta mo si {{name}}</strong> dahil sa parusa.",
+        "history_penalty_add": "Awtomatikong pagkuha: <strong>{{name}}</strong>",
+        "history_round": "Round {{round}}"
+    },
+    "gender_male": "Lalaki",
+    "gender_female": "Babae",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Higante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Espesyalista"
+}

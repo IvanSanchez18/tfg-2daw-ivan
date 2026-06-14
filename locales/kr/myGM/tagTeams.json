@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "두 선수를 모두 선택하세요.",
+        "teamNeedsName": "팀 이름이 필요합니다.",
+        "sameDivision": "태그팀은 같은 디비전(성별)이어야 합니다.",
+        "errorCreating": "태그팀 생성 오류"
+    },
+    "picker": {
+        "selectPartner": "파트너 선택",
+        "noFreeTalents": "이 디비전에는 남은 선수가 없습니다."
+    },
+    "creator": {
+        "teamNameLabel": "태그팀 이름",
+        "teamNamePlaceholder": "예: D-Generation X, The Usos...",
+        "member1": "멤버 1",
+        "member2": "멤버 2",
+        "cancel": "취소",
+        "confirmTeam": "팀 확인"
+    },
+    "activeList": {
+        "noTeams": "결성된 팀이 없습니다",
+        "noTeamsDesc": "두 명의 슈퍼스타를 결합하여 태그팀 디비전을 지배하세요.",
+        "disbandTeam": "팀 해체"
+    },
+    "historyList": {
+        "noHistory": "기록 없음",
+        "noHistoryDesc": "아직 해체된 태그팀이 없습니다.",
+        "disbanded": "해체됨"
+    },
+    "management": {
+        "tagTeams": "태그팀",
+        "disbandedTeams": "해체된 팀",
+        "manageAlliances": "동맹 관리:",
+        "legacyBrokenAlliances": "깨진 동맹의 유산",
+        "formTeam": "팀 결성"
+    },
+    "active": "활성",
+    "history": "기록",
+    "back": "뒤로",
+    "align_face": "선역",
+    "align_heel": "악역",
+    "style_giant": "자이언트",
+    "style_cruiser": "크루저",
+    "style_brawler": "브롤러",
+    "style_fighter": "파이터",
+    "style_specialist": "스페셜리스트"
+}

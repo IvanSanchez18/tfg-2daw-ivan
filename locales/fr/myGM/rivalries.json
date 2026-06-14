@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Léger",
+        "moderate": "Modéré",
+        "intense": "Intense",
+        "extreme": "Extrême",
+        "tense": "Tendu"
+    },
+    "alerts": {
+        "selectBothSides": "Sélectionnez les deux côtés.",
+        "cannotFightSelf": "Ils ne peuvent pas se battre contre eux-mêmes !",
+        "sameDivision": "Les rivalités doivent être de la même division (genre).",
+        "errorCreating": "Erreur lors de la création de la rivalité",
+        "errorUpdating": "Erreur lors de la mise à jour de l'intensité"
+    },
+    "picker": {
+        "selectTagTeam": "Sélectionner une Équipe",
+        "selectSuperstar": "Sélectionner une Superstar",
+        "noTeamsAvailable": "Aucune équipe disponible ou compatible.",
+        "noTalentsAvailable": "Aucun talent disponible ou compatible."
+    },
+    "creator": {
+        "mode1v1": "1 C. 1",
+        "modeTagTeam": "Par Équipe",
+        "team1": "Équipe 1",
+        "wrestler1": "Catcheur 1",
+        "team2": "Équipe 2",
+        "wrestler2": "Catcheur 2",
+        "cancel": "Annuler",
+        "startFeud": "Commencer la rivalité"
+    },
+    "activeList": {
+        "noFeuds": "Aucune rivalité active",
+        "noFeudsDesc": "Créez une rivalité pour commencer à susciter l'intérêt.",
+        "tagTeam": "(PAR ÉQUIPE)",
+        "intensity": "Intensité :",
+        "weeksActive": "Semaines actives : {{weeks}}",
+        "endFeud": "Terminer"
+    },
+    "historyList": {
+        "noHistory": "Aucun historique",
+        "noHistoryDesc": "Aucune rivalité n'est encore terminée.",
+        "tagTeam": "(2v2)",
+        "week": "Sem {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "Actives",
+            "history": "Historique"
+        },
+        "titles": {
+            "active": "Rivalités",
+            "history": "Historique des Rivalités"
+        },
+        "desc": {
+            "active": "Contrôlez les intrigues de {{brand}}",
+            "history": "L'héritage de vos grandes intrigues"
+        },
+        "actionButton": "Nouvelle Rivalité"
+    },
+    "active": "Actifs",
+    "history": "Historique",
+    "back": "Retour",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Géant",
+    "style_cruiser": "Voltigeur",
+    "style_brawler": "Bagarreur",
+    "style_fighter": "Combattant",
+    "style_specialist": "Spécialiste"
+}

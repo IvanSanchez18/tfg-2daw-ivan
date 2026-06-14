@@ -1,0 +1,21 @@
+{
+    "back_button": "VOLVER",
+    "title": "SELECCIONA UNA PARTIDA",
+    "no_image": "Sin Imagen",
+    "week_label": "Semana {{week}} / {{max}}",
+    "budget_label": "Presupuesto: ${{amount}}",
+    "fans_label": "Fans: {{count}}",
+    "load_game": "CARGAR PARTIDA",
+    "empty_slot": "Rendija Vacía",
+    "empty_slot_desc": "Inicia un nuevo camino hacia la gloria.",
+    "new_game": "NUEVA PARTIDA",
+    "gm_selector_title": "SELECCIONA TU GENERAL MANAGER",
+    "no_images_found": "No se encontraron imágenes.",
+    "cancel": "CANCELAR",
+    "swal": {
+        "title": "¿Elegir este General Manager?",
+        "confirm": "Sí, empezar",
+        "cancel": "Cancelar",
+        "alt_text": "Perfil GM"
+    }
+}

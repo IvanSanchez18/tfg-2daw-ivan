@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "Kamu",
+        "totalFans": "Total Penggemar",
+        "rating": "Peringkat"
+    },
+    "errors": {
+        "missingSessionId": "ID Sesi tidak ditemukan di URL.",
+        "dbFetchFailed": "Tidak dapat mengambil sesi dari database.",
+        "connectionError": "Kesalahan koneksi saat memuat klasemen."
+    },
+    "loading": "Menghitung klasemen global...",
+    "navigation": {
+        "back": "Kembali",
+        "weekOf": "Minggu ke-{{week}} dari {{maxWeeks}}"
+    },
+    "header": {
+        "title": "Perang Rating",
+        "subtitle": "Klasemen merek saat ini berdasarkan basis penggemar."
+    }
+}

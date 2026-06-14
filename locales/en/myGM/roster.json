@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "Back",
+        "title": "My Roster",
+        "totalTalent": "Total Talent",
+        "weeklyCost": "Weekly Cost"
+    },
+    "controls": {
+        "searchPlaceholder": "Search superstar...",
+        "filters": {
+            "allRoles": "All Roles",
+            "face": "Face (Good Guys)",
+            "heel": "Heel (Bad Guys)"
+        },
+        "sort": {
+            "highestPop": "Highest Popularity",
+            "highestSalary": "Highest Salary",
+            "lowestMorale": "Lowest Morale (At Risk)",
+            "highestFatigue": "Highest Fatigue"
+        }
+    },
+    "grid": {
+        "emptyState": "No wrestlers found with those filters."
+    },
+    "card": {
+        "injured": "Injured",
+        "championshipAlt": "Championship",
+        "popularity": "Popularity",
+        "morale": "Morale",
+        "fatigue": "Fatigue",
+        "weeks": "wks.",
+        "perWeek": "/wk",
+        "manage": "Manage"
+    },
+    "modal": {
+        "successTitle": "Sold!",
+        "successText": "You have recovered {{amount}} from the sale of {{name}}.",
+        "errorTitle": "Error",
+        "errorText": "There was a problem trying to sell the wrestler. Check your connection or database permissions.",
+        "title": "Manage {{name}}",
+        "warning": "Are you sure you want to sell this wrestler? This action cannot be undone.",
+        "salaryRecovered": "Salary recovered: {{amount}}",
+        "cancel": "Cancel",
+        "sell": "Sell Wrestler",
+        "processing": "Processing..."
+    },
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Giant",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Specialist"
+}

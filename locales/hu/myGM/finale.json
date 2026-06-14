@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "TE",
+        "audience": "Közönség",
+        "rating": "Értékelés"
+    },
+    "header": {
+        "title": "SZEZON FINÁLÉ",
+        "subtitle": "Végső eredmények General Manager-ként:"
+    },
+    "stats": {
+        "finalAudience": "Végső Közönség",
+        "averageRating": "Átlagos Értékelés",
+        "remainingBudget": "Hátralévő Költségvetés"
+    },
+    "actions": {
+        "backToMenu": "Vissza a Főmenübe"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "VOCÊ",
+        "audience": "Audiência",
+        "rating": "Avaliação"
+    },
+    "header": {
+        "title": "FINAL DE TEMPORADA",
+        "subtitle": "Resultados finais como General Manager do(a)"
+    },
+    "stats": {
+        "finalAudience": "Audiência Final",
+        "averageRating": "Avaliação Média",
+        "remainingBudget": "Orçamento Restante"
+    },
+    "actions": {
+        "backToMenu": "Voltar ao Menu Principal"
+    }
+}

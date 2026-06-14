@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "Indietro",
+        "title": "Il Mio Roster",
+        "totalTalent": "Talenti Totali",
+        "weeklyCost": "Costo Settimanale"
+    },
+    "controls": {
+        "searchPlaceholder": "Cerca superstar...",
+        "filters": {
+            "allRoles": "Tutti i ruoli",
+            "face": "Face (Buoni)",
+            "heel": "Heel (Cattivi)"
+        },
+        "sort": {
+            "highestPop": "Maggiore Popolarità",
+            "highestSalary": "Maggiore Stipendio",
+            "lowestMorale": "Minore Morale (A rischio)",
+            "highestFatigue": "Maggiore Fatica"
+        }
+    },
+    "grid": {
+        "emptyState": "Nessun wrestler trovato con questi filtri."
+    },
+    "card": {
+        "injured": "Infortunato",
+        "championshipAlt": "Campionato",
+        "popularity": "Popolarità",
+        "morale": "Morale",
+        "fatigue": "Fatica",
+        "weeks": "sett.",
+        "perWeek": "/sett",
+        "manage": "Gestisci"
+    },
+    "modal": {
+        "successTitle": "Venduto!",
+        "successText": "Hai recuperato {{amount}} per la vendita di {{name}}.",
+        "errorTitle": "Errore",
+        "errorText": "Si è verificato un problema durante la vendita del wrestler. Controlla la tua connessione o i permessi del database.",
+        "title": "Gestisci {{name}}",
+        "warning": "Sei sicuro di voler vendere questo wrestler? Questa azione non può essere annullata.",
+        "salaryRecovered": "Stipendio recuperato: {{amount}}",
+        "cancel": "Annulla",
+        "sell": "Vendi Wrestler",
+        "processing": "Elaborazione..."
+    },
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Rissaiolo",
+    "style_fighter": "Lottatore",
+    "style_specialist": "Specialista"
+}

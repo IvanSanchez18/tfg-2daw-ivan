@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "Ikaw",
+        "totalFans": "Kabuuang Fans",
+        "rating": "Rating"
+    },
+    "errors": {
+        "missingSessionId": "Hindi nahanap ang Session ID sa URL.",
+        "dbFetchFailed": "Hindi makuha ang session mula sa database.",
+        "connectionError": "Error sa koneksyon sa pag-load ng mga standing."
+    },
+    "loading": "Kinakalkula ang pandaigdigang standing...",
+    "navigation": {
+        "back": "Bumalik",
+        "weekOf": "Linggo {{week}} ng {{maxWeeks}}"
+    },
+    "header": {
+        "title": "Digmaan ng mga Rating",
+        "subtitle": "Kasalukuyang standing ng brand ayon sa fan base."
+    }
+}

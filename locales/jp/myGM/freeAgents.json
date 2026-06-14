@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "このスーパースターと契約するための予算が足りません！",
+        "errorContract": "契約の処理中にエラーが発生しました。"
+    },
+    "header": {
+        "back": "戻る",
+        "remainingBudget": "残り予算",
+        "title": "フリーエージェント",
+        "subtitle": "{{brand}}を強化するためにタレントと契約します。"
+    },
+    "filters": {
+        "searchPlaceholder": "スーパースターを検索...",
+        "allGenders": "すべての性別",
+        "allAlignments": "すべてのアライメント"
+    },
+    "noAgents": {
+        "title": "利用可能なタレントはいません",
+        "description": "検索フィルターを変更してみてください。"
+    },
+    "buttons": {
+        "signing": "契約中...",
+        "sign": "契約する",
+        "noBudget": "予算不足"
+    },
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "align_face": "ベビーフェイス",
+    "align_heel": "ヒール",
+    "style_giant": "ジャイアント",
+    "style_cruiser": "クルーザー",
+    "style_brawler": "ブロウラー",
+    "style_fighter": "ファイター",
+    "style_specialist": "スペシャリスト"
+}

@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Leve",
+        "moderate": "Moderada",
+        "intense": "Intensa",
+        "extreme": "Extrema",
+        "tense": "Tensa"
+    },
+    "alerts": {
+        "selectBothSides": "Selecione ambos os lados.",
+        "cannotFightSelf": "Eles não podem lutar contra si mesmos!",
+        "sameDivision": "As rivalidades devem ser da mesma divisão (gênero).",
+        "errorCreating": "Erro ao criar a rivalidade",
+        "errorUpdating": "Erro ao atualizar a intensidade"
+    },
+    "picker": {
+        "selectTagTeam": "Selecionar Tag Team",
+        "selectSuperstar": "Selecionar Superstar",
+        "noTeamsAvailable": "Nenhuma equipe disponível ou compatível.",
+        "noTalentsAvailable": "Nenhum talento livre ou compatível."
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "Tag Team",
+        "team1": "Equipe 1",
+        "wrestler1": "Lutador 1",
+        "team2": "Equipe 2",
+        "wrestler2": "Lutador 2",
+        "cancel": "Cancelar",
+        "startFeud": "Iniciar Feudo"
+    },
+    "activeList": {
+        "noFeuds": "Nenhum feudo ativo",
+        "noFeudsDesc": "Crie uma rivalidade para começar a gerar hype.",
+        "tagTeam": "(TAG TEAM)",
+        "intensity": "Intensidade:",
+        "weeksActive": "Semanas ativas: {{weeks}}",
+        "endFeud": "Terminar"
+    },
+    "historyList": {
+        "noHistory": "Sem histórico",
+        "noHistoryDesc": "Nenhuma rivalidade terminou ainda.",
+        "tagTeam": "(2v2)",
+        "week": "Sem {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "Ativas",
+            "history": "Histórico"
+        },
+        "titles": {
+            "active": "Rivalidades",
+            "history": "Histórico de Feudos"
+        },
+        "desc": {
+            "active": "Controle as histórias em {{brand}}",
+            "history": "O legado das suas grandes histórias"
+        },
+        "actionButton": "Nova Rivalidade"
+    },
+    "active": "Ativos",
+    "history": "Histórico",
+    "back": "Voltar",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Lutador",
+    "style_specialist": "Especialista"
+}

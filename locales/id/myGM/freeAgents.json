@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "Anggaran Anda tidak cukup untuk merekrut superstar ini!",
+        "errorContract": "Terjadi kesalahan saat memproses kontrak."
+    },
+    "header": {
+        "back": "Kembali",
+        "remainingBudget": "Sisa Anggaran",
+        "title": "Agen Bebas",
+        "subtitle": "Rekrut bakat untuk memperkuat {{brand}}."
+    },
+    "filters": {
+        "searchPlaceholder": "Cari superstar...",
+        "allGenders": "Semua gender",
+        "allAlignments": "Semua aliansi"
+    },
+    "noAgents": {
+        "title": "Tidak ada bakat yang tersedia",
+        "description": "Coba ubah filter pencarian."
+    },
+    "buttons": {
+        "signing": "Menandatangani...",
+        "sign": "Rekrut",
+        "noBudget": "Tidak Ada Anggaran"
+    },
+    "gender_male": "Pria",
+    "gender_female": "Wanita",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Raksasa",
+    "style_cruiser": "Penjelajah",
+    "style_brawler": "Petarung Bebas",
+    "style_fighter": "Petarung",
+    "style_specialist": "Spesialis"
+}

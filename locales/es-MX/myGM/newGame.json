@@ -1,0 +1,13 @@
+{
+    "back_button": "Volver",
+    "setup_title": "Firma tu Contrato",
+    "setup_subtitle": "Selecciona la franquicia que vas a dirigir esta temporada.",
+    "initial_budget": "Presupuesto Inicial:",
+    "contract_duration": "Duración del Contrato:",
+    "weeks_count": "52 Semanas",
+    "loading_text": "Redactando contrato...",
+    "submit_button": "Firmar e Ir al Draft",
+    "placeholder_text": "Selecciona una marca para revisar las cláusulas del contrato.",
+    "error_login": "Debes iniciar sesión para jugar.",
+    "error_connection": "Error al establecer conexión con las oficinas centrales."
+}

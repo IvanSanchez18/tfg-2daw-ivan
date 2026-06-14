@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/tfg-2daw-ivan/sw.js', { scope: '/tfg-2daw-ivan/' })})}

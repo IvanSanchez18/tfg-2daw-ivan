@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "您没有足够的预算来签约这位超级巨星！",
+        "errorContract": "处理合同时发生错误。"
+    },
+    "header": {
+        "back": "返回",
+        "remainingBudget": "剩余预算",
+        "title": "自由市场",
+        "subtitle": "签约人才以加强 {{brand}}。"
+    },
+    "filters": {
+        "searchPlaceholder": "搜索超级巨星...",
+        "allGenders": "所有性别",
+        "allAlignments": "所有阵营"
+    },
+    "noAgents": {
+        "title": "没有可用的人才",
+        "description": "请尝试更改搜索过滤器。"
+    },
+    "buttons": {
+        "signing": "签约中...",
+        "sign": "签约",
+        "noBudget": "预算不足"
+    },
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "align_face": "正派",
+    "align_heel": "反派",
+    "style_giant": "巨人",
+    "style_cruiser": "轻量级",
+    "style_brawler": "乱斗者",
+    "style_fighter": "格斗家",
+    "style_specialist": "专家"
+}

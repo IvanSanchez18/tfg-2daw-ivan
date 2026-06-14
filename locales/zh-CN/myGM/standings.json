@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "你",
+        "totalFans": "总粉丝数",
+        "rating": "评分"
+    },
+    "errors": {
+        "missingSessionId": "URL 中未找到会话 ID。",
+        "dbFetchFailed": "无法从数据库获取会话。",
+        "connectionError": "加载排名时出现连接错误。"
+    },
+    "loading": "正在计算全球排名...",
+    "navigation": {
+        "back": "返回",
+        "weekOf": "第 {{week}} 周，共 {{maxWeeks}} 周"
+    },
+    "header": {
+        "title": "收视率大战",
+        "subtitle": "按粉丝群划分的当前品牌排名。"
+    }
+}

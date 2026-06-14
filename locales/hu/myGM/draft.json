@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "A Draft hivatalosan véget ért!",
+        "button": "Ugrás a Rosterre és Szezon indítása"
+    },
+    "swal": {
+        "abandonment_title": "Elhagyás észlelve",
+        "abandonment_text": "A vezetőség távollétében automatikusan lezárja a Draft tárgyalásokat...",
+        "insufficient_funds_title": "Fedezethiány",
+        "insufficient_funds_text": "Nincs elég költségvetésed a szupersztár leigazolására!",
+        "adjustment_done_title": "Kiigazítás elvégezve",
+        "adjustment_done_text": "A csapatod automatikusan kiigazításra került, hogy meglegyen a minimum 10 szupersztár.",
+        "error_title": "Hiba",
+        "adjustment_error_text": "Nem sikerült alkalmazni a módosításokat az adatbázisban.",
+        "cpu_save_error_text": "Hiba történt a CPU választásainak mentése során.",
+        "incomplete_roster_title": "Hiányos Csapat",
+        "incomplete_roster_text": "FIGYELEM: Kevesebb mint 10 birkózód van. Ha most megállsz, a rendszer automatikusan eladja a legdrágább szupersztárodat, és leigazolja a legolcsóbbakat a 10-es minimumig. Elfogadod?",
+        "confirm_adjustment": "Igen, kiigazítás",
+        "cancel": "Mégse",
+        "finish_draft_title": "Befejezed a Draftot?",
+        "finish_draft_text": "Biztosan véglegesíted a draftot? A kereted lezárul, és nem igazolhatsz több szupersztárt.",
+        "confirm_finish": "Igen, lezárás",
+        "continue_drafting": "További draftolás"
+    },
+    "draft_filters": {
+        "search_placeholder": "Szupersztár keresése...",
+        "filter_alignment": "Beállítottság",
+        "filter_gender": "Nem",
+        "filter_style": "Stílus"
+    },
+    "draft_grid": {
+        "pop_label": "Nép.:",
+        "sign_wrestler": "Szerződtetés {{cost}}",
+        "out_of_funds": "Nincs keret",
+        "waiting_turn": "Várakozás a körre..."
+    },
+    "draft_header": {
+        "completed": "Draft Lezárva",
+        "round_label": "{{round}}. Kör",
+        "all_brands_finished": "MINDEN MÁRKA BEFEJEZTE",
+        "turn_of": "Soron következik:",
+        "cpu_thinking": " (Gondolkodik...)",
+        "your_budget": "Költségvetésed"
+    },
+    "draft_rules": {
+        "title": "GM Draft Szabályok",
+        "turns_title": "Körök Dinamikája:",
+        "turns_desc": "A draft körökben, véletlenszerű sorrendben zajlik. A saját körödben szerződtethetsz egy birkózót. A rivális márkák (CPU) automatikusan választanak a saját körükben.",
+        "budget_title": "Költségvetés Kezelése:",
+        "budget_desc": "Minden szupersztár ára a népszerűségén (POP) alapul. Ha elfogy a pénzed, nem választhatsz többet. A rivális márkáknak is megvan a saját költségvetésük.",
+        "end_title": "Draft Vége:",
+        "end_desc": "A rivális márkák befejezik a draftolást és véletlenszerűen megállnak, amint 10 és 15 közötti birkózóval rendelkeznek. Te is megnyomhatod a \"Megállás\" gombot, ha úgy gondolod, hogy a csapatod teljes.",
+        "minimum_title": "Minimum 10 Birkózó:",
+        "minimum_desc": "Legalább 10 szupersztárt kell draftolnod. Ha e nélkül állsz meg, a rendszer eladja a legdrágább szupersztárodat a legolcsóbbakért cserébe, amíg el nem éred a kötelező minimumot.",
+        "synergies_title": "Harci Szinergiák:",
+        "synergies_intro": "A jó értékelések eléréséhez keress ellentétes stílusokat.",
+        "synergies_combos": "Egy <strong>{{giant}}</strong> kiválóan passzol egy <strong>{{cruiser}}</strong> birkózóval. A <strong>{{brawler}}</strong> jól működik a <strong>{{fighter}}</strong> stílussal, a <strong>{{specialist}}</strong> pedig <strong>{{specialist}}</strong> ellen a legjobb.",
+        "gender_title": "Nemek Szerinti Mérkőzések:",
+        "gender_desc": "Ebben a ligában <strong>az intergender (vegyes nemű) mérkőzések tilosak</strong>. Ügyelj arra, hogy mindkét divízióból elég tehetséget draftolj.",
+        "start_button": "Értem, Draft Indítása"
+    },
+    "draft_scouting": {
+        "title": "Draft Javaslat",
+        "suggestion_desc": "Javasoljuk, hogy keress egy <strong>{{style}}</strong> vagy <strong>{{alignment}}</strong> tehetséget a csapatod kiegyensúlyozásához."
+    },
+    "draft_sidebar": {
+        "rosters_title": "Csapatok ({{count}})",
+        "settle_btn": "Megállás",
+        "empty_roster": "Ez a márka még senkit sem igazolt.",
+        "gender_female": "Nő",
+        "gender_male": "Férfi",
+        "history_title": "Globális Előzmények",
+        "history_waiting": "Várakozás a választásokra...",
+        "history_finish": "<strong>{{brand}}</strong> lezárta a csapatát.",
+        "history_penalty_remove": "Büntetésből <strong>eladtad {{name}}-t</strong>.",
+        "history_penalty_add": "Automatikus igazolás: <strong>{{name}}</strong>",
+        "history_round": "{{round}}. Kör"
+    },
+    "gender_male": "Férfi",
+    "gender_female": "Nő",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Óriás",
+    "style_cruiser": "Cirkálósúlyú",
+    "style_brawler": "Verekedő",
+    "style_fighter": "Harcos",
+    "style_specialist": "Specialista"
+}

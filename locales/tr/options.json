@@ -1,0 +1,30 @@
+{
+  "loading": "Yükleniyor...",
+  "options": "Seçenekler",
+  "back": "←",
+  "language": "Dil",
+  "interfaceMode": "Arayüz Modu",
+  "musicVolume": "Müzik Sesi",
+  "sfxVolume": "Efekt Sesi",
+  "intergenderFights": "Cinsiyetler Arası Dövüşler",
+  "changeAccount": "Hesabı Değiştir",
+  "logout": "Çıkış Yap",
+  "adminPanel": "Yönetim Paneli",
+  "languages": {
+    "es": "İspanyolca",
+    "en": "İngilizce",
+    "ja": "Japonca",
+    "fr": "Fransızca",
+    "it": "İtalyanca",
+    "pt-BR": "Portekizce (BR)",
+    "kr": "Korece",
+    "tr": "Türkçe",
+    "pl": "Lehçe",
+    "hi": "Hintçe",
+    "es-MX": "İspanyolca (MX)",
+    "hu": "Macarca",
+    "id": "Endonezce",
+    "fil": "Filipince",
+    "zh-CN": "Çince"
+  }
+}

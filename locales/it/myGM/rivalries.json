@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Lieve",
+        "moderate": "Moderata",
+        "intense": "Intensa",
+        "extreme": "Estrema",
+        "tense": "Tesa"
+    },
+    "alerts": {
+        "selectBothSides": "Seleziona entrambe le parti.",
+        "cannotFightSelf": "Non possono combattere contro se stessi!",
+        "sameDivision": "Le rivalità devono appartenere alla stessa divisione (genere).",
+        "errorCreating": "Errore durante la creazione della rivalità",
+        "errorUpdating": "Errore durante l'aggiornamento dell'intensità"
+    },
+    "picker": {
+        "selectTagTeam": "Seleziona Tag Team",
+        "selectSuperstar": "Seleziona Superstar",
+        "noTeamsAvailable": "Nessun team disponibile o compatibile.",
+        "noTalentsAvailable": "Nessun talento libero o compatibile."
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "Tag Team",
+        "team1": "Squadra 1",
+        "wrestler1": "Wrestler 1",
+        "team2": "Squadra 2",
+        "wrestler2": "Wrestler 2",
+        "cancel": "Annulla",
+        "startFeud": "Inizia Faida"
+    },
+    "activeList": {
+        "noFeuds": "Nessuna faida attiva",
+        "noFeudsDesc": "Crea una rivalità per iniziare a creare hype.",
+        "tagTeam": "(TAG TEAM)",
+        "intensity": "Intensità:",
+        "weeksActive": "Settimane attive: {{weeks}}",
+        "endFeud": "Termina"
+    },
+    "historyList": {
+        "noHistory": "Nessuna cronologia",
+        "noHistoryDesc": "Nessuna rivalità è ancora terminata.",
+        "tagTeam": "(2v2)",
+        "week": "Sett {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "Attive",
+            "history": "Cronologia"
+        },
+        "titles": {
+            "active": "Rivalità",
+            "history": "Cronologia Faide"
+        },
+        "desc": {
+            "active": "Controlla le storyline a {{brand}}",
+            "history": "L'eredità delle tue grandi storie"
+        },
+        "actionButton": "Nuova Rivalità"
+    },
+    "active": "Attivi",
+    "history": "Cronologia",
+    "back": "Indietro",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Rissaiolo",
+    "style_fighter": "Lottatore",
+    "style_specialist": "Specialista"
+}

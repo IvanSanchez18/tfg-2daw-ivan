@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "选秀已正式结束！",
+        "button": "前往我的阵容并开启赛季"
+    },
+    "swal": {
+        "abandonment_title": "检测到玩家离开",
+        "abandonment_text": "管理层正在代替你自动关闭选秀谈判...",
+        "insufficient_funds_title": "资金不足",
+        "insufficient_funds_text": "你没有足够的预算来签约这位超级巨星！",
+        "adjustment_done_title": "调整已完成",
+        "adjustment_done_text": "你的阵容已自动进行调整，以满足至少10名超级巨星的最低要求。",
+        "error_title": "错误",
+        "adjustment_error_text": "无法在数据库中应用调整。",
+        "cpu_save_error_text": "保存CPU选择时出错。",
+        "incomplete_roster_title": "阵容人数不足",
+        "incomplete_roster_text": "注意：你的摔角手不足10人。如果现在放弃，系统将自动出售你最贵的巨星，并补签最便宜的选手直到满10人。是否接受？",
+        "confirm_adjustment": "是的，应用调整",
+        "cancel": "取消",
+        "finish_draft_title": "结束你的选秀？",
+        "finish_draft_text": "确定要最终锁定选秀结果吗？你的阵容将关闭，之后将无法签约更多超级巨星。",
+        "confirm_finish": "是的，锁定阵容",
+        "continue_drafting": "继续选秀"
+    },
+    "draft_filters": {
+        "search_placeholder": "搜索超级巨星...",
+        "filter_alignment": "阵营",
+        "filter_gender": "性别",
+        "filter_style": "风格"
+    },
+    "draft_grid": {
+        "pop_label": "人气：",
+        "sign_wrestler": "签约 {{cost}}",
+        "out_of_funds": "资金不足",
+        "waiting_turn": "等待回合..."
+    },
+    "draft_header": {
+        "completed": "选秀完成",
+        "round_label": "第 {{round}} 轮",
+        "all_brands_finished": "所有品牌已结束",
+        "turn_of": "轮到：",
+        "cpu_thinking": " (思考中...)",
+        "your_budget": "你的预算"
+    },
+    "draft_rules": {
+        "title": "GM选秀规则",
+        "turns_title": "回合机制:",
+        "turns_desc": "选秀按轮次随机顺序进行。在你的回合中，你可以签下一名选手。对手品牌（CPU）将在其回合自动进行选择。",
+        "budget_title": "预算管理:",
+        "budget_desc": "每位超级巨星都有基于其人气（POP）的身价。如果资金耗尽，你将无法再进行选择。对手品牌也有各自的预算。",
+        "end_title": "选秀结束:",
+        "end_desc": "对手品牌在拥有10到15名选手时将随机停止并结束选秀。当你认为自己的阵容完整时，可以点击“结束选秀”。",
+        "minimum_title": "最少10名选手:",
+        "minimum_desc": "你必须至少签下10名超级巨星。如果在未达到要求时强制结束，系统会自动用你最贵的超级巨星去兑换多名最便宜的选手，直到达到最低人数要求。",
+        "synergies_title": "对战契合度（打法相克）:",
+        "synergies_intro": "为了获得高评分，请寻找对立的打法风格。",
+        "synergies_combos": "<strong>{{giant}}</strong>与<strong>{{cruiser}}</strong>是绝佳组合。<strong>{{brawler}}</strong>适合对战<strong>{{fighter}}</strong>，而<strong>{{specialist}}</strong>则对抗<strong>{{specialist}}</strong>。",
+        "gender_title": "性别限制:",
+        "gender_desc": "在本联赛中<strong>严禁进行男女混战（跨性别对战）</strong>。请务必在每个组别中都选入足够的选手。",
+        "start_button": "明白，开始选秀"
+    },
+    "draft_scouting": {
+        "title": "选秀建议",
+        "suggestion_desc": "我们建议寻找一名<strong>{{style}}</strong>或<strong>{{alignment}}</strong>类型的选手来平衡你的阵容。"
+    },
+    "draft_sidebar": {
+        "rosters_title": "阵容 ({{count}})",
+        "settle_btn": "结束选秀",
+        "empty_roster": "该品牌尚未签下任何人。",
+        "gender_female": "女性",
+        "gender_male": "男性",
+        "history_title": "全局记录",
+        "history_waiting": "等待选择...",
+        "history_finish": "<strong>{{brand}}</strong>已锁定其阵容。",
+        "history_penalty_remove": "由于违规，<strong>你已出售{{name}}</strong>。",
+        "history_penalty_add": "自动签入: <strong>{{name}}</strong>",
+        "history_round": "第 {{round}} 轮"
+    },
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "align_face": "正派",
+    "align_heel": "反派",
+    "style_giant": "巨人",
+    "style_cruiser": "轻量级",
+    "style_brawler": "乱斗者",
+    "style_fighter": "格斗家",
+    "style_specialist": "专家"
+}

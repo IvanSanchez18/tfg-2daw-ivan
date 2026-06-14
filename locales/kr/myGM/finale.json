@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "본인",
+        "audience": "시청자",
+        "rating": "평점"
+    },
+    "header": {
+        "title": "시즌 피날레",
+        "subtitle": "제너럴 매니저로서의 최종 결과:"
+    },
+    "stats": {
+        "finalAudience": "최종 시청자 수",
+        "averageRating": "평균 평점",
+        "remainingBudget": "남은 예산"
+    },
+    "actions": {
+        "backToMenu": "메인 메뉴로 돌아가기"
+    }
+}

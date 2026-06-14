@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "Veuillez sélectionner les deux talents.",
+        "teamNeedsName": "L'équipe doit avoir un nom.",
+        "sameDivision": "Les tag teams doivent être de la même division (genre).",
+        "errorCreating": "Erreur lors de la création du Tag Team"
+    },
+    "picker": {
+        "selectPartner": "Sélectionner un partenaire",
+        "noFreeTalents": "Il n'y a aucun talent libre dans cette division."
+    },
+    "creator": {
+        "teamNameLabel": "Nom du Tag Team",
+        "teamNamePlaceholder": "Ex : D-Generation X, The Usos...",
+        "member1": "Membre 1",
+        "member2": "Membre 2",
+        "cancel": "Annuler",
+        "confirmTeam": "Confirmer l'équipe"
+    },
+    "activeList": {
+        "noTeams": "Aucune équipe formée",
+        "noTeamsDesc": "Associez deux superstars pour dominer la division par équipe.",
+        "disbandTeam": "Dissoudre l'équipe"
+    },
+    "historyList": {
+        "noHistory": "Aucun historique",
+        "noHistoryDesc": "Aucun Tag Team n'a encore été dissous.",
+        "disbanded": "Dissous"
+    },
+    "management": {
+        "tagTeams": "Tag Teams",
+        "disbandedTeams": "Équipes dissoutes",
+        "manageAlliances": "Gérez les alliances dans",
+        "legacyBrokenAlliances": "L'héritage des alliances brisées",
+        "formTeam": "Former une équipe"
+    },
+    "active": "Actifs",
+    "history": "Historique",
+    "back": "Retour",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Géant",
+    "style_cruiser": "Voltigeur",
+    "style_brawler": "Bagarreur",
+    "style_fighter": "Combattant",
+    "style_specialist": "Spécialiste"
+}

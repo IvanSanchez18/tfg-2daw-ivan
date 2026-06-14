@@ -1,0 +1,21 @@
+{
+    "back_button": "BUMALIK",
+    "title": "PUMILI NG LARO",
+    "no_image": "Walang Larawan",
+    "week_label": "Linggo {{week}} / {{max}}",
+    "budget_label": "Badyet: ${{amount}}",
+    "fans_label": "Mga Fan: {{count}}",
+    "load_game": "I-LOAD ANG LARO",
+    "empty_slot": "Bakanteng Slot",
+    "empty_slot_desc": "Simulan ang bagong landas patungo sa kaluwalhatian.",
+    "new_game": "BAGONG LARO",
+    "gm_selector_title": "PILIHIN ANG IYONG GENERAL MANAGER",
+    "no_images_found": "Walang nahanap na mga larawan.",
+    "cancel": "IKANSELA",
+    "swal": {
+        "title": "Piliin ang General Manager na ito?",
+        "confirm": "Oo, simulan na",
+        "cancel": "Ikansela",
+        "alt_text": "GM Profile"
+    }
+}

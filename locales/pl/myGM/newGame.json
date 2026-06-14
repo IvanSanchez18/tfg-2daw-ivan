@@ -1,0 +1,13 @@
+{
+    "back_button": "Powrót",
+    "setup_title": "Podpisz Kontrakt",
+    "setup_subtitle": "Wybierz franczyzę, którą będziesz kierować w tym sezonie.",
+    "initial_budget": "Budżet Początkowy:",
+    "contract_duration": "Czas trwania kontraktu:",
+    "weeks_count": "52 Tygodnie",
+    "loading_text": "Sporządzanie kontraktu...",
+    "submit_button": "Podpisz i przejdź do Draftu",
+    "placeholder_text": "Wybierz markę, aby przejrzeć klauzule kontraktu.",
+    "error_login": "Musisz się zalogować, aby grać.",
+    "error_connection": "Błąd podczas nawiązywania połączenia z centralą."
+}

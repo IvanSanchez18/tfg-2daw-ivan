@@ -1,0 +1,30 @@
+{
+  "loading": "Betöltés...",
+  "options": "Beállítások",
+  "back": "←",
+  "language": "Nyelv",
+  "interfaceMode": "Felület Mód",
+  "musicVolume": "Zene Hangereje",
+  "sfxVolume": "Effektek Hangereje",
+  "intergenderFights": "Intergender Harcok",
+  "changeAccount": "Fiók Módosítása",
+  "logout": "Kijelentkezés",
+  "adminPanel": "Adminisztrációs panel",
+  "languages": {
+    "es": "Spanyol",
+    "en": "Angol",
+    "jp": "Japán",
+    "fr": "Francia",
+    "it": "Olasz",
+    "pt-BR": "Portugál (BR)",
+    "kr": "Koreai",
+    "tr": "Török",
+    "pl": "Lengyel",
+    "hi": "Hindi",
+    "es-MX": "Spanyol (MX)",
+    "hu": "Magyar",
+    "id": "Indonéz",
+    "fil": "Filippínó",
+    "zh-CN": "Kínai"
+  }
+}

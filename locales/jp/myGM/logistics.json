@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "戻る",
+        "title": "ショーのロジスティクス - 第{{week}}週",
+        "budget": "予算: ${{budget}}",
+        "projectedCost": "（予想コスト: -${{cost}}）"
+    },
+    "sections": {
+        "arena": "アリーナ",
+        "production": "演出・制作",
+        "advertising": "宣伝・広告"
+    },
+    "options": {
+        "free": "無料",
+        "capacity": "収容人数:",
+        "ratingBonus": "評価ボーナス:"
+    },
+    "footer": {
+        "saving": "保存中...",
+        "confirm": "ロジスティクスを確定",
+        "insufficientBudget": "予算が不足しています。"
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "ローカルジム",
+                "description": "コストなしの基本アリーナ。動員数に厳格な制限あり。"
+            },
+            "lvl2": {
+                "name": "市民センター",
+                "description": "獲得ファンの収容能力を向上。"
+            },
+            "lvl3": {
+                "name": "マイナースタジアム",
+                "description": "かなりの観衆を引き付ける。"
+            },
+            "lvl4": {
+                "name": "グランドアリーナ",
+                "description": "PPVレベルのアリーナ。大規模な収容人数。"
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "インディー / ベーシック",
+                "description": "固定カメラ、標準的な照明。"
+            },
+            "lvl2": {
+                "name": "TVショー",
+                "description": "基本的なパイロテクニクスと優れたカメラ。"
+            },
+            "lvl3": {
+                "name": "プレミアムスペクタクル",
+                "description": "高度なパイロテクニクス、レーザー、ドローン。"
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "口コミ",
+                "description": "オーガニックなプロモーション。倍率なし。"
+            },
+            "lvl2": {
+                "name": "ローカルラジオとSNS",
+                "description": "ファンの定着率と獲得率が15%増加。"
+            },
+            "lvl3": {
+                "name": "全国キャンペーン",
+                "description": "積極的なマーケティング。ファンが35%増加。"
+            }
+        }
+    }
+}

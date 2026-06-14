@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "Lütfen her iki yeteneği de seçin.",
+        "teamNeedsName": "Takımın bir adı olmalıdır.",
+        "sameDivision": "Tag takımları aynı klasmandan (cinsiyet) olmalıdır.",
+        "errorCreating": "Tag Team oluşturulurken hata oluştu"
+    },
+    "picker": {
+        "selectPartner": "Partner Seç",
+        "noFreeTalents": "Bu klasmanda boşta yetenek yok."
+    },
+    "creator": {
+        "teamNameLabel": "Tag Team Adı",
+        "teamNamePlaceholder": "Örn: D-Generation X, The Usos...",
+        "member1": "Üye 1",
+        "member2": "Üye 2",
+        "cancel": "İptal",
+        "confirmTeam": "Takımı Onayla"
+    },
+    "activeList": {
+        "noTeams": "Oluşturulmuş takım yok",
+        "noTeamsDesc": "Tag team klasmanını domine etmek için iki süperstarı birleştirin.",
+        "disbandTeam": "Takımı dağıt"
+    },
+    "historyList": {
+        "noHistory": "Geçmiş yok",
+        "noHistoryDesc": "Henüz hiçbir Tag Team dağıtılmadı.",
+        "disbanded": "Dağıtıldı"
+    },
+    "management": {
+        "tagTeams": "Tag Teams",
+        "disbandedTeams": "Dağıtılan Takımlar",
+        "manageAlliances": "İttifakları yönet:",
+        "legacyBrokenAlliances": "Bozulan ittifakların mirası",
+        "formTeam": "Takım Oluştur"
+    },
+    "active": "Aktif",
+    "history": "Geçmiş",
+    "back": "Geri",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Dev",
+    "style_cruiser": "Yarı Ağır Sıklet",
+    "style_brawler": "Kavgacı",
+    "style_fighter": "Dövüşçü",
+    "style_specialist": "Uzman"
+}

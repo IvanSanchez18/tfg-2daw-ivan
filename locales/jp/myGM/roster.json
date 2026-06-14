@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "戻る",
+        "title": "マイロースター",
+        "totalTalent": "総所属選手",
+        "weeklyCost": "週間コスト"
+    },
+    "controls": {
+        "searchPlaceholder": "スーパースターを検索...",
+        "filters": {
+            "allRoles": "すべての役割",
+            "face": "ベビーフェイス (善玉)",
+            "heel": "ヒール (悪役)"
+        },
+        "sort": {
+            "highestPop": "人気順 (高)",
+            "highestSalary": "給与順 (高)",
+            "lowestMorale": "士気順 (低・リスク有)",
+            "highestFatigue": "疲労度順 (高)"
+        }
+    },
+    "grid": {
+        "emptyState": "条件に一致するレスラーは見つかりませんでした。"
+    },
+    "card": {
+        "injured": "負傷中",
+        "championshipAlt": "チャンピオンシップ",
+        "popularity": "人気",
+        "morale": "士気",
+        "fatigue": "疲労度",
+        "weeks": "週",
+        "perWeek": "/週",
+        "manage": "管理"
+    },
+    "modal": {
+        "successTitle": "売却完了！",
+        "successText": "{{name}}の売却により{{amount}}を回収しました。",
+        "errorTitle": "エラー",
+        "errorText": "レスラーの売却中に問題が発生しました。接続またはデータベースの権限を確認してください。",
+        "title": "{{name}}の管理",
+        "warning": "このレスラーを本当に売却しますか？この操作は取り消せません。",
+        "salaryRecovered": "回収された給与: {{amount}}",
+        "cancel": "キャンセル",
+        "sell": "レスラーを売却",
+        "processing": "処理中..."
+    },
+    "align_face": "ベビーフェイス",
+    "align_heel": "ヒール",
+    "style_giant": "ジャイアント",
+    "style_cruiser": "クルーザー",
+    "style_brawler": "ブロウラー",
+    "style_fighter": "ファイター",
+    "style_specialist": "スペシャリスト"
+}

@@ -1,0 +1,30 @@
+{
+  "loading": "Memuat...",
+  "options": "Opsi",
+  "back": "←",
+  "language": "Bahasa",
+  "interfaceMode": "Mode Antarmuka",
+  "musicVolume": "Volume Musik",
+  "sfxVolume": "Volume Efek",
+  "intergenderFights": "Pertarungan Antar Gender",
+  "changeAccount": "Ganti Akun",
+  "logout": "Keluar",
+  "adminPanel": "Panel Admin",
+  "languages": {
+    "es": "Spanyol",
+    "en": "Inggris",
+    "jp": "Jepang",
+    "fr": "Perancis",
+    "it": "Italia",
+    "pt-BR": "Portugis (BR)",
+    "kr": "Korea",
+    "tr": "Turki",
+    "pl": "Polandia",
+    "hi": "Hindi",
+    "es-MX": "Spanyol (MX)",
+    "hu": "Hungaria",
+    "id": "Indonesia",
+    "fil": "Filipina",
+    "zh-CN": "Cina"
+  }
+}

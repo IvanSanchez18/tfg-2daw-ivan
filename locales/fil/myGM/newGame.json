@@ -1,0 +1,13 @@
+{
+    "back_button": "Bumalik",
+    "setup_title": "Pirmahan ang Iyong Kontrata",
+    "setup_subtitle": "Piliin ang franchise na pamumunuan mo ngayong season.",
+    "initial_budget": "Paunang Badyet:",
+    "contract_duration": "Tagal ng Kontrata:",
+    "weeks_count": "52 Linggo",
+    "loading_text": "Binabalangkas ang kontrata...",
+    "submit_button": "Pirmahan at Pumunta sa Draft",
+    "placeholder_text": "Pumili ng brand para suriin ang mga sugnay ng kontrata.",
+    "error_login": "Kailangang mag-log in para makapaglaro.",
+    "error_connection": "Error sa pagtatatag ng koneksyon sa mga head office."
+}

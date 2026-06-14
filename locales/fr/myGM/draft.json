@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "Le Draft est officiellement terminé !",
+        "button": "Aller au Roster et lancer la saison"
+    },
+    "swal": {
+        "abandonment_title": "Abandon Détecté",
+        "abandonment_text": "Vos dirigeants finalisent automatiquement les négociations du Draft en votre absence...",
+        "insufficient_funds_title": "Fonds Insuffisants",
+        "insufficient_funds_text": "Vous n'avez pas le budget nécessaire pour signer cette superstar !",
+        "adjustment_done_title": "Ajustement Effectué",
+        "adjustment_done_text": "Votre effectif a été automatiquement ajusté pour atteindre le minimum de 10 superstars.",
+        "error_title": "Erreur",
+        "adjustment_error_text": "Impossible d'appliquer les ajustements dans la base de données.",
+        "cpu_save_error_text": "Une erreur est survenue lors de la sauvegarde des choix de l'IA.",
+        "incomplete_roster_title": "Effectif Incomplet",
+        "incomplete_roster_text": "ATTENTION : Vous avez moins de 10 catcheurs. Si vous vous arrêtez là, le système vendra automatiquement votre superstar la plus chère et signera les moins chères jusqu'à atteindre 10. Accepter ?",
+        "confirm_adjustment": "Oui, ajuster",
+        "cancel": "Annuler",
+        "finish_draft_title": "Terminer votre Draft ?",
+        "finish_draft_text": "Voulez-vous vraiment finaliser votre draft ? Votre effectif sera verrouillé et vous ne pourrez plus signer de superstars.",
+        "confirm_finish": "Oui, terminer",
+        "continue_drafting": "Continuer le draft"
+    },
+    "draft_filters": {
+        "search_placeholder": "Rechercher une superstar...",
+        "filter_alignment": "Alignement",
+        "filter_gender": "Genre",
+        "filter_style": "Style"
+    },
+    "draft_grid": {
+        "pop_label": "Pop :",
+        "sign_wrestler": "Signer {{cost}}",
+        "out_of_funds": "Sans fonds",
+        "waiting_turn": "En attente du tour..."
+    },
+    "draft_header": {
+        "completed": "Draft Terminé",
+        "round_label": "Round {{round}}",
+        "all_brands_finished": "TOUTES LES MARQUES ONT TERMINÉ",
+        "turn_of": "Tour de :",
+        "cpu_thinking": " (Réflexion...)",
+        "your_budget": "Votre Budget"
+    },
+    "draft_rules": {
+        "title": "Règles du Draft GM",
+        "turns_title": "Dynamique des Tours :",
+        "turns_desc": "Le draft se déroule par rounds avec un ordre aléatoire. À votre tour, vous pouvez recruter un catcheur. Les marques rivales (CPU) recruteront automatiquement lors de leurs tours.",
+        "budget_title": "Gestion du Budget :",
+        "budget_desc": "Chaque superstar a un coût basé sur sa popularité (POP). Si vous épuisez vos fonds, vous ne pourrez plus faire de sélections. Les marques rivales ont également leur propre budget.",
+        "end_title": "Fin du Draft :",
+        "end_desc": "Les marques rivales cesseront de recruter et s'arrêteront aléatoirement lorsqu'elles auront entre 10 et 15 catcheurs. Vous pouvez cliquer sur \"S'arrêter\" lorsque vous estimez que votre effectif est complet.",
+        "minimum_title": "Minimum 10 Catcheurs :",
+        "minimum_desc": "Vous devez recruter au moins 10 superstars. Si vous vous arrêtez sans remplir cette condition, le système vendra votre superstar la plus chère pour acquérir les moins chères jusqu'à atteindre le minimum requis.",
+        "synergies_title": "Synergies de Combat :",
+        "synergies_intro": "Pour obtenir de bonnes notes, recherchez des styles opposés.",
+        "synergies_combos": "Un <strong>{{giant}}</strong> se combine d'une excellente manière avec un <strong>{{cruiser}}</strong>. Un <strong>{{brawler}}</strong> se combine avec un <strong>{{fighter}}</strong>, et un <strong>{{specialist}}</strong> contre un <strong>{{specialist}}</strong>.",
+        "gender_title": "Combats par Genre :",
+        "gender_desc": "Dans cette ligue, les <strong>combats intergenres ne sont pas autorisés</strong>. Veillez à recruter suffisamment de talents dans chaque division.",
+        "start_button": "Compris, Commencer le Draft"
+    },
+    "draft_scouting": {
+        "title": "Suggestion de Draft",
+        "suggestion_desc": "Nous suggérons de chercher un talent <strong>{{style}}</strong> ou <strong>{{alignment}}</strong> pour équilibrer votre effectif."
+    },
+    "draft_sidebar": {
+        "rosters_title": "Effectifs ({{count}})",
+        "settle_btn": "S'arrêter",
+        "empty_roster": "Cette marque n'a encore recruté personne.",
+        "gender_female": "Féminin",
+        "gender_male": "Masculin",
+        "history_title": "Historique Global",
+        "history_waiting": "En attente des sélections...",
+        "history_finish": "<strong>{{brand}}</strong> a clôturé son effectif.",
+        "history_penalty_remove": "<strong>Vous avez vendu {{name}}</strong> pour pénalité.",
+        "history_penalty_add": "Recrutement automatique : <strong>{{name}}</strong>",
+        "history_round": "Round {{round}}"
+    },
+    "gender_male": "Masculin",
+    "gender_female": "Féminin",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Géant",
+    "style_cruiser": "Voltigeur",
+    "style_brawler": "Bagarreur",
+    "style_fighter": "Combattant",
+    "style_specialist": "Spécialiste"
+}

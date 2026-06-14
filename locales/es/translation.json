@@ -1,0 +1,12 @@
+{
+    "loading": "Cargando...",
+    "options": "Opciones",
+    "back": "←",
+    "language": "Idioma",
+    "interfaceMode": "Modo de interfaz",
+    "musicVolume": "Volumen Música",
+    "sfxVolume": "Volumen Efectos",
+    "intergenderFights": "Luchas Intergénero",
+    "changeAccount": "Cambiar Cuenta",
+    "logout": "Cerrar Sesión"
+}

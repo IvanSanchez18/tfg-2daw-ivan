@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "You",
+        "totalFans": "Total Fans",
+        "rating": "Rating"
+    },
+    "errors": {
+        "missingSessionId": "Session ID not found in the URL.",
+        "dbFetchFailed": "Could not fetch the session from the database.",
+        "connectionError": "Connection error while loading the standings."
+    },
+    "loading": "Calculating global standings...",
+    "navigation": {
+        "back": "Back",
+        "weekOf": "Week {{week}} of {{maxWeeks}}"
+    },
+    "header": {
+        "title": "Ratings War",
+        "subtitle": "Current brand standings by fan base."
+    }
+}

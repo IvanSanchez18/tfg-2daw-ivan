@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "Volver",
+        "title": "Logística del Show - Semana {{week}}",
+        "budget": "Presupuesto: ${{budget}}",
+        "projectedCost": " (Coste Proyectado: -${{cost}})"
+    },
+    "sections": {
+        "arena": "Arena",
+        "production": "Producción",
+        "advertising": "Publicidad"
+    },
+    "options": {
+        "free": "Gratis",
+        "capacity": "Aforo:",
+        "ratingBonus": "Bono Rating:"
+    },
+    "footer": {
+        "saving": "Guardando...",
+        "confirm": "Confirmar Logística",
+        "insufficientBudget": "No tienes suficiente presupuesto."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "Gimnasio Local",
+                "description": "Arena básica sin coste. Límite estricto de asistencia."
+            },
+            "lvl2": {
+                "name": "Centro Cívico",
+                "description": "Mejora la capacidad de fans ganados."
+            },
+            "lvl3": {
+                "name": "Estadio Menor",
+                "description": "Atrae a multitudes respetables."
+            },
+            "lvl4": {
+                "name": "Gran Arena",
+                "description": "Arena de nivel PPV. Capacidad masiva."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "Indie / Básica",
+                "description": "Cámaras fijas, iluminación estándar."
+            },
+            "lvl2": {
+                "name": "Show Televisivo",
+                "description": "Pirotecnia básica y buenas cámaras."
+            },
+            "lvl3": {
+                "name": "Espectáculo Premium",
+                "description": "Pirotecnia avanzada, lásers y drones."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "Boca a Boca",
+                "description": "Promoción orgánica. Sin multiplicador."
+            },
+            "lvl2": {
+                "name": "Redes y Radio Local",
+                "description": "Aumenta la retención y ganancia de fans un 15%."
+            },
+            "lvl3": {
+                "name": "Campaña Nacional",
+                "description": "Marketing agresivo. Aumenta fans un 35%."
+            }
+        }
+    }
+}

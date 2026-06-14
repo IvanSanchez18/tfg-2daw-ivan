@@ -1,0 +1,21 @@
+{
+    "back_button": "POWRÓT",
+    "title": "WYBIERZ GRĘ",
+    "no_image": "Brak obrazu",
+    "week_label": "Tydzień {{week}} / {{max}}",
+    "budget_label": "Budżet: ${{amount}}",
+    "fans_label": "Fani: {{count}}",
+    "load_game": "WCZYTAJ GRĘ",
+    "empty_slot": "Puste miejsce",
+    "empty_slot_desc": "Rozpocznij nową drogę do chwały.",
+    "new_game": "NOWA GRA",
+    "gm_selector_title": "WYBIERZ SWOJEGO GENERAL MANAGERA",
+    "no_images_found": "Nie znaleziono obrazów.",
+    "cancel": "ANULUJ",
+    "swal": {
+        "title": "Wybierasz tego General Managera?",
+        "confirm": "Tak, zacznij",
+        "cancel": "Anuluj",
+        "alt_text": "Profil GM"
+    }
+}

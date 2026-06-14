@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "Wróć",
+        "title": "Logistyka Gali - Tydzień {{week}}",
+        "budget": "Budżet: ${{budget}}",
+        "projectedCost": " (Koszt Szacowany: -${{cost}})"
+    },
+    "sections": {
+        "arena": "Arena",
+        "production": "Produkcja",
+        "advertising": "Reklama"
+    },
+    "options": {
+        "free": "Darmowe",
+        "capacity": "Pojemność:",
+        "ratingBonus": "Bonus do Oceny:"
+    },
+    "footer": {
+        "saving": "Zapisywanie...",
+        "confirm": "Potwierdź Logistykę",
+        "insufficientBudget": "Nie masz wystarczającego budżetu."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "Lokalna Sala",
+                "description": "Darmowa arena podstawowa. Ścisły limit frekwencji."
+            },
+            "lvl2": {
+                "name": "Centrum Obywatelskie",
+                "description": "Poprawia maksymalną liczbę zdobytych fanów."
+            },
+            "lvl3": {
+                "name": "Mały Stadion",
+                "description": "Przyciąga przyzwoitą publiczność."
+            },
+            "lvl4": {
+                "name": "Wielka Arena",
+                "description": "Arena poziomu PPV. Ogromna pojemność."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "Indie / Podstawowa",
+                "description": "Stałe kamery, standardowe oświetlenie."
+            },
+            "lvl2": {
+                "name": "Show TV",
+                "description": "Podstawowa pirotechnika i dobre kamery."
+            },
+            "lvl3": {
+                "name": "Spektakl Premium",
+                "description": "Zaawansowana pirotechnika, lasery i drony."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "Poczta Pantoflowa",
+                "description": "Organiczna promocja. Brak mnożnika."
+            },
+            "lvl2": {
+                "name": "Lokalne Radio i Social Media",
+                "description": "Zwiększa utrzymanie i zyski fanów o 15%."
+            },
+            "lvl3": {
+                "name": "Kampania Narodowa",
+                "description": "Agresywny marketing. Zwiększa liczbę fanów o 35%."
+            }
+        }
+    }
+}

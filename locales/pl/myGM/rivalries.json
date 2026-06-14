@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Lekka",
+        "moderate": "Umiarkowana",
+        "intense": "Intensywna",
+        "extreme": "Ekstremalna",
+        "tense": "Napięta"
+    },
+    "alerts": {
+        "selectBothSides": "Wybierz obie strony.",
+        "cannotFightSelf": "Nie mogą walczyć sami ze sobą!",
+        "sameDivision": "Rywalizacje muszą dotyczyć tej samej dywizji (płci).",
+        "errorCreating": "Błąd podczas tworzenia rywalizacji",
+        "errorUpdating": "Błąd podczas aktualizacji intensywności"
+    },
+    "picker": {
+        "selectTagTeam": "Wybierz Tag Team",
+        "selectSuperstar": "Wybierz Supergwiazdę",
+        "noTeamsAvailable": "Brak dostępnych lub pasujących drużyn.",
+        "noTalentsAvailable": "Brak wolnych lub pasujących zawodników."
+    },
+    "creator": {
+        "mode1v1": "1 NA 1",
+        "modeTagTeam": "Tag Team",
+        "team1": "Drużyna 1",
+        "wrestler1": "Wrestler 1",
+        "team2": "Drużyna 2",
+        "wrestler2": "Wrestler 2",
+        "cancel": "Anuluj",
+        "startFeud": "Rozpocznij Feud"
+    },
+    "activeList": {
+        "noFeuds": "Brak aktywnych feudów",
+        "noFeudsDesc": "Stwórz rywalizację, aby zacząć budować hype.",
+        "tagTeam": "(TAG TEAM)",
+        "intensity": "Intensywność:",
+        "weeksActive": "Aktywne tygodnie: {{weeks}}",
+        "endFeud": "Zakończ"
+    },
+    "historyList": {
+        "noHistory": "Brak historii",
+        "noHistoryDesc": "Żadna rywalizacja jeszcze się nie zakończyła.",
+        "tagTeam": "(2v2)",
+        "week": "Tydz {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "Aktywne",
+            "history": "Historia"
+        },
+        "titles": {
+            "active": "Rywalizacje",
+            "history": "Historia Feudów"
+        },
+        "desc": {
+            "active": "Kontroluj historie w {{brand}}",
+            "history": "Dziedzictwo twoich wielkich historii"
+        },
+        "actionButton": "Nowa Rywalizacja"
+    },
+    "active": "Aktywne",
+    "history": "Historia",
+    "back": "Powrót",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigant",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Specjalista"
+}

@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "轻度",
+        "moderate": "中度",
+        "intense": "激烈",
+        "extreme": "极限",
+        "tense": "紧张"
+    },
+    "alerts": {
+        "selectBothSides": "请选择双方。",
+        "cannotFightSelf": "他们不能和自己打！",
+        "sameDivision": "宿敌必须来自同一组别（性别）。",
+        "errorCreating": "创建宿敌时出错",
+        "errorUpdating": "更新激烈程度时出错"
+    },
+    "picker": {
+        "selectTagTeam": "选择双打团队",
+        "selectSuperstar": "选择超级巨星",
+        "noTeamsAvailable": "没有可用或匹配的团队。",
+        "noTalentsAvailable": "没有可用或匹配的选手。"
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "双打团队",
+        "team1": "队伍 1",
+        "wrestler1": "摔角手 1",
+        "team2": "队伍 2",
+        "wrestler2": "摔角手 2",
+        "cancel": "取消",
+        "startFeud": "开始剧情"
+    },
+    "activeList": {
+        "noFeuds": "没有活跃的宿敌",
+        "noFeudsDesc": "创建宿敌来开始制造热度。",
+        "tagTeam": "(双打团队)",
+        "intensity": "激烈程度:",
+        "weeksActive": "活跃周数: {{weeks}}",
+        "endFeud": "结束"
+    },
+    "historyList": {
+        "noHistory": "没有历史记录",
+        "noHistoryDesc": "还没有结束的宿敌。",
+        "tagTeam": "(2v2)",
+        "week": "第 {{week}} 周"
+    },
+    "management": {
+        "tabs": {
+            "active": "活跃",
+            "history": "历史"
+        },
+        "titles": {
+            "active": "宿敌",
+            "history": "宿敌历史"
+        },
+        "desc": {
+            "active": "掌控 {{brand}} 的故事情节",
+            "history": "你的伟大故事的传奇"
+        },
+        "actionButton": "新宿敌"
+    },
+    "active": "活动",
+    "history": "历史记录",
+    "back": "返回",
+    "align_face": "正派",
+    "align_heel": "反派",
+    "style_giant": "巨人",
+    "style_cruiser": "轻量级",
+    "style_brawler": "乱斗者",
+    "style_fighter": "格斗家",
+    "style_specialist": "专家"
+}

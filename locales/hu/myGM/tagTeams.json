@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "Kérjük, válassza ki mindkét tehetséget.",
+        "teamNeedsName": "A csapatnak nevet kell adni.",
+        "sameDivision": "A tag teameknek azonos divízióból (nemből) kell származniuk.",
+        "errorCreating": "Hiba a Tag Team létrehozásakor"
+    },
+    "picker": {
+        "selectPartner": "Partner kiválasztása",
+        "noFreeTalents": "Nincsenek szabad tehetségek ebben a divízióban."
+    },
+    "creator": {
+        "teamNameLabel": "Tag Team neve",
+        "teamNamePlaceholder": "Pl: D-Generation X, The Usos...",
+        "member1": "1. tag",
+        "member2": "2. tag",
+        "cancel": "Mégse",
+        "confirmTeam": "Csapat megerősítése"
+    },
+    "activeList": {
+        "noTeams": "Nincsenek megalakult csapatok",
+        "noTeamsDesc": "Párosíts össze két szupersztárt, hogy uralják a páros divíziót.",
+        "disbandTeam": "Csapat feloszlatása"
+    },
+    "historyList": {
+        "noHistory": "Nincs előzmény",
+        "noHistoryDesc": "Még egyetlen Tag Teamet sem oszlattak fel.",
+        "disbanded": "Feloszlatva"
+    },
+    "management": {
+        "tagTeams": "Tag Teamek",
+        "disbandedTeams": "Feloszlatott csapatok",
+        "manageAlliances": "Szövetségek kezelése itt:",
+        "legacyBrokenAlliances": "A megtört szövetségek öröksége",
+        "formTeam": "Csapat alapítása"
+    },
+    "active": "Aktív",
+    "history": "Előzmények",
+    "back": "Vissza",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Óriás",
+    "style_cruiser": "Cirkálósúlyú",
+    "style_brawler": "Verekedő",
+    "style_fighter": "Harcos",
+    "style_specialist": "Specialista"
+}

@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "Te",
+        "totalFans": "Összes Rajongó",
+        "rating": "Értékelés"
+    },
+    "errors": {
+        "missingSessionId": "Nem található a munkamenet ID az URL-ben.",
+        "dbFetchFailed": "Nem sikerült lekérni a munkamenetet az adatbázisból.",
+        "connectionError": "Csatlakozási hiba a ranglista betöltésekor."
+    },
+    "loading": "Globális ranglista kiszámítása...",
+    "navigation": {
+        "back": "Vissza",
+        "weekOf": "{{week}}. hét a(z) {{maxWeeks}} hétből"
+    },
+    "header": {
+        "title": "Értékelési Háború",
+        "subtitle": "Jelenlegi márkarangsor a rajongótábor alapján."
+    }
+}

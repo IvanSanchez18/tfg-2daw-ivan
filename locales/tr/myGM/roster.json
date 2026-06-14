@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "Geri",
+        "title": "Kadro",
+        "totalTalent": "Toplam Yetenek",
+        "weeklyCost": "Haftalık Maliyet"
+    },
+    "controls": {
+        "searchPlaceholder": "Süperstar ara...",
+        "filters": {
+            "allRoles": "Tüm Roller",
+            "face": "Face (İyiler)",
+            "heel": "Heel (Kötüler)"
+        },
+        "sort": {
+            "highestPop": "En Yüksek Popülerlik",
+            "highestSalary": "En Yüksek Maaş",
+            "lowestMorale": "En Düşük Moral (Riskli)",
+            "highestFatigue": "En Yüksek Yorgunluk"
+        }
+    },
+    "grid": {
+        "emptyState": "Bu filtrelere uygun güreşçi bulunamadı."
+    },
+    "card": {
+        "injured": "Sakat",
+        "championshipAlt": "Şampiyonluk",
+        "popularity": "Popülerlik",
+        "morale": "Moral",
+        "fatigue": "Yorgunluk",
+        "weeks": "hf.",
+        "perWeek": "/hf",
+        "manage": "Yönet"
+    },
+    "modal": {
+        "successTitle": "Satıldı!",
+        "successText": "{{name}} adlı güreşçinin satışından {{amount}} geri kazandınız.",
+        "errorTitle": "Hata",
+        "errorText": "Güreşçiyi satmaya çalışırken bir sorun oluştu. Bağlantınızı veya veritabanı izinlerini kontrol edin.",
+        "title": "{{name}} Yönetimi",
+        "warning": "Bu güreşçiyi satmak istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+        "salaryRecovered": "Geri kazanılan maaş: {{amount}}",
+        "cancel": "İptal",
+        "sell": "Güreşçiyi Sat",
+        "processing": "İşleniyor..."
+    },
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Dev",
+    "style_cruiser": "Yarı Ağır Sıklet",
+    "style_brawler": "Kavgacı",
+    "style_fighter": "Dövüşçü",
+    "style_specialist": "Uzman"
+}

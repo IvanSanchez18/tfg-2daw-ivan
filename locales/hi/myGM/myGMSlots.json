@@ -1,0 +1,21 @@
+{
+    "back_button": "वापस जाएं",
+    "title": "एक गेम चुनें",
+    "no_image": "कोई छवि नहीं",
+    "week_label": "सप्ताह {{week}} / {{max}}",
+    "budget_label": "बजट: ${{amount}}",
+    "fans_label": "प्रशंसक: {{count}}",
+    "load_game": "गेम लोड करें",
+    "empty_slot": "खाली स्लॉट",
+    "empty_slot_desc": "महिमा की ओर एक नया रास्ता शुरू करें।",
+    "new_game": "नया गेम",
+    "gm_selector_title": "अपना जनरल मैनेजर चुनें",
+    "no_images_found": "कोई चित्र नहीं मिला।",
+    "cancel": "रद्द करें",
+    "swal": {
+        "title": "क्या इस जनरल मैनेजर को चुनना है?",
+        "confirm": "हाँ, शुरू करें",
+        "cancel": "रद्द करें",
+        "alt_text": "जीएम प्रोफाइल"
+    }
+}

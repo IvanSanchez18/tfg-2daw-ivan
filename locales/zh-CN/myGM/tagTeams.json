@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "请选择两位选手。",
+        "teamNeedsName": "队伍必须有一个名字。",
+        "sameDivision": "双打队伍必须来自同一组别（性别）。",
+        "errorCreating": "创建双打队伍时出错"
+    },
+    "picker": {
+        "selectPartner": "选择搭档",
+        "noFreeTalents": "此组别中没有空闲的选手。"
+    },
+    "creator": {
+        "teamNameLabel": "双打队伍名称",
+        "teamNamePlaceholder": "例如：D-Generation X, The Usos...",
+        "member1": "成员 1",
+        "member2": "成员 2",
+        "cancel": "取消",
+        "confirmTeam": "确认队伍"
+    },
+    "activeList": {
+        "noTeams": "尚未组建队伍",
+        "noTeamsDesc": "将两位超级巨星组合在一起，统治双打组别。",
+        "disbandTeam": "解散队伍"
+    },
+    "historyList": {
+        "noHistory": "暂无历史",
+        "noHistoryDesc": "尚未解散任何双打队伍。",
+        "disbanded": "已解散"
+    },
+    "management": {
+        "tagTeams": "双打队伍",
+        "disbandedTeams": "已解散队伍",
+        "manageAlliances": "管理联盟：",
+        "legacyBrokenAlliances": "破裂联盟的遗产",
+        "formTeam": "组建队伍"
+    },
+    "active": "活动",
+    "history": "历史记录",
+    "back": "返回",
+    "align_face": "正派",
+    "align_heel": "反派",
+    "style_giant": "巨人",
+    "style_cruiser": "轻量级",
+    "style_brawler": "乱斗者",
+    "style_fighter": "格斗家",
+    "style_specialist": "专家"
+}

@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "당신",
+        "totalFans": "총 팬",
+        "rating": "평점"
+    },
+    "errors": {
+        "missingSessionId": "URL에서 세션 ID를 찾을 수 없습니다.",
+        "dbFetchFailed": "데이터베이스에서 세션을 가져올 수 없습니다.",
+        "connectionError": "순위표를 불러오는 중 연결 오류가 발생했습니다."
+    },
+    "loading": "글로벌 순위 계산 중...",
+    "navigation": {
+        "back": "뒤로",
+        "weekOf": "{{maxWeeks}}주 중 {{week}}주차"
+    },
+    "header": {
+        "title": "시청률 전쟁",
+        "subtitle": "팬층 기준 현재 브랜드 순위."
+    }
+}

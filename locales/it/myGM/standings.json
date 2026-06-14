@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "Tu",
+        "totalFans": "Fan Totali",
+        "rating": "Valutazione"
+    },
+    "errors": {
+        "missingSessionId": "ID sessione non trovato nell'URL.",
+        "dbFetchFailed": "Impossibile recuperare la sessione dal database.",
+        "connectionError": "Errore di connessione durante il caricamento della classifica."
+    },
+    "loading": "Calcolo della classifica globale...",
+    "navigation": {
+        "back": "Indietro",
+        "weekOf": "Settimana {{week}} di {{maxWeeks}}"
+    },
+    "header": {
+        "title": "Guerra degli Ascolti",
+        "subtitle": "Classifica attuale dei marchi per base di fan."
+    }
+}

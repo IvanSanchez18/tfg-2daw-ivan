@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "Bu süperstarla sözleşme imzalamak için yeterli bütçen yok!",
+        "errorContract": "Sözleşme işlenirken bir hata oluştu."
+    },
+    "header": {
+        "back": "Geri",
+        "remainingBudget": "Kalan Bütçe",
+        "title": "Serbest Oyuncular",
+        "subtitle": "{{brand}} markasını güçlendirmek için yeteneklerle sözleşme imzala."
+    },
+    "filters": {
+        "searchPlaceholder": "Süperstar ara...",
+        "allGenders": "Tüm cinsiyetler",
+        "allAlignments": "Tüm eğilimler"
+    },
+    "noAgents": {
+        "title": "Müsait yetenek yok",
+        "description": "Arama filtrelerini değiştirmeyi dene."
+    },
+    "buttons": {
+        "signing": "İmzalanıyor...",
+        "sign": "İmzala",
+        "noBudget": "Bütçe Yok"
+    },
+    "gender_male": "Erkek",
+    "gender_female": "Kadın",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Dev",
+    "style_cruiser": "Yarı Ağır Sıklet",
+    "style_brawler": "Kavgacı",
+    "style_fighter": "Dövüşçü",
+    "style_specialist": "Uzman"
+}

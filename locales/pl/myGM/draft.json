@@ -1,0 +1,88 @@
+{
+    "finished_banner": {
+        "title": "Draft został oficjalnie zakończony!",
+        "button": "Przejdź do rosteru i rozpocznij sezon"
+    },
+    "swal": {
+        "abandonment_title": "Wykryto Opuszczenie",
+        "abandonment_text": "Zarząd automatycznie zamyka negocjacje Draftu pod Twoją nieobecność...",
+        "insufficient_funds_title": "Niewystarczające Środki",
+        "insufficient_funds_text": "Nie masz wystarczającego budżetu, aby zakontraktować tę supergwiazdę!",
+        "adjustment_done_title": "Wprowadzono Korektę",
+        "adjustment_done_text": "Twój roster został automatycznie dopasowany, aby spełnić minimum 10 supergwiazd.",
+        "error_title": "Błąd",
+        "adjustment_error_text": "Nie udało się zapisać korekty w bazie danych.",
+        "cpu_save_error_text": "Wystąpił błąd podczas zapisywania wyborów CPU.",
+        "incomplete_roster_title": "Niekompletny Roster",
+        "incomplete_roster_text": "UWAGA: Masz mniej niż 10 zawodników. Jeśli skończysz teraz, system automatycznie sprzeda Twoją najdroższą supergwiazdę i kupi najtańsze, aż osiągniesz minimum 10. Akceptujesz?",
+        "confirm_adjustment": "Tak, skoryguj",
+        "cancel": "Anuluj",
+        "finish_draft_title": "Zakończyć Draft?",
+        "finish_draft_text": "Czy na pewno chcesz sfinalizować draft? Twój roster zostanie zablokowany i nie będziesz mógł dobrać więcej zawodników.",
+        "confirm_finish": "Tak, zatwierdź",
+        "continue_drafting": "Dalej wybieraj"
+    },
+    "draft_filters": {
+        "search_placeholder": "Szukaj gwiazdy...",
+        "filter_alignment": "Nastawienie",
+        "filter_gender": "Płeć",
+        "filter_style": "Styl"
+    },
+    "draft_grid": {
+        "pop_label": "Pop:",
+        "sign_wrestler": "Kontrakt {{cost}}",
+        "out_of_funds": "Brak środków",
+        "waiting_turn": "Oczekiwanie na turę..."
+    },
+    "draft_header": {
+        "completed": "Draft Zakończony",
+        "round_label": "Runda {{round}}",
+        "all_brands_finished": "WSZYSTKIE BRANDY ZAKOŃCZYŁY",
+        "turn_of": "Kolej na:",
+        "cpu_thinking": " (Myśli...)",
+        "your_budget": "Twój Budżet"
+    },
+    "draft_rules": {
+        "title": "Zasady Draftu GM",
+        "turns_title": "Dynamika Tur:",
+        "turns_desc": "Draft odbywa się w rundach w losowej kolejności. W swojej turze możesz zakontraktować jednego zawodnika. Rywalizujące brandy (CPU) będą wybierać automatycznie w swoich turach.",
+        "budget_title": "Zarządzanie Budżetem:",
+        "budget_desc": "Każda gwiazda ma koszt oparty na jej popularności (POP). Jeśli skończą Ci się fundusze, nie będziesz mógł dokonywać kolejnych wyborów. Rywalizujące brandy również mają własny budżet.",
+        "end_title": "Koniec Draftu:",
+        "end_desc": "Rywalizujące brandy przestaną wybierać i zakończą draft losowo, gdy będą mieć od 10 do 15 zawodników. Możesz kliknąć \"Zakończ\", gdy uznasz, że Twój skład jest kompletny.",
+        "minimum_title": "Minimum 10 Zawodników:",
+        "minimum_desc": "Musisz zakontraktować co najmniej 10 gwiazd. Jeśli zakończysz draft bez spełnienia tego warunku, system sprzeda Twoją najdroższą gwiazdę w zamian za najtańsze, aż osiągniesz wymagane minimum.",
+        "synergies_title": "Synergie Walki:",
+        "synergies_intro": "Aby uzyskać wysokie oceny, szukaj przeciwstawnych stylów.",
+        "synergies_combos": "<strong>{{giant}}</strong> doskonale współgra z <strong>{{cruiser}}</strong>. <strong>{{brawler}}</strong> pasuje do <strong>{{fighter}}</strong>, a <strong>{{specialist}}</strong> najlepiej walczy przeciwko <strong>{{specialist}}</strong>.",
+        "gender_title": "Walki według Płci:",
+        "gender_desc": "W tej lidze <strong>walki międzybiciowe (intergender) są zabronione</strong>. Upewnij się, że zakontraktujesz wystarczającą liczbę zawodników z każdej dywizji.",
+        "start_button": "Rozumiem, Rozpocznij Draft"
+    },
+    "draft_scouting": {
+        "title": "Sugestia Draftu",
+        "suggestion_desc": "Sugerujemy poszukać talentu <strong>{{style}}</strong> lub <strong>{{alignment}}</strong>, aby zbalansować Twój skład."
+    },
+    "draft_sidebar": {
+        "rosters_title": "Składy ({{count}})",
+        "settle_btn": "Zakończ",
+        "empty_roster": "Ten brand nikogo jeszcze nie zakontraktował.",
+        "gender_female": "Kobieta",
+        "gender_male": "Mężczyzna",
+        "history_title": "Historia Globalna",
+        "history_waiting": "Oczekiwanie na wybory...",
+        "history_finish": "<strong>{{brand}}</strong> zamknął swój skład.",
+        "history_penalty_remove": "<strong>Sprzedałeś {{name}}</strong> z powodu kary.",
+        "history_penalty_add": "Automatyczny kontrakt: <strong>{{name}}</strong>",
+        "history_round": "Runda {{round}}"
+    },
+    "gender_male": "Mężczyzna",
+    "gender_female": "Kobieta",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigant",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Specjalista"
+}

@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "Nincs elég költségvetésed, hogy leszerződtesd ezt a szupersztárt!",
+        "errorContract": "Hiba történt a szerződés feldolgozása során."
+    },
+    "header": {
+        "back": "Vissza",
+        "remainingBudget": "Hátralévő költségvetés",
+        "title": "Szabadügynökök",
+        "subtitle": "Szerződtess tehetségeket a(z) {{brand}} erősítéséhez."
+    },
+    "filters": {
+        "searchPlaceholder": "Szupersztár keresése...",
+        "allGenders": "Minden nem",
+        "allAlignments": "Bármilyen beállítottság"
+    },
+    "noAgents": {
+        "title": "Nincs elérhető tehetség",
+        "description": "Próbáld megváltoztatni a keresési szűrőket."
+    },
+    "buttons": {
+        "signing": "Szerződtetés...",
+        "sign": "Szerződés",
+        "noBudget": "Nincs költségvetés"
+    },
+    "gender_male": "Férfi",
+    "gender_female": "Nő",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Óriás",
+    "style_cruiser": "Cirkálósúlyú",
+    "style_brawler": "Verekedő",
+    "style_fighter": "Harcos",
+    "style_specialist": "Specialista"
+}

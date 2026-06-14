@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "你",
+        "audience": "观众",
+        "rating": "评分"
+    },
+    "header": {
+        "title": "赛季总结",
+        "subtitle": "作为总经理的最终结果："
+    },
+    "stats": {
+        "finalAudience": "最终观众人数",
+        "averageRating": "平均评分",
+        "remainingBudget": "剩余预算"
+    },
+    "actions": {
+        "backToMenu": "返回主菜单"
+    }
+}

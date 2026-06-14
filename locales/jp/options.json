@@ -1,0 +1,30 @@
+{
+  "loading": "読み込み中...",
+  "options": "オプション",
+  "back": "←",
+  "language": "言語",
+  "interfaceMode": "インターフェースモード",
+  "musicVolume": "音楽の音量",
+  "sfxVolume": "効果音の音量",
+  "intergenderFights": "インターゲンダーファイト",
+  "changeAccount": "アカウントを変更",
+  "logout": "ログアウト",
+  "adminPanel": "管理パネル",
+  "languages": {
+    "es": "スペイン語",
+    "en": "英語",
+    "jp": "日本語",
+    "fr": "フランス語",
+    "it": "イタリア語",
+    "pt-BR": "ポルトガル語（BR）",
+    "kr": "韓国語",
+    "tr": "トルコ語",
+    "pl": "ポーランド語",
+    "hi": "ヒンディー語",
+    "es-MX": "スペイン語（MX）",
+    "hu": "ハンガリー語",
+    "id": "インドネシア語",
+    "fil": "フィリピン語",
+    "zh-CN": "中国語"
+  }
+}

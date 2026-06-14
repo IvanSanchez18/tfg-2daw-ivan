@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "返回",
+        "title": "节目后勤 - 第 {{week}} 周",
+        "budget": "预算: ${{budget}}",
+        "projectedCost": " (预计成本: -${{cost}})"
+    },
+    "sections": {
+        "arena": "场馆",
+        "production": "制作",
+        "advertising": "广告"
+    },
+    "options": {
+        "free": "免费",
+        "capacity": "容纳人数:",
+        "ratingBonus": "评分加成:"
+    },
+    "footer": {
+        "saving": "正在保存...",
+        "confirm": "确认后勤配置",
+        "insufficientBudget": "预算不足。"
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "当地体育馆",
+                "description": "免费基础场馆。严格的入场人数限制。"
+            },
+            "lvl2": {
+                "name": "市民中心",
+                "description": "提高可获取粉丝的容量。"
+            },
+            "lvl3": {
+                "name": "小型体育场",
+                "description": "吸引可观的观众人群。"
+            },
+            "lvl4": {
+                "name": "宏伟竞技场",
+                "description": "PPV 级别的场馆。超大容量。"
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "独立 / 基础",
+                "description": "固定摄像头，标准照明。"
+            },
+            "lvl2": {
+                "name": "电视节目",
+                "description": "基础烟火效果和优质摄像头。"
+            },
+            "lvl3": {
+                "name": "高级视觉盛宴",
+                "description": "高级烟火效果、激光和无人机。"
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "口碑相传",
+                "description": "自然推广。无加成系数。"
+            },
+            "lvl2": {
+                "name": "当地广播与社交媒体",
+                "description": "将粉丝保留率和获取率提高 15%。"
+            },
+            "lvl3": {
+                "name": "全国宣传活动",
+                "description": "激进的营销手段。粉丝增加 35%。"
+            }
+        }
+    }
+}

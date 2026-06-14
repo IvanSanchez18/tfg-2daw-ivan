@@ -1,0 +1,30 @@
+{
+  "loading": "Loading...",
+  "options": "Options",
+  "back": "←",
+  "language": "Language",
+  "interfaceMode": "Interface Mode",
+  "musicVolume": "Music Volume",
+  "sfxVolume": "SFX Volume",
+  "intergenderFights": "Intergender Fights",
+  "changeAccount": "Change Account",
+  "logout": "Logout",
+  "adminPanel": "Admin Panel",
+  "languages": {
+    "es": "Spanish",
+    "en": "English",
+    "jp": "Japanese",
+    "fr": "French",
+    "it": "Italian",
+    "pt-BR": "Portuguese (BR)",
+    "kr": "Korean",
+    "tr": "Turkish",
+    "pl": "Polish",
+    "hi": "Hindi",
+    "es-MX": "Spanish (MX)",
+    "hu": "Hungarian",
+    "id": "Indonesian",
+    "fil": "Filipino",
+    "zh-CN": "Chinese"
+  }
+}

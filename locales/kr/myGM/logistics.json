@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "돌아가기",
+        "title": "쇼 물류 구성 - {{week}}주차",
+        "budget": "예산: ${{budget}}",
+        "projectedCost": " (예상 비용: -${{cost}})"
+    },
+    "sections": {
+        "arena": "경기장",
+        "production": "프로덕션",
+        "advertising": "광고"
+    },
+    "options": {
+        "free": "무료",
+        "capacity": "수용 인원:",
+        "ratingBonus": "레이팅 보너스:"
+    },
+    "footer": {
+        "saving": "저장 중...",
+        "confirm": "물류 확정",
+        "insufficientBudget": "예산이 부족합니다."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "지역 체육관",
+                "description": "무료 기본 경기장. 엄격한 관중 수 제한."
+            },
+            "lvl2": {
+                "name": "시민 센터",
+                "description": "획득 가능한 팬 수용력을 높입니다."
+            },
+            "lvl3": {
+                "name": "소규모 경기장",
+                "description": "준수한 관중을 끌어모읍니다."
+            },
+            "lvl4": {
+                "name": "그랜드 아레나",
+                "description": "PPV급 경기장. 엄청난 수용 인원."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "인디 / 베이직",
+                "description": "고정 카메라, 표준 조명."
+            },
+            "lvl2": {
+                "name": "TV 쇼",
+                "description": "기본적인 폭죽 및 좋은 카메라."
+            },
+            "lvl3": {
+                "name": "프리미엄 스펙터클",
+                "description": "고급 폭죽, 레이저 및 드론."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "입소문",
+                "description": "자연스러운 홍보. 배율 없음."
+            },
+            "lvl2": {
+                "name": "지역 라디오 및 SNS",
+                "description": "팬 유지 및 증가율이 15% 상승합니다."
+            },
+            "lvl3": {
+                "name": "전국 캠페인",
+                "description": "공격적인 마케팅. 팬 35% 증가."
+            }
+        }
+    }
+}

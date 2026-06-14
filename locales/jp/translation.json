@@ -1,0 +1,12 @@
+{
+    "loading": "読み込み中...",
+    "options": "オプション",
+    "back": "←",
+    "language": "言語",
+    "interfaceMode": "インターフェースモード",
+    "musicVolume": "音楽の音量",
+    "sfxVolume": "効果音の音量",
+    "intergenderFights": "インターゲンダーファイト",
+    "changeAccount": "アカウントを変更",
+    "logout": "ログアウト"
+}

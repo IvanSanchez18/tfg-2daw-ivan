@@ -1,0 +1,30 @@
+{
+  "loading": "Naglo-load...",
+  "options": "Mga Opsyon",
+  "back": "←",
+  "language": "Wika",
+  "interfaceMode": "Mode ng Interface",
+  "musicVolume": "Dami ng Musika",
+  "sfxVolume": "Dami ng Epekto",
+  "intergenderFights": "Intergender Fights",
+  "changeAccount": "Palitan ang Account",
+  "logout": "Mag-logout",
+  "adminPanel": "Admin Panel",
+  "languages": {
+    "es": "Espanyol",
+    "en": "Ingles",
+    "jp": "Hapones",
+    "fr": "Pranses",
+    "it": "Italyano",
+    "pt-BR": "Portuges (BR)",
+    "kr": "Koreano",
+    "tr": "Turko",
+    "pl": "Polako",
+    "hi": "Hindi",
+    "es-MX": "Espanyol (MX)",
+    "hu": "Hungaro",
+    "id": "Indonesyo",
+    "fil": "Filipino",
+    "zh-CN": "Intsik"
+  }
+}
