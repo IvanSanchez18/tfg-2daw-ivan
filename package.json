@@ -7,10 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --repo https://github.com/IvanSanchez18/tfg-2daw-ivan.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
