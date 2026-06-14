@@ -314,6 +314,16 @@
             margin: 0 2rem 2rem 2rem;
             height: auto;
             min-height: 50vh;
+
+            .stat-row {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.4rem;
+
+                strong {
+                    font-size: 1.4rem !important;
+                }
+            }
         }
     }
 }

@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "Selecciona a ambos talentos.",
+        "teamNeedsName": "El equipo debe tener un nombre.",
+        "sameDivision": "Los tag teams deben ser de la misma división (género).",
+        "errorCreating": "Error al crear el Tag Team"
+    },
+    "picker": {
+        "selectPartner": "Seleccionar Compañero",
+        "noFreeTalents": "No hay talentos libres en esta división."
+    },
+    "creator": {
+        "teamNameLabel": "Nombre del Tag Team",
+        "teamNamePlaceholder": "Ej: D-Generation X, The Usos...",
+        "member1": "Miembro 1",
+        "member2": "Miembro 2",
+        "cancel": "Cancelar",
+        "confirmTeam": "Confirmar Equipo"
+    },
+    "activeList": {
+        "noTeams": "No hay equipos formados",
+        "noTeamsDesc": "Une a dos superestrellas para dominar la división de parejas.",
+        "disbandTeam": "Desarmar equipo"
+    },
+    "historyList": {
+        "noHistory": "Sin historial",
+        "noHistoryDesc": "Aún no se ha desarmado ningún Tag Team.",
+        "disbanded": "Disuelto"
+    },
+    "management": {
+        "tagTeams": "Tag Teams",
+        "disbandedTeams": "Equipos Disueltos",
+        "manageAlliances": "Gestiona las alianzas en",
+        "legacyBrokenAlliances": "El legado de las alianzas rotas",
+        "formTeam": "Formar Equipo"
+    },
+    "active": "Activos",
+    "history": "Historial",
+    "back": "Regresar",
+    "align_face": "Técnico",
+    "align_heel": "Rudo",
+    "style_giant": "Gigante",
+    "style_cruiser": "Crucero",
+    "style_brawler": "Fajador",
+    "style_fighter": "Luchador",
+    "style_specialist": "Especialista"
+}

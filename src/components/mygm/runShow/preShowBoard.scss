@@ -1,0 +1,142 @@
+.pre-show-board {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  flex: 1;
+
+  .board-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--text-soft);
+    margin-bottom: 2rem;
+    letter-spacing: 4px;
+  }
+
+  .segments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 4rem;
+
+    .segment-card-pre {
+      background: var(--bg-card);
+      border: none !important;
+      border-left: 4px solid var(--brand-color) !important;
+      border-radius: 0 8px 8px 0;
+      padding: 1rem 1.5rem;
+      transition: transform 0.2s ease, background 0.2s ease;
+      display: grid;
+      grid-template-columns: minmax(200px, 1fr) 2fr;
+      align-items: center;
+      row-gap: 0.25rem;
+      box-shadow: var(--shadow-card);
+
+      &:hover {
+        background: var(--bg-hover);
+        transform: translateX(4px);
+      }
+
+      .seg-meta {
+        grid-column: 1;
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        .type-badge {
+          background: var(--brand-color);
+          color: var(--white);
+          padding: 3px 8px;
+          font-size: 0.65rem;
+          font-weight: bold;
+          border-radius: 4px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+
+        .position {
+          color: var(--text-muted);
+          font-weight: bold;
+          font-size: 0.8rem;
+        }
+      }
+
+      .seg-title {
+        grid-column: 1;
+        grid-row: 2;
+        font-size: 1.1rem;
+        font-weight: 800;
+        margin: 0;
+        color: var(--text-main);
+      }
+
+      .participants-preview {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+
+        .team-cluster {
+          display: flex;
+          gap: 1rem;
+          align-items: flex-start;
+        }
+
+        .mini-wrestler {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 0.4rem;
+          background: transparent;
+          border: none;
+          padding: 0;
+          width: auto;
+
+          img {
+            width: 60px !important;
+            height: 60px !important;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--border-main);
+          }
+
+          .name {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--text-soft);
+            text-align: center;
+            text-transform: uppercase;
+            white-space: normal;
+            word-wrap: break-word;
+            max-width: 80px;
+            line-height: 1.1;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pre-show-board .segments-list .segment-card-pre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .seg-meta {
+      justify-content: center;
+    }
+
+    .participants-preview {
+      justify-content: center;
+      margin-top: 1rem;
+      width: 100%;
+    }
+  }
+}

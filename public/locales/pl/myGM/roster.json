@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "Wróć",
+        "title": "Mój Roster",
+        "totalTalent": "Wszyscy Zawodnicy",
+        "weeklyCost": "Tygodniowy Koszt"
+    },
+    "controls": {
+        "searchPlaceholder": "Szukaj gwiazdy...",
+        "filters": {
+            "allRoles": "Wszystkie role",
+            "face": "Face (Dobrzy)",
+            "heel": "Heel (Źli)"
+        },
+        "sort": {
+            "highestPop": "Najwyższa Popularność",
+            "highestSalary": "Najwyższa Pensja",
+            "lowestMorale": "Najniższe Morale (Zagrożenie)",
+            "highestFatigue": "Najwyższe Zmęczenie"
+        }
+    },
+    "grid": {
+        "emptyState": "Nie znaleziono wrestlerów z tymi filtrami."
+    },
+    "card": {
+        "injured": "Kontuzjowany",
+        "championshipAlt": "Mistrzostwo",
+        "popularity": "Popularność",
+        "morale": "Morale",
+        "fatigue": "Zmęczenie",
+        "weeks": "tyg.",
+        "perWeek": "/tyg",
+        "manage": "Zarządzaj"
+    },
+    "modal": {
+        "successTitle": "Sprzedano!",
+        "successText": "Odzyskano {{amount}} ze sprzedaży {{name}}.",
+        "errorTitle": "Błąd",
+        "errorText": "Wystąpił problem podczas próby sprzedaży wrestlera. Sprawdź połączenie lub uprawnienia bazy danych.",
+        "title": "Zarządzaj {{name}}",
+        "warning": "Czy na pewno chcesz sprzedać tego wrestlera? Tej akcji nie można cofnąć.",
+        "salaryRecovered": "Odzyskana pensja: {{amount}}",
+        "cancel": "Anuluj",
+        "sell": "Sprzedaj wrestlera",
+        "processing": "Przetwarzanie..."
+    },
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigant",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Specjalista"
+}

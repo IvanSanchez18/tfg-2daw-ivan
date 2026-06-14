@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "両方のタレントを選択してください。",
+        "teamNeedsName": "チーム名が必要です。",
+        "sameDivision": "タッグチームは同じディビジョン（性別）に属している必要があります。",
+        "errorCreating": "タッグチームの作成エラー"
+    },
+    "picker": {
+        "selectPartner": "パートナーを選択",
+        "noFreeTalents": "このディビジョンにフリーのタレントはいません。"
+    },
+    "creator": {
+        "teamNameLabel": "タッグチーム名",
+        "teamNamePlaceholder": "例: D-Generation X, The Usos...",
+        "member1": "メンバー 1",
+        "member2": "メンバー 2",
+        "cancel": "キャンセル",
+        "confirmTeam": "チームを確認"
+    },
+    "activeList": {
+        "noTeams": "結成されたチームはありません",
+        "noTeamsDesc": "2人のスーパースターを組ませてタッグチームディビジョンを支配しよう。",
+        "disbandTeam": "チームを解散"
+    },
+    "historyList": {
+        "noHistory": "履歴なし",
+        "noHistoryDesc": "まだ解散したタッグチームはありません。",
+        "disbanded": "解散"
+    },
+    "management": {
+        "tagTeams": "タッグチーム",
+        "disbandedTeams": "解散したチーム",
+        "manageAlliances": "アライアンスを管理",
+        "legacyBrokenAlliances": "壊れたアライアンスの遺産",
+        "formTeam": "チームを結成"
+    },
+    "active": "アクティブ",
+    "history": "履歴",
+    "back": "戻る",
+    "align_face": "ベビーフェイス",
+    "align_heel": "ヒール",
+    "style_giant": "ジャイアント",
+    "style_cruiser": "クルーザー",
+    "style_brawler": "ブロウラー",
+    "style_fighter": "ファイター",
+    "style_specialist": "スペシャリスト"
+}

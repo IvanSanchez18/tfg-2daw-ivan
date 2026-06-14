@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "आप",
+        "audience": "दर्शक",
+        "rating": "रेटिंग"
+    },
+    "header": {
+        "title": "सीज़न फ़िनाले",
+        "subtitle": "जनरल मैनेजर के रूप में अंतिम परिणाम:"
+    },
+    "stats": {
+        "finalAudience": "अंतिम दर्शक",
+        "averageRating": "औसत रेटिंग",
+        "remainingBudget": "शेष बजट"
+    },
+    "actions": {
+        "backToMenu": "मुख्य मेनू पर लौटें"
+    }
+}

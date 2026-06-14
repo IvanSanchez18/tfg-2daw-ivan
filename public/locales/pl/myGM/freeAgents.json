@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "Nie masz wystarczającego budżetu, aby podpisać kontrakt z tą supergwiazdą!",
+        "errorContract": "Wystąpił błąd podczas przetwarzania kontraktu."
+    },
+    "header": {
+        "back": "Wróć",
+        "remainingBudget": "Pozostały budżet",
+        "title": "Wolni Agenci",
+        "subtitle": "Zatrudnij talenty, aby wzmocnić {{brand}}."
+    },
+    "filters": {
+        "searchPlaceholder": "Szukaj supergwiazdy...",
+        "allGenders": "Wszystkie płcie",
+        "allAlignments": "Dowolne nastawienie"
+    },
+    "noAgents": {
+        "title": "Brak dostępnych talentów",
+        "description": "Spróbuj zmienić filtry wyszukiwania."
+    },
+    "buttons": {
+        "signing": "Podpisywanie...",
+        "sign": "Podpisz",
+        "noBudget": "Brak budżetu"
+    },
+    "gender_male": "Mężczyzna",
+    "gender_female": "Kobieta",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigant",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Specjalista"
+}

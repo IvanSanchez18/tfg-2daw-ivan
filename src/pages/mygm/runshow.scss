@@ -1,0 +1,229 @@
+$gold: #fbbf24;
+
+.run-show-layout {
+  background: var(--bg-app);
+  color: var(--text-main);
+  padding: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+
+  --brand-color: var(--accent);
+  --brand-glow: rgba(225, 6, 0, 0.5);
+
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+
+  &.view-scrollable {
+    overflow-y: auto;
+  }
+
+  &.view-locked {
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease forwards;
+  }
+
+  .animate-bounce-in {
+    animation: bounceIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes revealWinner {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes popStar {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+
+    70% {
+      transform: scale(1.4);
+      opacity: 1;
+    }
+
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .show-header {
+    text-align: center;
+    border-bottom: 1px solid var(--border-main);
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    flex: 0 0 auto;
+
+    h1 {
+      font-size: clamp(1.2rem, 3vmin, 1.5rem);
+      font-weight: 900;
+      letter-spacing: 2px;
+      margin: 0;
+
+      .divider {
+        color: var(--border-soft);
+        margin: 0 1rem;
+      }
+
+      .brand-name {
+        color: var(--brand-color);
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .action-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .btn-start {
+    background: var(--brand-color);
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 1.2rem 3rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    &.shadow-glow {
+      box-shadow: 0 0 20px var(--brand-glow);
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .vs-mini {
+    font-size: 0.85rem;
+    font-weight: 900;
+    color: var(--text-muted);
+    font-style: italic;
+    margin: 0 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .stars-active {
+    display: flex;
+    align-items: center;
+
+    .star {
+      animation: popStar 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards;
+
+      &.full {
+        color: $gold;
+      }
+
+      &.empty {
+        color: var(--border-soft);
+      }
+
+      &.half {
+        background: linear-gradient(90deg, $gold 50%, var(--border-soft) 50%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .rating-number {
+      color: var(--text-muted);
+      font-weight: bold;
+      animation: fadeIn 0.4s ease forwards;
+      opacity: 0;
+    }
+  }
+}
+
+.run-show-empty {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-app);
+  color: var(--text-main);
+
+  h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  p {
+    color: var(--text-soft);
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+
+  button {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--accent);
+    color: var(--white);
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      background-color: var(--accent-hover);
+      transform: translateY(-2px);
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "Bumalik",
+        "title": "Logistika ng Show - Linggo {{week}}",
+        "budget": "Badyet: ${{budget}}",
+        "projectedCost": " (Inaasahang Gastos: -${{cost}})"
+    },
+    "sections": {
+        "arena": "Arena",
+        "production": "Produksyon",
+        "advertising": "Patalastas"
+    },
+    "options": {
+        "free": "Libre",
+        "capacity": "Kapasidad:",
+        "ratingBonus": "Bonus sa Rating:"
+    },
+    "footer": {
+        "saving": "Sina-save...",
+        "confirm": "Kumpirmahin ang Logistika",
+        "insufficientBudget": "Kulang ang iyong badyet."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "Lokal na Gym",
+                "description": "Libreng basic na arena. Mahigpit ang limitasyon sa dami ng tao."
+            },
+            "lvl2": {
+                "name": "Civic Center",
+                "description": "Pinapabuti ang kapasidad ng mga nakuhang fans."
+            },
+            "lvl3": {
+                "name": "Maliit na Istadyum",
+                "description": "Nakakaakit ng disenteng dami ng tao."
+            },
+            "lvl4": {
+                "name": "Grand Arena",
+                "description": "Arena na pang-PPV. Sobrang laking kapasidad."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "Indie / Basic",
+                "description": "Mga nakapirming camera, standard na ilaw."
+            },
+            "lvl2": {
+                "name": "TV Show",
+                "description": "Basic na pyrotechnics at magagandang camera."
+            },
+            "lvl3": {
+                "name": "Premium na Panoorin",
+                "description": "Advanced na pyrotechnics, mga laser at drone."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "Sabi-sabi",
+                "description": "Organikong promosyon. Walang multiplier."
+            },
+            "lvl2": {
+                "name": "Lokal na Radyo at Socials",
+                "description": "Pinapataas ang pagpapanatili at pagkuha ng fans ng 15%."
+            },
+            "lvl3": {
+                "name": "Pambansang Kampanya",
+                "description": "Agresibong marketing. Pinaparami ang fans ng 35%."
+            }
+        }
+    }
+}

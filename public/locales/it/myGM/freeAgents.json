@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "Non hai abbastanza budget per ingaggiare questa superstar!",
+        "errorContract": "Si è verificato un errore durante l'elaborazione del contratto."
+    },
+    "header": {
+        "back": "Indietro",
+        "remainingBudget": "Budget Rimanente",
+        "title": "Svincolati",
+        "subtitle": "Ingaggia talenti per rinforzare {{brand}}."
+    },
+    "filters": {
+        "searchPlaceholder": "Cerca superstar...",
+        "allGenders": "Tutti i generi",
+        "allAlignments": "Qualsiasi allineamento"
+    },
+    "noAgents": {
+        "title": "Nessun talento disponibile",
+        "description": "Prova a cambiare i filtri di ricerca."
+    },
+    "buttons": {
+        "signing": "Firma in corso...",
+        "sign": "Ingaggia",
+        "noBudget": "Nessun Budget"
+    },
+    "gender_male": "Maschile",
+    "gender_female": "Femminile",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Rissaiolo",
+    "style_fighter": "Lottatore",
+    "style_specialist": "Specialista"
+}

@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "Toi",
+        "totalFans": "Fans Totaux",
+        "rating": "Évaluation"
+    },
+    "errors": {
+        "missingSessionId": "ID de session introuvable dans l'URL.",
+        "dbFetchFailed": "Impossible de récupérer la session depuis la base de données.",
+        "connectionError": "Erreur de connexion lors du chargement du classement."
+    },
+    "loading": "Calcul du classement mondial...",
+    "navigation": {
+        "back": "Retour",
+        "weekOf": "Semaine {{week}} sur {{maxWeeks}}"
+    },
+    "header": {
+        "title": "Guerre des Audiences",
+        "subtitle": "Classement actuel des marques par base de fans."
+    }
+}

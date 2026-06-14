@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "Kembali",
+        "title": "Logistik Pertunjukan - Minggu {{week}}",
+        "budget": "Anggaran: ${{budget}}",
+        "projectedCost": " (Perkiraan Biaya: -${{cost}})"
+    },
+    "sections": {
+        "arena": "Arena",
+        "production": "Produksi",
+        "advertising": "Iklan"
+    },
+    "options": {
+        "free": "Gratis",
+        "capacity": "Kapasitas:",
+        "ratingBonus": "Bonus Rating:"
+    },
+    "footer": {
+        "saving": "Menyimpan...",
+        "confirm": "Konfirmasi Logistik",
+        "insufficientBudget": "Anggaran Anda tidak mencukupi."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "Gym Lokal",
+                "description": "Arena dasar gratis. Batas kehadiran ketat."
+            },
+            "lvl2": {
+                "name": "Pusat Komunitas",
+                "description": "Meningkatkan kapasitas penggemar yang didapat."
+            },
+            "lvl3": {
+                "name": "Stadion Kecil",
+                "description": "Menarik penonton dalam jumlah lumayan."
+            },
+            "lvl4": {
+                "name": "Arena Besar",
+                "description": "Arena tingkat PPV. Kapasitas masif."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "Indie / Dasar",
+                "description": "Kamera tetap, pencahayaan standar."
+            },
+            "lvl2": {
+                "name": "Acara TV",
+                "description": "Kembang api dasar dan kamera bagus."
+            },
+            "lvl3": {
+                "name": "Tontonan Premium",
+                "description": "Kembang api canggih, laser, dan drone."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "Mulut ke Mulut",
+                "description": "Promosi organik. Tanpa pengali."
+            },
+            "lvl2": {
+                "name": "Radio Lokal & Medsos",
+                "description": "Meningkatkan retensi dan perolehan penggemar sebesar 15%."
+            },
+            "lvl3": {
+                "name": "Kampanye Nasional",
+                "description": "Pemasaran agresif. Meningkatkan penggemar sebesar 35%."
+            }
+        }
+    }
+}

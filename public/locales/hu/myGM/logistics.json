@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "Vissza",
+        "title": "Show logisztika - {{week}}. hét",
+        "budget": "Költségvetés: ${{budget}}",
+        "projectedCost": " (Tervezett költség: -${{cost}})"
+    },
+    "sections": {
+        "arena": "Aréna",
+        "production": "Produkció",
+        "advertising": "Hirdetés"
+    },
+    "options": {
+        "free": "Ingyenes",
+        "capacity": "Befogadóképesség:",
+        "ratingBonus": "Értékelési bónusz:"
+    },
+    "footer": {
+        "saving": "Mentés...",
+        "confirm": "Logisztika megerősítése",
+        "insufficientBudget": "Nincs elegendő költségvetésed."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "Helyi Tornaterem",
+                "description": "Ingyenes alap aréna. Szigorú létszámkorlát."
+            },
+            "lvl2": {
+                "name": "Civil Központ",
+                "description": "Javítja a megszerzett rajongók kapacitását."
+            },
+            "lvl3": {
+                "name": "Kisebb Stadion",
+                "description": "Tiszteletre méltó tömeget vonz."
+            },
+            "lvl4": {
+                "name": "Nagy Aréna",
+                "description": "PPV-szintű aréna. Hatalmas befogadóképesség."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "Indie / Alap",
+                "description": "Fix kamerák, szabványos világítás."
+            },
+            "lvl2": {
+                "name": "TV Show",
+                "description": "Alapvető pirotechnika és jó kamerák."
+            },
+            "lvl3": {
+                "name": "Prémium Látványosság",
+                "description": "Fejlett pirotechnika, lézerek és drónok."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "Szájhagyomány",
+                "description": "Organikus promóció. Nincs szorzó."
+            },
+            "lvl2": {
+                "name": "Helyi Rádió és Közösségi Média",
+                "description": "15%-kal növeli a rajongók megtartását és szerzését."
+            },
+            "lvl3": {
+                "name": "Országos Kampány",
+                "description": "Agresszív marketing. 35%-kal növeli a rajongók számát."
+            }
+        }
+    }
+}

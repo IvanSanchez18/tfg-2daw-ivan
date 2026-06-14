@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "Vous n'avez pas assez de budget pour signer cette superstar !",
+        "errorContract": "Une erreur s'est produite lors du traitement du contrat."
+    },
+    "header": {
+        "back": "Retour",
+        "remainingBudget": "Budget Restant",
+        "title": "Agents Libres",
+        "subtitle": "Signez des talents pour renforcer {{brand}}."
+    },
+    "filters": {
+        "searchPlaceholder": "Rechercher une superstar...",
+        "allGenders": "Tous les genres",
+        "allAlignments": "Toute allégeance"
+    },
+    "noAgents": {
+        "title": "Aucun talent disponible",
+        "description": "Essayez de modifier les filtres de recherche."
+    },
+    "buttons": {
+        "signing": "Signature...",
+        "sign": "Signer",
+        "noBudget": "Pas de budget"
+    },
+    "gender_male": "Masculin",
+    "gender_female": "Féminin",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Géant",
+    "style_cruiser": "Voltigeur",
+    "style_brawler": "Bagarreur",
+    "style_fighter": "Combattant",
+    "style_specialist": "Spécialiste"
+}

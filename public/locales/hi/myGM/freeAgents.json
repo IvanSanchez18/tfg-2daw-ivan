@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "इस सुपरस्टार को साइन करने के लिए आपके पास पर्याप्त बजट नहीं है!",
+        "errorContract": "अनुबंध को प्रोसेस करते समय एक त्रुटि हुई।"
+    },
+    "header": {
+        "back": "पीछे",
+        "remainingBudget": "बचा हुआ बजट",
+        "title": "फ्री एजेंसी",
+        "subtitle": "{{brand}} को मजबूत करने के लिए टैलेंट साइन करें।"
+    },
+    "filters": {
+        "searchPlaceholder": "सुपरस्टार खोजें...",
+        "allGenders": "सभी लिंग",
+        "allAlignments": "कोई भी अलाइनमेंट"
+    },
+    "noAgents": {
+        "title": "कोई टैलेंट उपलब्ध नहीं है",
+        "description": "खोज फ़िल्टर बदलने का प्रयास करें।"
+    },
+    "buttons": {
+        "signing": "साइन कर रहे हैं...",
+        "sign": "साइन करें",
+        "noBudget": "बजट नहीं है"
+    },
+    "gender_male": "पुरुष",
+    "gender_female": "महिला",
+    "align_face": "फेस",
+    "align_heel": "हील",
+    "style_giant": "विशाल",
+    "style_cruiser": "क्रूजर",
+    "style_brawler": "ब्रॉलर",
+    "style_fighter": "फाइटर",
+    "style_specialist": "विशेषज्ञ"
+}

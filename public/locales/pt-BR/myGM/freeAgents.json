@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "Você não tem orçamento suficiente para contratar este superstar!",
+        "errorContract": "Houve um erro ao processar o contrato."
+    },
+    "header": {
+        "back": "Voltar",
+        "remainingBudget": "Orçamento Restante",
+        "title": "Agentes Livres",
+        "subtitle": "Contrate talentos para reforçar o {{brand}}."
+    },
+    "filters": {
+        "searchPlaceholder": "Buscar superstar...",
+        "allGenders": "Todos os gêneros",
+        "allAlignments": "Qualquer alinhamento"
+    },
+    "noAgents": {
+        "title": "Nenhum talento disponível",
+        "description": "Tente mudar os filtros de busca."
+    },
+    "buttons": {
+        "signing": "Contratando...",
+        "sign": "Contratar",
+        "noBudget": "Sem Orçamento"
+    },
+    "gender_male": "Masculino",
+    "gender_female": "Feminino",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Lutador",
+    "style_specialist": "Especialista"
+}

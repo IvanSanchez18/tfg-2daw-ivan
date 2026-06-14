@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "TY",
+        "audience": "Widownia",
+        "rating": "Ocena"
+    },
+    "header": {
+        "title": "FINAŁ SEZONU",
+        "subtitle": "Końcowe wyniki jako General Manager marki"
+    },
+    "stats": {
+        "finalAudience": "Końcowa Widownia",
+        "averageRating": "Średnia Ocena",
+        "remainingBudget": "Pozostały Budżet"
+    },
+    "actions": {
+        "backToMenu": "Powrót do Menu Głównego"
+    }
+}

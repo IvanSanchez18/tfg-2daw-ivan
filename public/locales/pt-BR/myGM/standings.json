@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "Você",
+        "totalFans": "Fãs Totais",
+        "rating": "Avaliação"
+    },
+    "errors": {
+        "missingSessionId": "ID da sessão não encontrado na URL.",
+        "dbFetchFailed": "Não foi possível obter a sessão do banco de dados.",
+        "connectionError": "Erro de conexão ao carregar a classificação."
+    },
+    "loading": "Calculando a classificação global...",
+    "navigation": {
+        "back": "Voltar",
+        "weekOf": "Semana {{week}} de {{maxWeeks}}"
+    },
+    "header": {
+        "title": "Guerra de Audiência",
+        "subtitle": "Classificação atual das marcas por base de fãs."
+    }
+}

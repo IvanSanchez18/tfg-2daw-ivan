@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Hafif",
+        "moderate": "Orta",
+        "intense": "Yoğun",
+        "extreme": "Aşırı",
+        "tense": "Gergin"
+    },
+    "alerts": {
+        "selectBothSides": "Her iki tarafı da seçin.",
+        "cannotFightSelf": "Kendileriyle dövüşemezler!",
+        "sameDivision": "Rekabetler aynı ligden (cinsiyet) olmalıdır.",
+        "errorCreating": "Rekabet oluşturulurken hata oluştu",
+        "errorUpdating": "Yoğunluk güncellenirken hata oluştu"
+    },
+    "picker": {
+        "selectTagTeam": "Takım Seç",
+        "selectSuperstar": "Süperstar Seç",
+        "noTeamsAvailable": "Uygun veya uyumlu takım yok.",
+        "noTalentsAvailable": "Uygun veya uyumlu yetenek yok."
+    },
+    "creator": {
+        "mode1v1": "1'E 1",
+        "modeTagTeam": "Takım (Tag Team)",
+        "team1": "Takım 1",
+        "wrestler1": "Güreşçi 1",
+        "team2": "Takım 2",
+        "wrestler2": "Güreşçi 2",
+        "cancel": "İptal",
+        "startFeud": "Rekabeti Başlat"
+    },
+    "activeList": {
+        "noFeuds": "Aktif rekabet yok",
+        "noFeudsDesc": "Heyecan yaratmak için bir rekabet oluşturun.",
+        "tagTeam": "(TAKIM)",
+        "intensity": "Yoğunluk:",
+        "weeksActive": "Aktif haftalar: {{weeks}}",
+        "endFeud": "Bitir"
+    },
+    "historyList": {
+        "noHistory": "Geçmiş yok",
+        "noHistoryDesc": "Henüz biten bir rekabet yok.",
+        "tagTeam": "(2'ye 2)",
+        "week": "Hft {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "Aktif",
+            "history": "Geçmiş"
+        },
+        "titles": {
+            "active": "Rekabetler",
+            "history": "Rekabet Geçmişi"
+        },
+        "desc": {
+            "active": "{{brand}} hikayelerini kontrol et",
+            "history": "Büyük hikayelerinin mirası"
+        },
+        "actionButton": "Yeni Rekabet"
+    },
+    "active": "Aktif",
+    "history": "Geçmiş",
+    "back": "Geri",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Dev",
+    "style_cruiser": "Yarı Ağır Sıklet",
+    "style_brawler": "Kavgacı",
+    "style_fighter": "Dövüşçü",
+    "style_specialist": "Uzman"
+}

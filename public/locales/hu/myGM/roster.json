@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "Vissza",
+        "title": "Saját Beosztás",
+        "totalTalent": "Összes Tehetség",
+        "weeklyCost": "Heti Költség"
+    },
+    "controls": {
+        "searchPlaceholder": "Szupersztár keresése...",
+        "filters": {
+            "allRoles": "Minden szerepkör",
+            "face": "Face (Jók)",
+            "heel": "Heel (Rosszak)"
+        },
+        "sort": {
+            "highestPop": "Legnagyobb Népszerűség",
+            "highestSalary": "Legnagyobb Fizetés",
+            "lowestMorale": "Legkisebb Morál (Veszélyben)",
+            "highestFatigue": "Legnagyobb Fáradtság"
+        }
+    },
+    "grid": {
+        "emptyState": "Nem található pankrátor ezekkel a szűrőkkel."
+    },
+    "card": {
+        "injured": "Sérült",
+        "championshipAlt": "Bajnokság",
+        "popularity": "Népszerűség",
+        "morale": "Morál",
+        "fatigue": "Fáradtság",
+        "weeks": "hét",
+        "perWeek": "/hét",
+        "manage": "Kezelés"
+    },
+    "modal": {
+        "successTitle": "Eladva!",
+        "successText": "Visszaszereztél {{amount}} összeget {{name}} eladásából.",
+        "errorTitle": "Hiba",
+        "errorText": "Probléma történt a pankrátor eladása során. Ellenőrizd a kapcsolatot vagy az adatbázis jogosultságokat.",
+        "title": "{{name}} kezelése",
+        "warning": "Biztosan el akarod adni ezt a pankrátort? Ezt a műveletet nem lehet visszavonni.",
+        "salaryRecovered": "Visszaszerzett fizetés: {{amount}}",
+        "cancel": "Mégse",
+        "sell": "Pankrátor eladása",
+        "processing": "Feldolgozás..."
+    },
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Óriás",
+    "style_cruiser": "Cirkálósúlyú",
+    "style_brawler": "Verekedő",
+    "style_fighter": "Harcos",
+    "style_specialist": "Specialista"
+}

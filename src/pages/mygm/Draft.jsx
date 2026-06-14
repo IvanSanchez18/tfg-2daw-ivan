@@ -72,6 +72,8 @@ export const Draft = () => {
       text: t('swal.abandonment_text'),
       icon: 'warning',
       allowOutsideClick: false,
+      background: 'var(--bg-card)',
+      color: 'var(--text-main)',
       didOpen: () => Swal.showLoading()
     });
 
@@ -309,7 +311,10 @@ export const Draft = () => {
       return Swal.fire({
         title: t('swal.insufficient_funds_title'),
         text: t('swal.insufficient_funds_text'),
-        icon: 'error', confirmButtonColor: currentBrandColor
+        icon: 'error',
+        confirmButtonColor: currentBrandColor,
+        background: 'var(--bg-card)',
+        color: 'var(--text-main)'
       });
     }
 
@@ -387,11 +392,20 @@ export const Draft = () => {
         title: t('swal.adjustment_done_title'),
         text: t('swal.adjustment_done_text'),
         icon: 'info',
-        confirmButtonColor: currentBrandColor
+        confirmButtonColor: currentBrandColor,
+        background: 'var(--bg-card)',
+        color: 'var(--text-main)'
       });
       advanceTurn(newFinished);
     } catch (error) {
-      Swal.fire(t('swal.error_title'), t('swal.adjustment_error_text'), 'error');
+      Swal.fire({
+        title: t('swal.error_title'),
+        text: t('swal.adjustment_error_text'),
+        icon: 'error',
+        background: 'var(--bg-card)',
+        color: 'var(--text-main)'
+      });
+
     } finally {
       setLoading(false);
     }
@@ -403,7 +417,9 @@ export const Draft = () => {
         title: t('swal.incomplete_roster_title'),
         text: t('swal.incomplete_roster_text'),
         icon: 'warning', showCancelButton: true, confirmButtonColor: '#d33', cancelButtonColor: '#3085d6',
-        confirmButtonText: t('swal.confirm_adjustment'), cancelButtonText: t('swal.cancel')
+        confirmButtonText: t('swal.confirm_adjustment'), cancelButtonText: t('swal.cancel'),
+        background: 'var(--bg-card)',
+        color: 'var(--text-main)'
       }).then((result) => {
         if (result.isConfirmed) {
           applyRosterPenaltyAndFinish();
@@ -414,7 +430,9 @@ export const Draft = () => {
         title: t('swal.finish_draft_title'),
         text: t('swal.finish_draft_text'),
         icon: 'question', showCancelButton: true, confirmButtonColor: currentBrandColor, cancelButtonColor: '#d33',
-        confirmButtonText: t('swal.confirm_finish'), cancelButtonText: t('swal.continue_drafting')
+        confirmButtonText: t('swal.confirm_finish'), cancelButtonText: t('swal.continue_drafting'),
+        background: 'var(--bg-card)',
+        color: 'var(--text-main)'
       }).then((result) => {
         if (result.isConfirmed) {
           const newFinished = [...finishedBrands, session.brand];
@@ -436,7 +454,13 @@ export const Draft = () => {
       exitUrlRef.current = `/mygm/dashboard/${session.id}`;
       window.history.back();
     } catch (error) {
-      Swal.fire(t('swal.error_title'), t('swal.cpu_save_error_text'), 'error');
+      Swal.fire({
+        title: t('swal.error_title'),
+        text: t('swal.cpu_save_error_text'),
+        icon: 'error',
+        background: 'var(--bg-card)',
+        color: 'var(--text-main)'
+      });
       setLoading(false);
     }
   };

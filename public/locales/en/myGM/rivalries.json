@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Mild",
+        "moderate": "Moderate",
+        "intense": "Intense",
+        "extreme": "Extreme",
+        "tense": "Tense"
+    },
+    "alerts": {
+        "selectBothSides": "Select both sides.",
+        "cannotFightSelf": "They cannot fight themselves!",
+        "sameDivision": "Rivalries must be from the same division (gender).",
+        "errorCreating": "Error creating the rivalry",
+        "errorUpdating": "Error updating intensity"
+    },
+    "picker": {
+        "selectTagTeam": "Select Tag Team",
+        "selectSuperstar": "Select Superstar",
+        "noTeamsAvailable": "No available or compatible teams.",
+        "noTalentsAvailable": "No available or compatible talents."
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "Tag Team",
+        "team1": "Team 1",
+        "wrestler1": "Wrestler 1",
+        "team2": "Team 2",
+        "wrestler2": "Wrestler 2",
+        "cancel": "Cancel",
+        "startFeud": "Start Feud"
+    },
+    "activeList": {
+        "noFeuds": "No active feuds",
+        "noFeudsDesc": "Create a rivalry to start building hype.",
+        "tagTeam": "(TAG TEAM)",
+        "intensity": "Intensity:",
+        "weeksActive": "Weeks active: {{weeks}}",
+        "endFeud": "End Feud"
+    },
+    "historyList": {
+        "noHistory": "No history",
+        "noHistoryDesc": "No rivalry has ended yet.",
+        "tagTeam": "(2v2)",
+        "week": "Wk {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "Active",
+            "history": "History"
+        },
+        "titles": {
+            "active": "Rivalries",
+            "history": "Feud History"
+        },
+        "desc": {
+            "active": "Control the storylines on {{brand}}",
+            "history": "The legacy of your great storylines"
+        },
+        "actionButton": "New Rivalry"
+    },
+    "active": "Active",
+    "history": "History",
+    "back": "Back",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Giant",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Specialist"
+}

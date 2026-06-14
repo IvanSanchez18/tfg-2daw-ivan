@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "कृपया दोनों प्रतिभाओं का चयन करें।",
+        "teamNeedsName": "टीम का एक नाम होना चाहिए।",
+        "sameDivision": "टैग टीम एक ही डिवीजन (लिंग) से होनी चाहिए।",
+        "errorCreating": "टैग टीम बनाने में त्रुटि"
+    },
+    "picker": {
+        "selectPartner": "पार्टनर चुनें",
+        "noFreeTalents": "इस डिवीजन में कोई प्रतिभा खाली नहीं है।"
+    },
+    "creator": {
+        "teamNameLabel": "टैग टीम का नाम",
+        "teamNamePlaceholder": "उदा: D-Generation X, The Usos...",
+        "member1": "सदस्य 1",
+        "member2": "सदस्य 2",
+        "cancel": "रद्द करें",
+        "confirmTeam": "टीम की पुष्टि करें"
+    },
+    "activeList": {
+        "noTeams": "कोई टीम नहीं बनी है",
+        "noTeamsDesc": "टैग टीम डिवीजन पर हावी होने के लिए दो सुपरस्टार्स को एक साथ लाएँ।",
+        "disbandTeam": "टीम भंग करें"
+    },
+    "historyList": {
+        "noHistory": "कोई इतिहास नहीं",
+        "noHistoryDesc": "अभी तक कोई टैग टीम भंग नहीं हुई है।",
+        "disbanded": "भंग हो गई"
+    },
+    "management": {
+        "tagTeams": "टैग टीम",
+        "disbandedTeams": "भंग की गई टीमें",
+        "manageAlliances": "गठबंधन प्रबंधित करें:",
+        "legacyBrokenAlliances": "टूटे गठबंधनों की विरासत",
+        "formTeam": "टीम बनाएं"
+    },
+    "active": "सक्रिय",
+    "history": "इतिहास",
+    "back": "वापस",
+    "align_face": "फेस",
+    "align_heel": "हील",
+    "style_giant": "विशाल",
+    "style_cruiser": "क्रूजर",
+    "style_brawler": "ब्रॉलर",
+    "style_fighter": "फाइटर",
+    "style_specialist": "विशेषज्ञ"
+}

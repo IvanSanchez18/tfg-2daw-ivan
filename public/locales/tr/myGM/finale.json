@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "SEN",
+        "audience": "İzleyici",
+        "rating": "Reyting"
+    },
+    "header": {
+        "title": "SEZON FİNALİ",
+        "subtitle": "General Manager olarak final sonuçları:"
+    },
+    "stats": {
+        "finalAudience": "Final İzleyici",
+        "averageRating": "Ortalama Reyting",
+        "remainingBudget": "Kalan Bütçe"
+    },
+    "actions": {
+        "backToMenu": "Ana Menüye Dön"
+    }
+}

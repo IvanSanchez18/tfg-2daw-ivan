@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Leve",
+        "moderate": "Moderada",
+        "intense": "Intensa",
+        "extreme": "Extrema",
+        "tense": "Tensa"
+    },
+    "alerts": {
+        "selectBothSides": "Selecciona ambos lados.",
+        "cannotFightSelf": "¡No pueden pelear contra sí mismos!",
+        "sameDivision": "Las rivalidades deben ser de la misma división (género).",
+        "errorCreating": "Error al crear la rivalidad",
+        "errorUpdating": "Error al actualizar la intensidad"
+    },
+    "picker": {
+        "selectTagTeam": "Seleccionar Tag Team",
+        "selectSuperstar": "Seleccionar Superestrella",
+        "noTeamsAvailable": "No hay equipos disponibles o compatibles.",
+        "noTalentsAvailable": "No hay talentos libres o compatibles."
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "Tag Team",
+        "team1": "Equipo 1",
+        "wrestler1": "Luchador 1",
+        "team2": "Equipo 2",
+        "wrestler2": "Luchador 2",
+        "cancel": "Cancelar",
+        "startFeud": "Empezar Rivalidad"
+    },
+    "activeList": {
+        "noFeuds": "No hay rivalidades activas",
+        "noFeudsDesc": "Crea una rivalidad para empezar a generar emoción.",
+        "tagTeam": "(TAG TEAM)",
+        "intensity": "Intensidad:",
+        "weeksActive": "Semanas activa: {{weeks}}",
+        "endFeud": "Terminar"
+    },
+    "historyList": {
+        "noHistory": "Sin historial",
+        "noHistoryDesc": "Aún no ha finalizado ninguna rivalidad.",
+        "tagTeam": "(2v2)",
+        "week": "Sem {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "Activas",
+            "history": "Historial"
+        },
+        "titles": {
+            "active": "Rivalidades",
+            "history": "Historial de Rivalidades"
+        },
+        "desc": {
+            "active": "Controla las historias en {{brand}}",
+            "history": "El legado de tus grandes historias"
+        },
+        "actionButton": "Nueva Rivalidad"
+    },
+    "active": "Activos",
+    "history": "Historial",
+    "back": "Regresar",
+    "align_face": "Técnico",
+    "align_heel": "Rudo",
+    "style_giant": "Gigante",
+    "style_cruiser": "Crucero",
+    "style_brawler": "Fajador",
+    "style_fighter": "Luchador",
+    "style_specialist": "Especialista"
+}

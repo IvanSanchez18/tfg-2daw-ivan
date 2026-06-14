@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "Back",
+        "title": "Show Logistics - Week {{week}}",
+        "budget": "Budget: ${{budget}}",
+        "projectedCost": " (Projected Cost: -${{cost}})"
+    },
+    "sections": {
+        "arena": "Arena",
+        "production": "Production",
+        "advertising": "Advertising"
+    },
+    "options": {
+        "free": "Free",
+        "capacity": "Capacity:",
+        "ratingBonus": "Rating Bonus:"
+    },
+    "footer": {
+        "saving": "Saving...",
+        "confirm": "Confirm Logistics",
+        "insufficientBudget": "You do not have enough budget."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "Local Gym",
+                "description": "Basic free arena. Strict attendance limit."
+            },
+            "lvl2": {
+                "name": "Civic Center",
+                "description": "Improves the capacity of gained fans."
+            },
+            "lvl3": {
+                "name": "Minor Stadium",
+                "description": "Attracts respectable crowds."
+            },
+            "lvl4": {
+                "name": "Grand Arena",
+                "description": "PPV-level arena. Massive capacity."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "Indie / Basic",
+                "description": "Fixed cameras, standard lighting."
+            },
+            "lvl2": {
+                "name": "TV Show",
+                "description": "Basic pyrotechnics and good cameras."
+            },
+            "lvl3": {
+                "name": "Premium Spectacle",
+                "description": "Advanced pyrotechnics, lasers, and drones."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "Word of Mouth",
+                "description": "Organic promotion. No multiplier."
+            },
+            "lvl2": {
+                "name": "Local Radio & Socials",
+                "description": "Increases fan retention and gain by 15%."
+            },
+            "lvl3": {
+                "name": "National Campaign",
+                "description": "Aggressive marketing. Increases fans by 35%."
+            }
+        }
+    }
+}

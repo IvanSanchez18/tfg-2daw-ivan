@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "あなた",
+        "totalFans": "総ファン数",
+        "rating": "評価"
+    },
+    "errors": {
+        "missingSessionId": "URLにセッションIDが見つかりません。",
+        "dbFetchFailed": "データベースからセッションを取得できませんでした。",
+        "connectionError": "順位表の読み込み中に通信エラーが発生しました。"
+    },
+    "loading": "グローバル順位を計算中...",
+    "navigation": {
+        "back": "戻る",
+        "weekOf": "第{{week}}週 / {{maxWeeks}}週"
+    },
+    "header": {
+        "title": "レーティング戦争",
+        "subtitle": "ファン数に基づく現在のブランド順位。"
+    }
+}

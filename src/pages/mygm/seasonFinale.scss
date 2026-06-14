@@ -1,0 +1,348 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes barGrow {
+  from {
+    width: 0;
+  }
+}
+
+.season-finale-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-app);
+  color: var(--text-main);
+  padding: 2rem;
+  box-sizing: border-box;
+
+  .finale-content {
+    background: var(--bg-card);
+    border: 1px solid var(--border-main);
+    border-radius: 12px;
+    padding: 3rem;
+    max-width: 950px;
+    width: 100%;
+    box-shadow: var(--shadow-card);
+    text-align: center;
+
+    .finale-header {
+      margin-bottom: 2.5rem;
+
+      .title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: var(--text-main);
+        text-transform: uppercase;
+        margin: 0 0 0.5rem 0;
+        letter-spacing: -1px;
+      }
+
+      .subtitle {
+        font-size: 1.1rem;
+        color: var(--text-muted);
+        margin: 0;
+      }
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3.5rem;
+
+      .stat-card {
+        background: var(--bg-input);
+        padding: 1.5rem;
+        border-radius: 8px;
+        border: 1px solid var(--border-main);
+        border-bottom-width: 4px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .icon-stat {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+
+        h3 {
+          font-size: 0.85rem;
+          color: var(--text-soft);
+          text-transform: uppercase;
+          margin: 0 0 0.5rem 0;
+          letter-spacing: 1px;
+        }
+
+        .stat-value {
+          font-size: 1.8rem;
+          font-weight: 800;
+          color: var(--text-main);
+        }
+      }
+    }
+
+    .finale-ranking-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-bottom: 3rem;
+
+      .finale-row {
+        display: flex;
+        align-items: center;
+        background-color: var(--bg-card);
+        border: 1px solid var(--border-main);
+        border-radius: 12px;
+        padding: 1.25rem 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        text-align: left;
+        transition: all 0.2s ease;
+
+        &:hover {
+          background-color: var(--bg-hover);
+          border-color: var(--border-soft);
+        }
+
+        &.fade-in {
+          animation: fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+          opacity: 0;
+        }
+
+        &:nth-child(1) {
+          animation-delay: 0.1s;
+        }
+
+        &:nth-child(2) {
+          animation-delay: 0.2s;
+        }
+
+        &:nth-child(3) {
+          animation-delay: 0.3s;
+        }
+
+        &:nth-child(4) {
+          animation-delay: 0.4s;
+        }
+
+        &.player-row {
+          border-color: var(--brand-color);
+          box-shadow: 0 0 15px var(--brand-glow);
+        }
+
+        .rank-col {
+          width: 60px;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+
+          .rank-badge {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: var(--bg-input);
+            border: 2px solid var(--border-main);
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--text-main);
+
+            &.rank-1 {
+              background-color: #fbbf24;
+              color: #000;
+              border-color: #f59e0b;
+            }
+
+            &.rank-2 {
+              background-color: #9ca3af;
+              color: #000;
+              border-color: #6b7280;
+            }
+
+            &.rank-3 {
+              background-color: #d97706;
+              color: #fff;
+              border-color: #b45309;
+            }
+          }
+        }
+
+        .logo-col {
+          margin-right: 1.5rem;
+
+          .brand-logo {
+            width: 55px;
+            height: 55px;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+          }
+
+          .logo-fallback {
+            width: 55px;
+            height: 55px;
+            background-color: var(--bg-input);
+            border: 1px solid var(--border-main);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+          }
+        }
+
+        .brand-col {
+          flex-grow: 1;
+          margin-right: 2rem;
+
+          .brand-header {
+            margin-bottom: 0.5rem;
+
+            h3 {
+              margin: 0;
+              font-size: 1.3rem;
+              font-weight: 700;
+              display: flex;
+              align-items: center;
+              gap: 0.75rem;
+
+              .you-badge {
+                font-size: 0.75rem;
+                padding: 0.2rem 0.6rem;
+                border-radius: 4px;
+                text-transform: uppercase;
+                font-weight: 800;
+                letter-spacing: 1px;
+              }
+            }
+          }
+
+          .visual-bar-container {
+            width: 100%;
+            height: 8px;
+            background-color: var(--bg-input);
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid var(--border-main);
+
+            .visual-bar {
+              height: 100%;
+              border-radius: 4px;
+              animation: barGrow 1s ease-out forwards;
+            }
+          }
+        }
+
+        .stats-col {
+          display: flex;
+          gap: 2.5rem;
+          text-align: right;
+          min-width: 200px;
+          justify-content: flex-end;
+
+          .stat-group {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .stat-label {
+              font-size: 0.75rem;
+              color: var(--text-muted);
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              margin-bottom: 0.25rem;
+            }
+
+            .stat-value {
+              font-size: 1.25rem;
+              color: var(--text-main);
+              font-weight: 700;
+            }
+
+            &.rating-group .stat-value {
+              font-size: 1.1rem;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+
+    .finale-actions {
+      .btn-main-menu {
+        background: var(--accent);
+        color: var(--white);
+        border: none;
+        padding: 1rem 2.5rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.2s ease;
+
+        &:hover {
+          background: var(--accent-hover);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(225, 6, 0, 0.3);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .season-finale-wrapper {
+    padding: 1rem;
+
+    .finale-content {
+      padding: 1.5rem;
+
+      .stats-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .finale-ranking-container {
+        .finale-row {
+          flex-wrap: wrap;
+
+          .brand-col {
+            margin-right: 0;
+          }
+
+          .stats-col {
+            width: 100%;
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-soft);
+            justify-content: space-between;
+            min-width: unset;
+
+            .stat-group {
+              align-items: flex-start;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}

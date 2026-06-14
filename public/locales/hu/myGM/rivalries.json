@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Enyhe",
+        "moderate": "Mérsékelt",
+        "intense": "Intenzív",
+        "extreme": "Extrém",
+        "tense": "Feszült"
+    },
+    "alerts": {
+        "selectBothSides": "Válassza ki mindkét oldalt.",
+        "cannotFightSelf": "Nem harcolhatnak önmaguk ellen!",
+        "sameDivision": "A rivalizálásnak azonos divízióban (nem) kell lennie.",
+        "errorCreating": "Hiba a rivalizálás létrehozásakor",
+        "errorUpdating": "Hiba az intenzitás frissítésekor"
+    },
+    "picker": {
+        "selectTagTeam": "Válassz Tag Teamet",
+        "selectSuperstar": "Válassz Szupersztárt",
+        "noTeamsAvailable": "Nincs elérhető vagy kompatibilis csapat.",
+        "noTalentsAvailable": "Nincs elérhető vagy kompatibilis tehetség."
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "Tag Team",
+        "team1": "1. Csapat",
+        "wrestler1": "1. Pankrátor",
+        "team2": "2. Csapat",
+        "wrestler2": "2. Pankrátor",
+        "cancel": "Mégse",
+        "startFeud": "Viszály kezdése"
+    },
+    "activeList": {
+        "noFeuds": "Nincsenek aktív viszályok",
+        "noFeudsDesc": "Hozz létre rivalizálást a hype építéséhez.",
+        "tagTeam": "(TAG TEAM)",
+        "intensity": "Intenzitás:",
+        "weeksActive": "Aktív hetek: {{weeks}}",
+        "endFeud": "Befejezés"
+    },
+    "historyList": {
+        "noHistory": "Nincs előzmény",
+        "noHistoryDesc": "Még egyetlen rivalizálás sem ért véget.",
+        "tagTeam": "(2v2)",
+        "week": "{{week}}. hét"
+    },
+    "management": {
+        "tabs": {
+            "active": "Aktív",
+            "history": "Előzmények"
+        },
+        "titles": {
+            "active": "Rivalizálások",
+            "history": "Viszályok előzményei"
+        },
+        "desc": {
+            "active": "Irányítsd a történeteket a(z) {{brand}} műsorban",
+            "history": "A nagy történeteid öröksége"
+        },
+        "actionButton": "Új rivalizálás"
+    },
+    "active": "Aktív",
+    "history": "Előzmények",
+    "back": "Vissza",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Óriás",
+    "style_cruiser": "Cirkálósúlyú",
+    "style_brawler": "Verekedő",
+    "style_fighter": "Harcos",
+    "style_specialist": "Specialista"
+}

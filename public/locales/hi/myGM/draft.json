@@ -78,11 +78,11 @@
     },
     "gender_male": "पुरुष",
     "gender_female": "महिला",
-    "align_face": "फेस (Face)",
-    "align_heel": "हील (Heel)",
-    "style_giant": "विशाल (Giant)",
-    "style_cruiser": "क्रूजर (Cruiser)",
-    "style_brawler": "ब्रॉलर (Brawler)",
-    "style_fighter": "फाइटर (Fighter)",
-    "style_specialist": "विशेषज्ञ (Specialist)"
+    "align_face": "फेस",
+    "align_heel": "हील",
+    "style_giant": "विशाल",
+    "style_cruiser": "क्रूजर",
+    "style_brawler": "ब्रॉलर",
+    "style_fighter": "फाइटर",
+    "style_specialist": "विशेषज्ञ"
 }

@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "이 슈퍼스타와 계약할 예산이 부족합니다!",
+        "errorContract": "계약을 처리하는 중 오류가 발생했습니다."
+    },
+    "header": {
+        "back": "뒤로",
+        "remainingBudget": "남은 예산",
+        "title": "자유 계약",
+        "subtitle": "{{brand}} 전력을 강화할 인재를 영입하세요."
+    },
+    "filters": {
+        "searchPlaceholder": "슈퍼스타 검색...",
+        "allGenders": "모든 성별",
+        "allAlignments": "모든 성향"
+    },
+    "noAgents": {
+        "title": "영입 가능한 선수가 없습니다",
+        "description": "검색 필터를 변경해 보세요."
+    },
+    "buttons": {
+        "signing": "계약 중...",
+        "sign": "계약하기",
+        "noBudget": "예산 부족"
+    },
+    "gender_male": "남성",
+    "gender_female": "여성",
+    "align_face": "선역",
+    "align_heel": "악역",
+    "style_giant": "자이언트",
+    "style_cruiser": "크루저",
+    "style_brawler": "브롤러",
+    "style_fighter": "파이터",
+    "style_specialist": "스페셜리스트"
+}

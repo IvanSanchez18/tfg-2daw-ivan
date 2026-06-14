@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "Volver",
+        "title": "Mi Roster",
+        "totalTalent": "Total Talentos",
+        "weeklyCost": "Gasto Semanal"
+    },
+    "controls": {
+        "searchPlaceholder": "Buscar superestrella...",
+        "filters": {
+            "allRoles": "Todos los roles",
+            "face": "Face (Técnicos)",
+            "heel": "Heel (Rudos)"
+        },
+        "sort": {
+            "highestPop": "Mayor Popularidad",
+            "highestSalary": "Mayor Salario",
+            "lowestMorale": "Menor Moral (En riesgo)",
+            "highestFatigue": "Mayor Fatiga"
+        }
+    },
+    "grid": {
+        "emptyState": "No se encontraron luchadores con esos filtros."
+    },
+    "card": {
+        "injured": "Lesionado",
+        "championshipAlt": "Campeonato",
+        "popularity": "Popularidad",
+        "morale": "Moral",
+        "fatigue": "Fatiga",
+        "weeks": "sem.",
+        "perWeek": "/sem",
+        "manage": "Gestionar"
+    },
+    "modal": {
+        "successTitle": "¡Vendido!",
+        "successText": "Has recuperado {{amount}} por la venta de {{name}}.",
+        "errorTitle": "Error",
+        "errorText": "Hubo un problema al intentar vender al luchador. Revisa tu conexión o los permisos de la base de datos.",
+        "title": "Gestionar a {{name}}",
+        "warning": "¿Estás seguro de que deseas vender a este luchador? Esta acción no se puede deshacer.",
+        "salaryRecovered": "Salario recuperado: {{amount}}",
+        "cancel": "Cancelar",
+        "sell": "Vender Luchador",
+        "processing": "Procesando..."
+    },
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigante",
+    "style_cruiser": "Crucero",
+    "style_brawler": "Peleador",
+    "style_fighter": "Luchador",
+    "style_specialist": "Especialista"
+}

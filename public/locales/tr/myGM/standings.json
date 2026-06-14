@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "Sen",
+        "totalFans": "Toplam Hayran",
+        "rating": "Reyting"
+    },
+    "errors": {
+        "missingSessionId": "URL'de oturum kimliği bulunamadı.",
+        "dbFetchFailed": "Oturum veritabanından alınamadı.",
+        "connectionError": "Sıralama yüklenirken bağlantı hatası."
+    },
+    "loading": "Küresel sıralama hesaplanıyor...",
+    "navigation": {
+        "back": "Geri",
+        "weekOf": "Hafta {{week}} / {{maxWeeks}}"
+    },
+    "header": {
+        "title": "Reyting Savaşları",
+        "subtitle": "Hayran kitlesine göre mevcut marka sıralaması."
+    }
+}

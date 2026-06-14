@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "IKAW",
+        "audience": "Manonood",
+        "rating": "Rating"
+    },
+    "header": {
+        "title": "PAGTATAPOS NG SEASON",
+        "subtitle": "Mga huling resulta bilang General Manager ng"
+    },
+    "stats": {
+        "finalAudience": "Huling Bilang ng Manonood",
+        "averageRating": "Average na Rating",
+        "remainingBudget": "Natitirang Badyet"
+    },
+    "actions": {
+        "backToMenu": "Bumalik sa Main Menu"
+    }
+}

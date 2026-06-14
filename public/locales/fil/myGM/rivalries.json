@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Magaan",
+        "moderate": "Katamtaman",
+        "intense": "Matindi",
+        "extreme": "Sukdulan",
+        "tense": "Tensyonado"
+    },
+    "alerts": {
+        "selectBothSides": "Piliin ang magkabilang panig.",
+        "cannotFightSelf": "Hindi nila pwedeng labanan ang kanilang sarili!",
+        "sameDivision": "Ang mga tunggalian ay dapat mula sa parehong dibisyon (kasarian).",
+        "errorCreating": "May error sa paggawa ng tunggalian",
+        "errorUpdating": "May error sa pag-update ng tindi"
+    },
+    "picker": {
+        "selectTagTeam": "Pumili ng Tag Team",
+        "selectSuperstar": "Pumili ng Superstar",
+        "noTeamsAvailable": "Walang available o tugmang mga team.",
+        "noTalentsAvailable": "Walang available o tugmang mga talento."
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "Tag Team",
+        "team1": "Team 1",
+        "wrestler1": "Wrestler 1",
+        "team2": "Team 2",
+        "wrestler2": "Wrestler 2",
+        "cancel": "Kanselahin",
+        "startFeud": "Simulan ang Gulo"
+    },
+    "activeList": {
+        "noFeuds": "Walang aktibong gulo",
+        "noFeudsDesc": "Gumawa ng tunggalian para magsimula ng hype.",
+        "tagTeam": "(TAG TEAM)",
+        "intensity": "Tindi:",
+        "weeksActive": "Mga linggong aktibo: {{weeks}}",
+        "endFeud": "Tapusin"
+    },
+    "historyList": {
+        "noHistory": "Walang kasaysayan",
+        "noHistoryDesc": "Wala pang natatapos na tunggalian.",
+        "tagTeam": "(2v2)",
+        "week": "Lgo {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "Aktibo",
+            "history": "Kasaysayan"
+        },
+        "titles": {
+            "active": "Mga Tunggalian",
+            "history": "Kasaysayan ng Gulo"
+        },
+        "desc": {
+            "active": "Kontrolin ang mga kwento sa {{brand}}",
+            "history": "Ang pamana ng iyong magagandang kwento"
+        },
+        "actionButton": "Bagong Tunggalian"
+    },
+    "active": "Aktibo",
+    "history": "Kasaysayan",
+    "back": "Bumalik",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Higante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Espesyalista"
+}

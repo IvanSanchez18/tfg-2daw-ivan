@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "Tú",
+        "totalFans": "Fans Totales",
+        "rating": "Rating"
+    },
+    "errors": {
+        "missingSessionId": "No se encontró el ID de sesión en la URL.",
+        "dbFetchFailed": "No se pudo obtener la sesión desde la base de datos.",
+        "connectionError": "Error de conexión al cargar la clasificación."
+    },
+    "loading": "Calculando la clasificación global...",
+    "navigation": {
+        "back": "Volver",
+        "weekOf": "Semana {{week}} de {{maxWeeks}}"
+    },
+    "header": {
+        "title": "Guerra de Ratings",
+        "subtitle": "Clasificación actual de marcas por base de fans."
+    }
+}

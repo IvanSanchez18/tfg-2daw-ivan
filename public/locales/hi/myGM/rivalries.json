@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "हल्का",
+        "moderate": "मध्यम",
+        "intense": "तीव्र",
+        "extreme": "चरम",
+        "tense": "तनावपूर्ण"
+    },
+    "alerts": {
+        "selectBothSides": "दोनों पक्षों को चुनें।",
+        "cannotFightSelf": "वे खुद से नहीं लड़ सकते!",
+        "sameDivision": "प्रतिद्वंद्विता एक ही डिवीजन (लिंग) की होनी चाहिए।",
+        "errorCreating": "प्रतिद्वंद्विता बनाने में त्रुटि",
+        "errorUpdating": "तीव्रता अपडेट करने में त्रुटि"
+    },
+    "picker": {
+        "selectTagTeam": "टैग टीम चुनें",
+        "selectSuperstar": "सुपरस्टार चुनें",
+        "noTeamsAvailable": "कोई उपलब्ध या संगत टीम नहीं।",
+        "noTalentsAvailable": "कोई उपलब्ध या संगत प्रतिभा नहीं।"
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "टैग टीम",
+        "team1": "टीम 1",
+        "wrestler1": "रेसलर 1",
+        "team2": "टीम 2",
+        "wrestler2": "रेसलर 2",
+        "cancel": "रद्द करें",
+        "startFeud": "दुश्मनी शुरू करें"
+    },
+    "activeList": {
+        "noFeuds": "कोई सक्रिय दुश्मनी नहीं",
+        "noFeudsDesc": "हाइप बनाने के लिए प्रतिद्वंद्विता शुरू करें।",
+        "tagTeam": "(टैग टीम)",
+        "intensity": "तीव्रता:",
+        "weeksActive": "सक्रिय सप्ताह: {{weeks}}",
+        "endFeud": "समाप्त करें"
+    },
+    "historyList": {
+        "noHistory": "कोई इतिहास नहीं",
+        "noHistoryDesc": "अभी तक कोई प्रतिद्वंद्विता समाप्त नहीं हुई है।",
+        "tagTeam": "(2v2)",
+        "week": "सप्ताह {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "सक्रिय",
+            "history": "इतिहास"
+        },
+        "titles": {
+            "active": "प्रतिद्वंद्विता",
+            "history": "दुश्मनी का इतिहास"
+        },
+        "desc": {
+            "active": "{{brand}} में कहानियों को नियंत्रित करें",
+            "history": "आपकी महान कहानियों की विरासत"
+        },
+        "actionButton": "नई प्रतिद्वंद्विता"
+    },
+    "active": "सक्रिय",
+    "history": "इतिहास",
+    "back": "वापस",
+    "align_face": "फेस",
+    "align_heel": "हील",
+    "style_giant": "विशाल",
+    "style_cruiser": "क्रूजर",
+    "style_brawler": "ब्रॉलर",
+    "style_fighter": "फाइटर",
+    "style_specialist": "विशेषज्ञ"
+}

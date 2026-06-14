@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "Pilih kedua talenta.",
+        "teamNeedsName": "Tim harus memiliki nama.",
+        "sameDivision": "Tag team harus dari divisi (gender) yang sama.",
+        "errorCreating": "Kesalahan saat membuat Tag Team"
+    },
+    "picker": {
+        "selectPartner": "Pilih Pasangan",
+        "noFreeTalents": "Tidak ada talenta bebas di divisi ini."
+    },
+    "creator": {
+        "teamNameLabel": "Nama Tag Team",
+        "teamNamePlaceholder": "Contoh: D-Generation X, The Usos...",
+        "member1": "Anggota 1",
+        "member2": "Anggota 2",
+        "cancel": "Batal",
+        "confirmTeam": "Konfirmasi Tim"
+    },
+    "activeList": {
+        "noTeams": "Belum ada tim yang terbentuk",
+        "noTeamsDesc": "Pasangkan dua superstar untuk mendominasi divisi tag team.",
+        "disbandTeam": "Bubarkan tim"
+    },
+    "historyList": {
+        "noHistory": "Tidak ada riwayat",
+        "noHistoryDesc": "Belum ada Tag Team yang dibubarkan.",
+        "disbanded": "Dibubarkan"
+    },
+    "management": {
+        "tagTeams": "Tag Team",
+        "disbandedTeams": "Tim yang Dibubarkan",
+        "manageAlliances": "Kelola aliansi di",
+        "legacyBrokenAlliances": "Warisan aliansi yang hancur",
+        "formTeam": "Bentuk Tim"
+    },
+    "active": "Aktif",
+    "history": "Riwayat",
+    "back": "Kembali",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Raksasa",
+    "style_cruiser": "Penjelajah",
+    "style_brawler": "Petarung Bebas",
+    "style_fighter": "Petarung",
+    "style_specialist": "Spesialis"
+}

@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "Ringan",
+        "moderate": "Sedang",
+        "intense": "Intens",
+        "extreme": "Ekstrem",
+        "tense": "Tegang"
+    },
+    "alerts": {
+        "selectBothSides": "Pilih kedua belah pihak.",
+        "cannotFightSelf": "Mereka tidak bisa melawan diri mereka sendiri!",
+        "sameDivision": "Persaingan harus dari divisi yang sama (gender).",
+        "errorCreating": "Kesalahan saat membuat persaingan",
+        "errorUpdating": "Kesalahan saat memperbarui intensitas"
+    },
+    "picker": {
+        "selectTagTeam": "Pilih Tag Team",
+        "selectSuperstar": "Pilih Superstar",
+        "noTeamsAvailable": "Tidak ada tim yang tersedia atau cocok.",
+        "noTalentsAvailable": "Tidak ada pegulat yang tersedia atau cocok."
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "Tag Team",
+        "team1": "Tim 1",
+        "wrestler1": "Pegulat 1",
+        "team2": "Tim 2",
+        "wrestler2": "Pegulat 2",
+        "cancel": "Batal",
+        "startFeud": "Mulai Perseteruan"
+    },
+    "activeList": {
+        "noFeuds": "Tidak ada perseteruan aktif",
+        "noFeudsDesc": "Buat persaingan untuk mulai membangun hype.",
+        "tagTeam": "(TAG TEAM)",
+        "intensity": "Intensitas:",
+        "weeksActive": "Minggu aktif: {{weeks}}",
+        "endFeud": "Akhiri"
+    },
+    "historyList": {
+        "noHistory": "Tidak ada riwayat",
+        "noHistoryDesc": "Belum ada persaingan yang berakhir.",
+        "tagTeam": "(2v2)",
+        "week": "Mgu {{week}}"
+    },
+    "management": {
+        "tabs": {
+            "active": "Aktif",
+            "history": "Riwayat"
+        },
+        "titles": {
+            "active": "Persaingan",
+            "history": "Riwayat Perseteruan"
+        },
+        "desc": {
+            "active": "Kendalikan alur cerita di {{brand}}",
+            "history": "Warisan alur cerita hebatmu"
+        },
+        "actionButton": "Persaingan Baru"
+    },
+    "active": "Aktif",
+    "history": "Riwayat",
+    "back": "Kembali",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Raksasa",
+    "style_cruiser": "Penjelajah",
+    "style_brawler": "Petarung Bebas",
+    "style_fighter": "Petarung",
+    "style_specialist": "Spesialis"
+}

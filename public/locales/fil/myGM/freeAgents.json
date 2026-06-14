@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "Wala kang sapat na badyet para pumirma sa superstar na ito!",
+        "errorContract": "Nagkaroon ng error sa pagproseso ng kontrata."
+    },
+    "header": {
+        "back": "Bumalik",
+        "remainingBudget": "Natitirang Badyet",
+        "title": "Free Agency",
+        "subtitle": "Pumirma ng mga talento para palakasin ang {{brand}}."
+    },
+    "filters": {
+        "searchPlaceholder": "Maghanap ng superstar...",
+        "allGenders": "Lahat ng kasarian",
+        "allAlignments": "Kahit anong alignment"
+    },
+    "noAgents": {
+        "title": "Walang magagamit na talento",
+        "description": "Subukang baguhin ang mga filter ng paghahanap."
+    },
+    "buttons": {
+        "signing": "Pumipirma...",
+        "sign": "Pumirma",
+        "noBudget": "Walang Badyet"
+    },
+    "gender_male": "Lalaki",
+    "gender_female": "Babae",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Higante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Espesyalista"
+}

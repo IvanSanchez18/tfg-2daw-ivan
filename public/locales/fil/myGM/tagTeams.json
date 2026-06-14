@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "Mangyaring piliin ang parehong talento.",
+        "teamNeedsName": "Ang koponan ay dapat may pangalan.",
+        "sameDivision": "Ang mga tag team ay dapat mula sa parehong dibisyon (kasarian).",
+        "errorCreating": "Error sa paggawa ng Tag Team"
+    },
+    "picker": {
+        "selectPartner": "Pumili ng Kapareha",
+        "noFreeTalents": "Walang mga bakanteng talento sa dibisyong ito."
+    },
+    "creator": {
+        "teamNameLabel": "Pangalan ng Tag Team",
+        "teamNamePlaceholder": "Hal: D-Generation X, The Usos...",
+        "member1": "Miyembro 1",
+        "member2": "Miyembro 2",
+        "cancel": "Kanselahin",
+        "confirmTeam": "Kumpirmahin ang Koponan"
+    },
+    "activeList": {
+        "noTeams": "Walang mga nabuong koponan",
+        "noTeamsDesc": "Pagsamahin ang dalawang superstar para mangibabaw sa tag team division.",
+        "disbandTeam": "Buwagin ang koponan"
+    },
+    "historyList": {
+        "noHistory": "Walang kasaysayan",
+        "noHistoryDesc": "Wala pang nabubuwag na Tag Team.",
+        "disbanded": "Nabuwag na"
+    },
+    "management": {
+        "tagTeams": "Mga Tag Team",
+        "disbandedTeams": "Mga Nabuwag na Koponan",
+        "manageAlliances": "Pamahalaan ang mga alyansa sa",
+        "legacyBrokenAlliances": "Ang pamana ng mga nasirang alyansa",
+        "formTeam": "Bumuo ng Koponan"
+    },
+    "active": "Aktibo",
+    "history": "Kasaysayan",
+    "back": "Bumalik",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Higante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Espesyalista"
+}

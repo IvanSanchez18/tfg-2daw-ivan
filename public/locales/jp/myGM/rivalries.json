@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "軽度",
+        "moderate": "中程度",
+        "intense": "激しい",
+        "extreme": "過激",
+        "tense": "緊迫"
+    },
+    "alerts": {
+        "selectBothSides": "両方のサイドを選択してください。",
+        "cannotFightSelf": "自分自身とは戦えません！",
+        "sameDivision": "対立は同じディビジョン（性別）でなければなりません。",
+        "errorCreating": "ライバル関係の作成中にエラーが発生しました",
+        "errorUpdating": "強度の更新中にエラーが発生しました"
+    },
+    "picker": {
+        "selectTagTeam": "タッグチームを選択",
+        "selectSuperstar": "スーパースターを選択",
+        "noTeamsAvailable": "利用可能または互換性のあるチームがありません。",
+        "noTalentsAvailable": "利用可能または互換性のあるタレントがいません。"
+    },
+    "creator": {
+        "mode1v1": "1 VS 1",
+        "modeTagTeam": "タッグチーム",
+        "team1": "チーム 1",
+        "wrestler1": "レスラー 1",
+        "team2": "チーム 2",
+        "wrestler2": "レスラー 2",
+        "cancel": "キャンセル",
+        "startFeud": "抗争を開始"
+    },
+    "activeList": {
+        "noFeuds": "アクティブな抗争はありません",
+        "noFeudsDesc": "ライバル関係を作成して盛り上げましょう。",
+        "tagTeam": "（タッグチーム）",
+        "intensity": "強度:",
+        "weeksActive": "継続週数: {{weeks}}",
+        "endFeud": "終了する"
+    },
+    "historyList": {
+        "noHistory": "履歴なし",
+        "noHistoryDesc": "まだ終了したライバル関係はありません。",
+        "tagTeam": "（2v2）",
+        "week": "第{{week}}週"
+    },
+    "management": {
+        "tabs": {
+            "active": "アクティブ",
+            "history": "履歴"
+        },
+        "titles": {
+            "active": "ライバル関係",
+            "history": "抗争の履歴"
+        },
+        "desc": {
+            "active": "{{brand}} のストーリーをコントロールする",
+            "history": "あなたの素晴らしいストーリーの遺産"
+        },
+        "actionButton": "新しいライバル関係"
+    },
+    "active": "アクティブ",
+    "history": "履歴",
+    "back": "戻る",
+    "align_face": "ベビーフェイス",
+    "align_heel": "ヒール",
+    "style_giant": "ジャイアント",
+    "style_cruiser": "クルーザー",
+    "style_brawler": "ブロウラー",
+    "style_fighter": "ファイター",
+    "style_specialist": "スペシャリスト"
+}

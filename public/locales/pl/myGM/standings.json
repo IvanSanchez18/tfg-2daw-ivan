@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "Ty",
+        "totalFans": "Wszyscy Fani",
+        "rating": "Ocena"
+    },
+    "errors": {
+        "missingSessionId": "Nie znaleziono ID sesji w URL.",
+        "dbFetchFailed": "Nie udało się pobrać sesji z bazy danych.",
+        "connectionError": "Błąd połączenia podczas ładowania rankingu."
+    },
+    "loading": "Obliczanie globalnego rankingu...",
+    "navigation": {
+        "back": "Wróć",
+        "weekOf": "Tydzień {{week}} z {{maxWeeks}}"
+    },
+    "header": {
+        "title": "Wojna o Oglądalność",
+        "subtitle": "Aktualny ranking brandów według liczby fanów."
+    }
+}

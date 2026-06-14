@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "Retour",
+        "title": "Mon Roster",
+        "totalTalent": "Total des Talents",
+        "weeklyCost": "Coût Hebdomadaire"
+    },
+    "controls": {
+        "searchPlaceholder": "Rechercher une superstar...",
+        "filters": {
+            "allRoles": "Tous les rôles",
+            "face": "Face (Gentils)",
+            "heel": "Heel (Méchants)"
+        },
+        "sort": {
+            "highestPop": "Popularité Max",
+            "highestSalary": "Salaire Max",
+            "lowestMorale": "Moral Bas (À risque)",
+            "highestFatigue": "Fatigue Max"
+        }
+    },
+    "grid": {
+        "emptyState": "Aucun catcheur trouvé avec ces filtres."
+    },
+    "card": {
+        "injured": "Blessé",
+        "championshipAlt": "Championnat",
+        "popularity": "Popularité",
+        "morale": "Moral",
+        "fatigue": "Fatigue",
+        "weeks": "sem.",
+        "perWeek": "/sem",
+        "manage": "Gérer"
+    },
+    "modal": {
+        "successTitle": "Vendu !",
+        "successText": "Vous avez récupéré {{amount}} pour la vente de {{name}}.",
+        "errorTitle": "Erreur",
+        "errorText": "Un problème est survenu lors de la vente du lutteur. Vérifiez votre connexion ou les autorisations de la base de données.",
+        "title": "Gérer {{name}}",
+        "warning": "Êtes-vous sûr de vouloir vendre ce lutteur ? Cette action est irréversible.",
+        "salaryRecovered": "Salaire récupéré : {{amount}}",
+        "cancel": "Annuler",
+        "sell": "Vendre le lutteur",
+        "processing": "Traitement..."
+    },
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Higante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Espesyalista"
+}

@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "Geri",
+        "title": "Şov Lojistiği - {{week}}. Hafta",
+        "budget": "Bütçe: ${{budget}}",
+        "projectedCost": " (Tahmini Maliyet: -${{cost}})"
+    },
+    "sections": {
+        "arena": "Arena",
+        "production": "Prodüksiyon",
+        "advertising": "Reklam"
+    },
+    "options": {
+        "free": "Ücretsiz",
+        "capacity": "Kapasite:",
+        "ratingBonus": "Reyting Bonusu:"
+    },
+    "footer": {
+        "saving": "Kaydediliyor...",
+        "confirm": "Lojistiği Onayla",
+        "insufficientBudget": "Yeterli bütçeniz yok."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "Yerel Spor Salonu",
+                "description": "Ücretsiz temel arena. Kesin katılım sınırı."
+            },
+            "lvl2": {
+                "name": "Halk Merkezi",
+                "description": "Kazanılan hayran kapasitesini artırır."
+            },
+            "lvl3": {
+                "name": "Küçük Stadyum",
+                "description": "Saygın bir kalabalık çeker."
+            },
+            "lvl4": {
+                "name": "Büyük Arena",
+                "description": "PPV seviyesinde arena. Devasa kapasite."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "Bağımsız / Temel",
+                "description": "Sabit kameralar, standart aydınlatma."
+            },
+            "lvl2": {
+                "name": "TV Şovu",
+                "description": "Temel piroteknik ve iyi kameralar."
+            },
+            "lvl3": {
+                "name": "Premium Gösteri",
+                "description": "Gelişmiş piroteknik, lazerler ve dronlar."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "Ağızdan Ağıza",
+                "description": "Organik tanıtım. Çarpan yok."
+            },
+            "lvl2": {
+                "name": "Yerel Radyo ve Medya",
+                "description": "Hayran tutmayı ve kazanmayı %15 artırır."
+            },
+            "lvl3": {
+                "name": "Ulusal Kampanya",
+                "description": "Agresif pazarlama. Hayranları %35 artırır."
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "header": {
+        "back": "Retour",
+        "title": "Logistique du Show - Semaine {{week}}",
+        "budget": "Budget : {{budget}} $",
+        "projectedCost": " (Coût Projeté : -{{cost}} $)"
+    },
+    "sections": {
+        "arena": "Arène",
+        "production": "Production",
+        "advertising": "Publicité"
+    },
+    "options": {
+        "free": "Gratuit",
+        "capacity": "Capacité :",
+        "ratingBonus": "Bonus de Note :"
+    },
+    "footer": {
+        "saving": "Enregistrement...",
+        "confirm": "Confirmer la Logistique",
+        "insufficientBudget": "Vous n'avez pas assez de budget."
+    },
+    "items": {
+        "arenas": {
+            "lvl1": {
+                "name": "Gymnase Local",
+                "description": "Arène de base gratuite. Limite stricte de spectateurs."
+            },
+            "lvl2": {
+                "name": "Centre Civique",
+                "description": "Améliore la capacité de fans gagnés."
+            },
+            "lvl3": {
+                "name": "Petit Stade",
+                "description": "Attire des foules respectables."
+            },
+            "lvl4": {
+                "name": "Grande Arène",
+                "description": "Arène de niveau PPV. Capacité massive."
+            }
+        },
+        "production": {
+            "lvl1": {
+                "name": "Indé / Basique",
+                "description": "Caméras fixes, éclairage standard."
+            },
+            "lvl2": {
+                "name": "Show Télévisé",
+                "description": "Pyrotechnie de base et bonnes caméras."
+            },
+            "lvl3": {
+                "name": "Spectacle Premium",
+                "description": "Pyrotechnie avancée, lasers et drones."
+            }
+        },
+        "advertising": {
+            "lvl1": {
+                "name": "Bouche à Oreille",
+                "description": "Promotion organique. Pas de multiplicateur."
+            },
+            "lvl2": {
+                "name": "Réseaux et Radio Locale",
+                "description": "Augmente la rétention et le gain de fans de 15%."
+            },
+            "lvl3": {
+                "name": "Campagne Nationale",
+                "description": "Marketing agressif. Augmente les fans de 35%."
+            }
+        }
+    }
+}

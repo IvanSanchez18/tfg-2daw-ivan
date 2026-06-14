@@ -1,0 +1,21 @@
+{
+    "leaderboard": {
+        "you": "आप",
+        "totalFans": "कुल फैंस",
+        "rating": "रेटिंग"
+    },
+    "errors": {
+        "missingSessionId": "URL में सत्र ID नहीं मिला।",
+        "dbFetchFailed": "डेटाबेस से सत्र प्राप्त नहीं किया जा सका।",
+        "connectionError": "स्टैंडिंग लोड करते समय कनेक्शन त्रुटि।"
+    },
+    "loading": "वैश्विक स्टैंडिंग की गणना की जा रही है...",
+    "navigation": {
+        "back": "वापस",
+        "weekOf": "{{maxWeeks}} में से {{week}} सप्ताह"
+    },
+    "header": {
+        "title": "रेटिंग युद्ध",
+        "subtitle": "फैन बेस के अनुसार वर्तमान ब्रांड स्टैंडिंग।"
+    }
+}

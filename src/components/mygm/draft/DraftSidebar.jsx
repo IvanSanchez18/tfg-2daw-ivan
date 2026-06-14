@@ -1,10 +1,11 @@
-import { BRANDS } from '../../../utils/myGM';
+import { BRANDS, ALIGNMENTS, STYLES } from '../../../utils/myGM';
 import { useTranslation } from "react-i18next";
 import "./draftSidebar.scss";
 
 const BRAND_COLORS = Object.fromEntries(
   BRANDS.map(b => [b.id, b.color])
 );
+
 const ALL_BRANDS = BRANDS.map(b => b.id);
 
 const DraftSidebar = ({ viewingRoster, isDraftFinished, finishedBrands, session, handlePlayerFinish, isPlayerTurn, activeTab, setActiveTab, draftHistory }) => {
@@ -42,27 +43,32 @@ const DraftSidebar = ({ viewingRoster, isDraftFinished, finishedBrands, session,
           <p className="empty-roster">{t('draft_sidebar.empty_roster')}</p>
         ) : (
           <ul className="roster-list">
-            {viewingRoster.map(w => (
-              <li key={w.id}>
-                <div className="roster-item-main">
-                  <span className="roster-name"><strong>{w.name}</strong></span>
-                  <div className="sidebar-meta-tags" style={{ display: 'flex', gap: '6px', alignItems: 'center', marginTop: '4px', fontSize: '0.8rem' }}>
-                    <i
-                      className={w.gender === 'female' ? "fas fa-venus" : "fas fa-mars"}
-                      style={{ color: w.gender === 'female' ? '#e91e63' : '#2196f3' }}
-                      title={w.gender === 'female' ? t('draft_sidebar.gender_female') : t('draft_sidebar.gender_male')}
-                    ></i>
-                    <span className={`alignment-badge ${w.default_alignment.toLowerCase()}`} style={{ padding: '2px 6px', fontSize: '0.7rem', borderRadius: '4px' }}>
-                      {w.default_alignment}
-                    </span>
-                    <span className="sidebar-style-tag" style={{ background: '#eee', color: '#333', padding: '2px 6px', borderRadius: '4px' }}>
-                      {w.style}
-                    </span>
+            {viewingRoster.map(w => {
+              const alignmentLabel = ALIGNMENTS.find(a => a.id === w.default_alignment)?.label;
+              const styleLabel = STYLES.find(s => s.id === w.style)?.label;
+
+              return (
+                <li key={w.id}>
+                  <div className="roster-item-main">
+                    <span className="roster-name"><strong>{w.name}</strong></span>
+                    <div className="sidebar-meta-tags" style={{ display: 'flex', gap: '6px', alignItems: 'center', marginTop: '4px', fontSize: '0.8rem' }}>
+                      <i
+                        className={w.gender === 'female' ? "fas fa-venus" : "fas fa-mars"}
+                        style={{ color: w.gender === 'female' ? '#e91e63' : '#2196f3' }}
+                        title={w.gender === 'female' ? t('draft_sidebar.gender_female') : t('draft_sidebar.gender_male')}
+                      ></i>
+                      <span className={`alignment-badge ${w.default_alignment.toLowerCase()}`} style={{ padding: '2px 6px', fontSize: '0.7rem', borderRadius: '4px' }}>
+                        {alignmentLabel ? t(alignmentLabel) : w.default_alignment}
+                      </span>
+                      <span className="sidebar-style-tag" style={{ background: '#eee', color: '#333', padding: '2px 6px', borderRadius: '4px' }}>
+                        {styleLabel ? t(styleLabel) : w.style}
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <small className="pop-indicator" style={{ backgroundColor: BRAND_COLORS[activeTab] || '#555' }}>{w.base_pop} POP</small>
-              </li>
-            ))}
+                  <small className="pop-indicator" style={{ backgroundColor: BRAND_COLORS[activeTab] || '#555' }}>{w.base_pop} POP</small>
+                </li>
+              );
+            })}
           </ul>
         )}
       </div>

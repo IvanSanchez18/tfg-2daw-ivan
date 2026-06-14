@@ -1,0 +1,35 @@
+{
+    "alerts": {
+        "insufficientBudget": "You don't have enough budget to sign this superstar!",
+        "errorContract": "There was an error processing the contract."
+    },
+    "header": {
+        "back": "Back",
+        "remainingBudget": "Remaining Budget",
+        "title": "Free Agency",
+        "subtitle": "Sign talent to reinforce {{brand}}."
+    },
+    "filters": {
+        "searchPlaceholder": "Search superstar...",
+        "allGenders": "All genders",
+        "allAlignments": "Any alignment"
+    },
+    "noAgents": {
+        "title": "No talent available",
+        "description": "Try changing the search filters."
+    },
+    "buttons": {
+        "signing": "Signing...",
+        "sign": "Sign",
+        "noBudget": "No Budget"
+    },
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Giant",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Specialist"
+}

@@ -1,0 +1,71 @@
+{
+    "levels": {
+        "mild": "경미함",
+        "moderate": "중간",
+        "intense": "강렬함",
+        "extreme": "극단적",
+        "tense": "긴장됨"
+    },
+    "alerts": {
+        "selectBothSides": "양쪽을 모두 선택하세요.",
+        "cannotFightSelf": "자기 자신과는 싸울 수 없습니다!",
+        "sameDivision": "대립은 같은 디비전(성별)이어야 합니다.",
+        "errorCreating": "대립 생성 중 오류 발생",
+        "errorUpdating": "강도 업데이트 중 오류 발생"
+    },
+    "picker": {
+        "selectTagTeam": "태그팀 선택",
+        "selectSuperstar": "슈퍼스타 선택",
+        "noTeamsAvailable": "사용 가능하거나 호환되는 팀이 없습니다.",
+        "noTalentsAvailable": "사용 가능하거나 호환되는 선수가 없습니다."
+    },
+    "creator": {
+        "mode1v1": "1 대 1",
+        "modeTagTeam": "태그팀",
+        "team1": "팀 1",
+        "wrestler1": "레슬러 1",
+        "team2": "팀 2",
+        "wrestler2": "레슬러 2",
+        "cancel": "취소",
+        "startFeud": "대립 시작"
+    },
+    "activeList": {
+        "noFeuds": "진행 중인 대립 없음",
+        "noFeudsDesc": "대립을 만들어 기대감을 높이세요.",
+        "tagTeam": "(태그팀)",
+        "intensity": "강도:",
+        "weeksActive": "진행 주차: {{weeks}}",
+        "endFeud": "종료"
+    },
+    "historyList": {
+        "noHistory": "기록 없음",
+        "noHistoryDesc": "아직 종료된 대립이 없습니다.",
+        "tagTeam": "(2v2)",
+        "week": "{{week}}주차"
+    },
+    "management": {
+        "tabs": {
+            "active": "진행 중",
+            "history": "기록"
+        },
+        "titles": {
+            "active": "대립",
+            "history": "대립 기록"
+        },
+        "desc": {
+            "active": "{{brand}}의 스토리를 지배하세요",
+            "history": "위대한 스토리의 유산"
+        },
+        "actionButton": "새 대립"
+    },
+    "active": "활성",
+    "history": "기록",
+    "back": "뒤로",
+    "align_face": "선역",
+    "align_heel": "악역",
+    "style_giant": "자이언트",
+    "style_cruiser": "크루저",
+    "style_brawler": "브롤러",
+    "style_fighter": "파이터",
+    "style_specialist": "스페셜리스트"
+}

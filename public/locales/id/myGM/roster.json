@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "Kembali",
+        "title": "Roster Saya",
+        "totalTalent": "Total Bakat",
+        "weeklyCost": "Biaya Mingguan"
+    },
+    "controls": {
+        "searchPlaceholder": "Cari superstar...",
+        "filters": {
+            "allRoles": "Semua Peran",
+            "face": "Face (Orang Baik)",
+            "heel": "Heel (Orang Jahat)"
+        },
+        "sort": {
+            "highestPop": "Popularitas Tertinggi",
+            "highestSalary": "Gaji Tertinggi",
+            "lowestMorale": "Moral Terendah (Berisiko)",
+            "highestFatigue": "Kelelahan Tertinggi"
+        }
+    },
+    "grid": {
+        "emptyState": "Tidak ada pegulat yang ditemukan dengan filter tersebut."
+    },
+    "card": {
+        "injured": "Cedera",
+        "championshipAlt": "Kejuaraan",
+        "popularity": "Popularitas",
+        "morale": "Moral",
+        "fatigue": "Kelelahan",
+        "weeks": "mgg.",
+        "perWeek": "/mgg",
+        "manage": "Kelola"
+    },
+    "modal": {
+        "successTitle": "Terjual!",
+        "successText": "Anda telah mendapatkan kembali {{amount}} dari penjualan {{name}}.",
+        "errorTitle": "Kesalahan",
+        "errorText": "Terjadi masalah saat mencoba menjual pegulat. Periksa koneksi atau izin basis data Anda.",
+        "title": "Kelola {{name}}",
+        "warning": "Apakah Anda yakin ingin menjual pegulat ini? Tindakan ini tidak dapat dibatalkan.",
+        "salaryRecovered": "Gaji yang didapatkan kembali: {{amount}}",
+        "cancel": "Batal",
+        "sell": "Jual Pegulat",
+        "processing": "Memproses..."
+    },
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Raksasa",
+    "style_cruiser": "Penjelajah",
+    "style_brawler": "Petarung Bebas",
+    "style_fighter": "Petarung",
+    "style_specialist": "Spesialis"
+}

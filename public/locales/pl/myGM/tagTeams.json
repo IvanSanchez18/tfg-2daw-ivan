@@ -1,0 +1,47 @@
+{
+    "alerts": {
+        "selectBothTalents": "Wybierz obu zawodników.",
+        "teamNeedsName": "Drużyna musi mieć nazwę.",
+        "sameDivision": "Tag teamy muszą być z tej samej dywizji (płeć).",
+        "errorCreating": "Błąd podczas tworzenia Tag Teamu"
+    },
+    "picker": {
+        "selectPartner": "Wybierz Partnera",
+        "noFreeTalents": "W tej dywizji nie ma wolnych zawodników."
+    },
+    "creator": {
+        "teamNameLabel": "Nazwa Tag Teamu",
+        "teamNamePlaceholder": "Np: D-Generation X, The Usos...",
+        "member1": "Członek 1",
+        "member2": "Członek 2",
+        "cancel": "Anuluj",
+        "confirmTeam": "Zatwierdź Drużynę"
+    },
+    "activeList": {
+        "noTeams": "Brak utworzonych drużyn",
+        "noTeamsDesc": "Połącz dwie supergwiazdy, aby zdominować dywizję tag teamów.",
+        "disbandTeam": "Rozwiąż drużynę"
+    },
+    "historyList": {
+        "noHistory": "Brak historii",
+        "noHistoryDesc": "Żaden Tag Team nie został jeszcze rozwiązany.",
+        "disbanded": "Rozwiązano"
+    },
+    "management": {
+        "tagTeams": "Tag Teamy",
+        "disbandedTeams": "Rozwiązane Drużyny",
+        "manageAlliances": "Zarządzaj sojuszami w",
+        "legacyBrokenAlliances": "Dziedzictwo zerwanych sojuszy",
+        "formTeam": "Utwórz Drużynę"
+    },
+    "active": "Aktywne",
+    "history": "Historia",
+    "back": "Powrót",
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Gigant",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Specjalista"
+}

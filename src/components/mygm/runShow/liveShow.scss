@@ -1,0 +1,326 @@
+.simulating-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+
+  .loading-ring {
+    width: 80px;
+    height: 80px;
+    border: 6px solid var(--border-main);
+    border-top-color: var(--brand-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 4vmin, 2.5rem);
+    font-weight: 900;
+    color: var(--brand-color);
+    letter-spacing: 2px;
+    text-align: center;
+  }
+}
+
+.live-segment-view {
+  width: 100%;
+  max-width: 100%;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 3vh, 2rem);
+  padding: clamp(0.5rem, 1vh, 1rem) 0;
+
+  .segment-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .big-badge {
+    display: inline-block;
+    background: var(--brand-color);
+    color: var(--white);
+    font-weight: 900;
+    padding: 6px 24px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: clamp(0.7rem, 1.5vmin, 1.2rem);
+    margin: 0 auto;
+    flex-shrink: 0;
+  }
+
+  .big-title {
+    font-size: clamp(1.5rem, 5vmin, 3.5rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    line-height: 1.1;
+    flex-shrink: 0;
+    color: var(--text-main);
+  }
+
+  .arena-stage {
+    flex: 0 1 auto;
+    min-height: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(1rem, 4vmin, 6rem);
+    margin: 0;
+
+    .team-container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: clamp(0.5rem, 2vmin, 2.5rem);
+      flex-wrap: nowrap;
+    }
+
+    &.is-multi {
+      gap: 0.5rem;
+
+      .wrestler-spotlight {
+        .portrait-frame {
+          width: clamp(40px, 12vmin, 120px);
+          height: clamp(40px, 12vmin, 120px);
+          border-width: clamp(2px, 0.5vmin, 4px);
+        }
+
+        .wrestler-name {
+          font-size: clamp(0.7rem, 1.5vmin, 1.2rem);
+          margin-top: 0.4rem;
+        }
+      }
+
+      .vs-graphic {
+        font-size: clamp(1rem, 3vmin, 2rem);
+      }
+    }
+
+    .vs-graphic {
+      font-size: clamp(1.5rem, 6vmin, 5rem);
+      font-weight: 900;
+      color: var(--text-soft);
+      font-style: italic;
+      margin: 0 clamp(0.2rem, 1vmin, 2rem);
+    }
+
+    .wrestler-spotlight {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      position: relative;
+      transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+      .portrait-frame {
+        width: clamp(50px, min(25vw, 22vh), 260px);
+        height: clamp(50px, min(25vw, 22vh), 260px);
+        border-radius: 50%;
+        border: clamp(2px, 1vmin, 8px) solid var(--border-main);
+        overflow: hidden;
+        background: var(--bg-input);
+        transition: all 0.5s ease;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: top;
+          transition: filter 0.5s;
+        }
+      }
+
+      .wrestler-name {
+        margin-top: clamp(0.5rem, 1.5vmin, 1.5rem);
+        font-size: clamp(0.8rem, 2.5vmin, 2rem);
+        font-weight: 900;
+        text-transform: uppercase;
+        background: var(--bg-card);
+        color: var(--text-main);
+        padding: clamp(4px, 1vmin, 8px) clamp(12px, 2vmin, 24px);
+        border-radius: 6px;
+        text-align: center;
+        transition: all 0.5s ease;
+        z-index: 3;
+        border: 1px solid var(--border-main);
+      }
+
+      &.is-winner {
+        animation: revealWinner 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+        z-index: 10;
+
+        .portrait-frame {
+          border-color: var(--brand-color);
+          box-shadow: 0 0 50px var(--brand-glow);
+        }
+
+        .wrestler-name {
+          color: var(--brand-color);
+          border-color: var(--brand-color);
+          margin-top: 0;
+        }
+
+        .winner-tag {
+          position: relative;
+          margin-top: clamp(-10px, -2vmin, -20px);
+          margin-bottom: clamp(6px, 1.5vmin, 15px);
+          z-index: 2;
+          background: var(--brand-color);
+          color: var(--white);
+          font-weight: 900;
+          padding: clamp(2px, 0.5vmin, 8px) clamp(10px, 2.5vmin, 32px);
+          border-radius: 30px;
+          font-size: clamp(0.6rem, 1.8vmin, 1.2rem);
+          letter-spacing: 2px;
+          box-shadow: var(--shadow-card);
+        }
+      }
+
+      &.is-loser {
+        opacity: 0.6;
+
+        .portrait-frame {
+          border-color: var(--border-soft);
+
+          img {
+            filter: grayscale(100%);
+          }
+        }
+
+        .wrestler-name {
+          color: var(--text-muted);
+          border-color: var(--border-soft);
+          background: var(--bg-input);
+        }
+      }
+    }
+  }
+
+  .rating-podium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-shrink: 0;
+
+    .stars-active {
+      justify-content: center;
+
+      .star {
+        font-size: clamp(1.5rem, 6vmin, 5rem);
+        margin: 0 0.2rem;
+      }
+
+      .rating-number {
+        font-size: clamp(1.2rem, 3.5vmin, 2.5rem);
+      }
+    }
+
+    .segment-summary {
+      color: var(--text-soft);
+      text-align: center;
+      max-width: 85%;
+      margin: 0 auto;
+    }
+  }
+
+  .live-controls {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: clamp(0.5rem, 2vw, 1.5rem);
+    justify-content: center;
+    margin: 0;
+    flex-shrink: 0;
+
+    .btn-next,
+    .btn-skip {
+      white-space: nowrap;
+      padding: clamp(0.5rem, 1.5vh, 1.2rem) clamp(0.5rem, 2vw, 3rem);
+      font-weight: 900;
+      border-radius: 8px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.2s;
+      font-size: clamp(0.65rem, 2.5vw, 1.2rem);
+      text-align: center;
+    }
+
+    .btn-next {
+      background: var(--brand-color);
+      color: var(--white);
+      border: none;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .btn-skip {
+      background: transparent;
+      color: var(--text-soft);
+      border: 1px solid var(--border-soft);
+
+      &:hover {
+        background: var(--bg-hover);
+        color: var(--text-main);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .live-segment-view .arena-stage {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(0.5rem, 2vmin, 1rem);
+
+    .vs-graphic {
+      margin: 0;
+      font-size: clamp(1.2rem, 5vmin, 2rem);
+    }
+
+    .team-container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &.is-multi {
+      gap: 0.8rem;
+
+      .wrestler-spotlight {
+        .portrait-frame {
+          width: clamp(50px, 16vw, 85px);
+          height: clamp(50px, 16vw, 85px);
+          border-width: 2px;
+        }
+
+        .wrestler-name {
+          font-size: 0.65rem;
+          padding: 4px 8px;
+          margin-top: 0.3rem;
+        }
+
+        &.is-winner .winner-tag {
+          font-size: 0.55rem;
+          padding: 2px 8px;
+        }
+      }
+    }
+  }
+}

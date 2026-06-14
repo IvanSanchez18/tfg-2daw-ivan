@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "KAMU",
+        "audience": "Penonton",
+        "rating": "Rating"
+    },
+    "header": {
+        "title": "AKHIR MUSIM",
+        "subtitle": "Hasil akhir sebagai General Manager"
+    },
+    "stats": {
+        "finalAudience": "Penonton Akhir",
+        "averageRating": "Rating Rata-rata",
+        "remainingBudget": "Sisa Anggaran"
+    },
+    "actions": {
+        "backToMenu": "Kembali ke Menu Utama"
+    }
+}

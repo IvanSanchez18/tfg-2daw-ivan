@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "Bumalik",
+        "title": "Aking Roster",
+        "totalTalent": "Kabuuang Talento",
+        "weeklyCost": "Lingguhang Gastos"
+    },
+    "controls": {
+        "searchPlaceholder": "Maghanap ng superstar...",
+        "filters": {
+            "allRoles": "Lahat ng Papel",
+            "face": "Face (Mga Bida)",
+            "heel": "Heel (Mga Kontrabida)"
+        },
+        "sort": {
+            "highestPop": "Pinakamataas na Popularidad",
+            "highestSalary": "Pinakamataas na Sahod",
+            "lowestMorale": "Pinakamababang Morale (Nanganganib)",
+            "highestFatigue": "Pinakamataas na Pagod"
+        }
+    },
+    "grid": {
+        "emptyState": "Walang wrestler na nahanap gamit ang mga filter na ito."
+    },
+    "card": {
+        "injured": "Pilay",
+        "championshipAlt": "Kampeonato",
+        "popularity": "Popularidad",
+        "morale": "Morale",
+        "fatigue": "Pagod",
+        "weeks": "ling.",
+        "perWeek": "/ling",
+        "manage": "Pamahalaan"
+    },
+    "modal": {
+        "successTitle": "Nabenta!",
+        "successText": "Nabawi mo ang {{amount}} mula sa pagbenta kay {{name}}.",
+        "errorTitle": "Error",
+        "errorText": "May nangyaring problema habang sinusubukang ibenta ang wrestler. Suriin ang iyong koneksyon o mga pahintulot sa database.",
+        "title": "Pamahalaan si {{name}}",
+        "warning": "Sigurado ka bang gusto mong ibenta ang wrestler na ito? Hindi na mababawi ang aksyong ito.",
+        "salaryRecovered": "Nabawing sweldo: {{amount}}",
+        "cancel": "Kanselahin",
+        "sell": "Ibenta ang Wrestler",
+        "processing": "Pinoproseso..."
+    },
+    "align_face": "Face",
+    "align_heel": "Heel",
+    "style_giant": "Higante",
+    "style_cruiser": "Cruiser",
+    "style_brawler": "Brawler",
+    "style_fighter": "Fighter",
+    "style_specialist": "Espesyalista"
+}

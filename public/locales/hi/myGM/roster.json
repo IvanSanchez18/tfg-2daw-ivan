@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "वापस",
+        "title": "मेरा रोस्टर",
+        "totalTalent": "कुल टैलेंट",
+        "weeklyCost": "साप्ताहिक खर्च"
+    },
+    "controls": {
+        "searchPlaceholder": "सुपरस्टार खोजें...",
+        "filters": {
+            "allRoles": "सभी भूमिकाएँ",
+            "face": "फेस (अच्छे लोग)",
+            "heel": "हील (बुरे लोग)"
+        },
+        "sort": {
+            "highestPop": "सबसे अधिक लोकप्रियता",
+            "highestSalary": "सबसे अधिक वेतन",
+            "lowestMorale": "सबसे कम मनोबल (खतरे में)",
+            "highestFatigue": "सबसे अधिक थकान"
+        }
+    },
+    "grid": {
+        "emptyState": "इन फ़िल्टर के साथ कोई रेसलर नहीं मिला।"
+    },
+    "card": {
+        "injured": "चोटिल",
+        "championshipAlt": "चैंपियनशिप",
+        "popularity": "लोकप्रियता",
+        "morale": "मनोबल",
+        "fatigue": "थकान",
+        "weeks": "सप्ताह",
+        "perWeek": "/सप्ताह",
+        "manage": "प्रबंधित करें"
+    },
+    "modal": {
+        "successTitle": "बिक गया!",
+        "successText": "आपने {{name}} की बिक्री से {{amount}} वसूल किए हैं।",
+        "errorTitle": "त्रुटि",
+        "errorText": "पहलवान को बेचने का प्रयास करते समय एक समस्या उत्पन्न हुई। अपना कनेक्शन या डेटाबेस अनुमतियाँ जाँचें।",
+        "title": "{{name}} प्रबंधित करें",
+        "warning": "क्या आप वाकई इस पहलवान को बेचना चाहते हैं? यह क्रिया पूर्ववत नहीं की जा सकती।",
+        "salaryRecovered": "वसूल किया गया वेतन: {{amount}}",
+        "cancel": "रद्द करें",
+        "sell": "पहलवान बेचें",
+        "processing": "प्रसंस्करण..."
+    },
+    "align_face": "फेस",
+    "align_heel": "हील",
+    "style_giant": "विशाल",
+    "style_cruiser": "क्रूजर",
+    "style_brawler": "ब्रॉलर",
+    "style_fighter": "फाइटर",
+    "style_specialist": "विशेषज्ञ"
+}

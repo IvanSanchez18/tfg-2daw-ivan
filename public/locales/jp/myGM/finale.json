@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "あなた",
+        "audience": "視聴者数",
+        "rating": "レーティング"
+    },
+    "header": {
+        "title": "シーズンフィナーレ",
+        "subtitle": "ゼネラルマネージャーとしての最終結果："
+    },
+    "stats": {
+        "finalAudience": "最終視聴者数",
+        "averageRating": "平均レーティング",
+        "remainingBudget": "残り予算"
+    },
+    "actions": {
+        "backToMenu": "メインメニューに戻る"
+    }
+}

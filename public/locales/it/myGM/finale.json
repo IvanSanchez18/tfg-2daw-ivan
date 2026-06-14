@@ -1,0 +1,19 @@
+{
+    "row": {
+        "you": "TU",
+        "audience": "Pubblico",
+        "rating": "Valutazione"
+    },
+    "header": {
+        "title": "FINALE DI STAGIONE",
+        "subtitle": "Risultati finali come General Manager di"
+    },
+    "stats": {
+        "finalAudience": "Pubblico Finale",
+        "averageRating": "Valutazione Media",
+        "remainingBudget": "Budget Rimanente"
+    },
+    "actions": {
+        "backToMenu": "Torna al Menu Principale"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "header": {
+        "back": "뒤로",
+        "title": "내 로스터",
+        "totalTalent": "총 선수",
+        "weeklyCost": "주간 비용"
+    },
+    "controls": {
+        "searchPlaceholder": "슈퍼스타 검색...",
+        "filters": {
+            "allRoles": "모든 역할",
+            "face": "페이스 (선역)",
+            "heel": "힐 (악역)"
+        },
+        "sort": {
+            "highestPop": "인기순",
+            "highestSalary": "연봉순",
+            "lowestMorale": "사기 저하 (위험)",
+            "highestFatigue": "피로도순"
+        }
+    },
+    "grid": {
+        "emptyState": "해당 필터에 맞는 레슬러를 찾을 수 없습니다."
+    },
+    "card": {
+        "injured": "부상",
+        "championshipAlt": "챔피언십",
+        "popularity": "인기",
+        "morale": "사기",
+        "fatigue": "피로도",
+        "weeks": "주",
+        "perWeek": "/주",
+        "manage": "관리"
+    },
+    "modal": {
+        "successTitle": "판매 완료!",
+        "successText": "{{name}}의 판매로 {{amount}}를 회수했습니다.",
+        "errorTitle": "오류",
+        "errorText": "레슬러를 판매하는 중 문제가 발생했습니다. 연결 상태나 데이터베이스 권한을 확인하세요.",
+        "title": "{{name}} 관리",
+        "warning": "이 레슬러를 정말 판매하시겠습니까? 이 작업은 취소할 수 없습니다.",
+        "salaryRecovered": "회수된 급여: {{amount}}",
+        "cancel": "취소",
+        "sell": "레슬러 판매",
+        "processing": "처리 중..."
+    },
+    "align_face": "선역",
+    "align_heel": "악역",
+    "style_giant": "자이언트",
+    "style_cruiser": "크루저",
+    "style_brawler": "브롤러",
+    "style_fighter": "파이터",
+    "style_specialist": "스페셜리스트"
+}
