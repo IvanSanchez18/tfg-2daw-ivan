@@ -2,7 +2,7 @@
   "name": "wrestling_universe",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://IvanSanchez18.github.io/wrestling_universe",
+  "homepage": "https://IvanSanchez18.github.io/tfg-2daw-ivan",
   "type": "module",
   "scripts": {
     "dev": "vite",

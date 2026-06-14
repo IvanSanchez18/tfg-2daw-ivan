@@ -31,5 +31,5 @@ export default defineConfig({
       }
     })
   ],
-  base: '/wrestling_universe/',
+  base: '/tfg-2daw-ivan/',
 })
